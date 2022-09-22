@@ -1,4 +1,4 @@
-package day04;
+package day02;
 
 public class AmericanFlag {
 

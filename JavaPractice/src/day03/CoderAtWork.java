@@ -1,4 +1,4 @@
-package day04;
+package day03;
 
 public class CoderAtWork {
     public static void main (String[] args){
