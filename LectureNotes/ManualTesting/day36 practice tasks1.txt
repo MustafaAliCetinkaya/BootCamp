@@ -1,0 +1,213 @@
+1. Phone Task:
+		1.1 Create a class named Phone:
+				Variables:
+					brand, model, size, price, color
+
+				Methods:
+					setInfo()
+					call(long phoneNumber)
+					text(long phoneNumber)
+					toString()
+
+		1.2 Create a sub class of Phone named IPhone:
+				Variables:
+					brand, model, size, price, color
+
+				Methods:
+					setInfo()
+					call(long phoneNumber)
+					text(long phoneNumber)
+					faceTime(long phoneNumber)
+					faceTime(String email)
+					toString()
+
+		1.3 Create a sub class of Phone named Samsung:
+				Variables:
+					brand, model, size, price, color
+
+				Methods:
+					setInfo()
+					call(long phoneNumber)
+					text(long phoneNumber)
+					freeze()
+					toString()
+
+		1.4 Create a sub class of Phone named Nokia:
+				Variables:
+					brand, model, size, price, color
+
+				Methods:
+					setInfo()
+					call(long phoneNumber)
+					text(long phoneNumber)
+					selfDefense()
+					toString()
+
+		1.5 Create a class named Phone Objects and test of the sub class' objects
+
+
+2. Employee Task:
+	2.1 Create a class named Employee:
+			variables:
+				name, gender, age, id, jobTitle, salary
+
+			Methods:
+				setInfo()
+				work()
+				toString()
+
+
+	2.2 Create the sub class of Employee named Tester:
+			variables:
+				name, gender, age, id, jobTitle, salary
+
+			Methods:
+				setInfo()
+				work()
+				testing()
+				creatingTicket()
+				toString()
+
+
+	2.3 Create the sub class of Employee named Developer:
+			variables:
+				name, gender, age, id, jobTitle, salary
+
+			Methods:
+				setInfo()
+				work()
+				coding()
+				fixingBugs()
+				toString()
+
+	2.4 Create the sub class of Employee named Teacher:
+			variables:
+				name, gender, age, id, jobTitle, salary
+
+			Methods:
+				setInfo()
+				work()
+				teaching
+				toString()
+
+	2.5 Create the sub class of Employee named Teacher:
+			variables:
+				name, gender, age, id, jobTitle, salary
+
+			Methods:
+				setInfo()
+				work()
+				teaching()
+				toString()
+
+	2.6 Create the sub class of Employee named Driver:
+			variables:
+				name, gender, age, id, jobTitle, salary
+
+			Methods:
+				setInfo()
+				work()
+				drivering()
+				toString()
+
+	2.7 Create a class named Employee Objects and and test of the sub class' objects
+
+
+
+3. Book Task:
+	3.1. create a class named Book:
+			variables:
+				title, type, author, price
+
+			Methods:
+				setInfo()
+				toString()
+
+	3.2 Create a sub class of Book named EBook:
+			variables:
+				title, type, author, price, size, pages
+
+			Methods:
+				setInfo()
+				readBook()
+				toString()
+
+	3.3 Create a sub class of Book named AudioBook:
+			variables:
+				title, type, author, price, length, narrator
+
+			Methods:
+				setInfo()
+				listen()
+				toString()
+
+
+Sports Task:
+	1. Create a class named Sport
+			variables:
+				name, numberOfPlayers, numberOfReferre, rules
+
+
+			
+			methods:
+				setInfo()
+				play()
+				toString()
+
+		2. create the following sub classes of Sport:
+				1. Basketball
+				2. Baseball
+				3. Football
+				4. AmericanFootball
+
+			Add any missing variables or methods
+
+			Note: you can search them on google
+
+
+Planet Task:
+	1. create a class called Planet
+			variables:
+					name, mass, radius, surfaceGravity, surfaceArea, volume, population
+
+			methods:
+				setInfo()
+				toString()
+
+	2. create the following subclasses of Planet
+			1. Earth
+			2. Moon
+			3. Mercury
+			4. Venus
+
+			Note: you can search them on google
+
+
+
+
+CryptoToken Task
+	1. create a class called CryptoToken
+			variables:
+				price, quantity, marketCap, volume, circulatingSupply, isMineable (boolean)
+
+			
+
+			methods:
+				setInfo()
+				toString()
+				totalPrice(): returns the total price of the cyrpto totek ( price * quantity)
+
+	2. create 5 sub classes of CryptoToken:
+			Bitcoin
+			Ethereum
+			Cardano
+			XRP
+			Doge
+
+	3. create a class named MyWallet
+
+		create one object of each CryptoToken 
+
+		calculate the total Asset
+
+

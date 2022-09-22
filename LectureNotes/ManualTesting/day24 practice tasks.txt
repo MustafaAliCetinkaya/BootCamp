@@ -1,0 +1,91 @@
+Tasks
+	1.  create a method named frequencyOfWord that passes two parameters: string sentence and String word, then returns the frequency of word from the sentence
+                Ex:
+                    sentence = "Java java java python python"
+                    word = "java";
+                    frequencyOfWord(sentence, word) ==>  3
+
+
+    2. create a method named isAnagram that passes two String parameters, the method returns true if the given two strings are anagram, otherwise returns false
+    			Ex:
+    				str1 = "cba"
+    				str2 = "bac";
+
+    				isAnagram(str1, str2) ====> true
+
+
+	3. create a method named reverse that passes one string parameter, the method can return the reversed string
+
+				Ex:
+					str = "Java";
+
+					reverse(str) ==> avaJ
+
+
+	4. By using the reverse method above to create another method named isPalindrome  that passes a String parameter, the method returns true if the string is palindrome, otherwise returns false
+
+				Ex:
+					str = "Level"
+
+					isPalindrome(str) ===> true
+
+
+
+    5. create method that accepts one integer array and one integer number and returns the frequency of the number
+
+                    Ex:
+                        int[] array ={1,1,1,1,1,2,2};
+
+                        frequency(array, 1) ==> 5
+
+
+    6. create a method named addElement that takes one integer array and one integer, the method can add the Integer number after the  last index of the integer array and returns the new array
+
+    			Ex:
+    				arr ={1,2,3};
+    				num = 4;
+
+    				addElement(arr, num) ==> {1,2,3,4}
+
+
+	7. Create a method named merge that passes two integer array parameters, the method can merge two integer arrays and return the new array
+
+				Ex:
+					arr1 = {1,2,3}
+					arr2 = {4,5,6}
+
+					merge(arr1, arr2) ====> {1,2,3,4,5,6}
+
+
+	8. Create method named reverse that passes an integer array parameter, the method can return the reversed array
+
+				Ex:
+					arr = {10, 20, 30, 40};
+
+					reverse(arr) ==> {40, 30, 20, 10}
+
+
+	9. Create a method named contains that passes one integer array and one integer parameters, the method returns true if the given integer is contained in the given array, otherwise returns false
+					
+				Ex:
+					arr = {1,2,3,4,5,6,7};
+					num = 10;
+
+					contains(arr, num) ===> false
+
+
+	10. create a method named removeElement that passes one integer array and one integer, the method removes the integer index from the integer array and returns the new array
+			Ex:
+				array = {10, 20, 30, 40, 50, 60}
+				index = 2
+				
+
+				removeElement(array, index) ==== {10, 20, 40, 50, 60}
+
+
+
+
+
+
+
+

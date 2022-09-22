@@ -1,0 +1,52 @@
+1. write a program that asks user to enter a sentence.
+                then print the first & last characters of the sentence
+
+2. write a program that asks user to enter two strings, and print out the longest string  
+
+
+3. write a program that can check if the first and last characters of the string are same
+            ex:
+                level
+            output:
+                same
+
+4. write a program that can return the initials of the user
+
+            ex:
+                cybertek 
+                school
+
+            output:
+                C.S
+
+        Note: Pay attention to the example output
+
+
+5. Write a method that asks user to enter a string.
+        if the string is empty, print: string is empty
+        if the string has more than 3 characters, print the last three characters
+        if the string has less than or equal 3 characters, print the string itself
+
+
+6. write a program that asks the user enter a three letter word. Check if the middle character of the given word is 'a'. In the case it is print: "Cool word", but in the case the middle letter is not 'a' print: "Okay word". 
+     - If the user does not enter a 3 letter word tell them: 
+             If the word is less than 3 letters: "Word is too short"
+             If the word is too long: "Word is too long"
+
+
+7. Write a program  for CheckWords, the program accepts 3 words and :
+            - if they are same length:  print "All words are same length"
+            - if some same length and others not:    print "Not Same nor Different lengths"
+            - if all different length :  print "All different length"
+
+
+8. You are writing a code for the log-in function of the Cybertek Application, assume that your credentials are:
+                    username: Cydeo
+                    password: WoodenSpoon
+
+        Ask the user to enter their credentials. If credentials are matched, your program should print "Logged in." 
+        otherwise print "Incorrect username or password" as error message
+
+    	Hints: 	In order to login, both username and password MUST be correct
+    			you will need to use equals() method
+

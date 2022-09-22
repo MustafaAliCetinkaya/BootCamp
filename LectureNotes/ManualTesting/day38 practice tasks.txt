@@ -1,0 +1,85 @@
+Browser Task:
+	1. Create a class named Browser:
+
+			Methods:
+				openBrowser(): prints "opening chrome browser"
+				closeBrowser():  prints "closing chrome browser"
+
+	2. Create the following sub classes of Browser and override the methods if needed:
+			
+			1. ChromeBrowser
+					methods:
+						openBrowser(): prints "opening chrome browser"
+						closeBrowser():  prints "closing chrome browser"
+			
+			2. FireFox extends Browser
+					methods:
+						openBrowser(): prints "opening firefox browser"
+						closeBrowser(): prints "closing fire fox browser"
+
+			3. Opera extends Browser
+					methods:
+						openBrowser(): prints "opening opera browser"
+						closeBrowser(): prints "closing opera browser"
+
+			4. Safari extends Browser
+					methods:
+						openBrowser(): prints "opening safari browser"
+						closeBrowser(): prints "closing safari browser"
+
+
+Animal Task:
+	1. Create a class named Animal:
+			Variables:
+				name, breed, age, gender, size, color
+
+			Add a constructor to set all the fields
+
+			methods:
+				eat()
+				toString()
+
+	2. Create the followin sub classes of Animal and override the eat method:
+			1. Cat
+					eat(): eats cat food
+
+			2. Dog
+					eat(): eats dog food
+
+			3. Tiger
+					eat(): eats deer
+
+			4. Eagle
+					eat(): eats snake
+					
+
+Employee Task:
+	1. Create a class named Employee
+			Variables:
+				name, age, gender, id, jobTitle, salaryName, comapnyName
+
+			Add a constructor to set all the fields
+
+			Methods:
+				work()
+				toString()
+
+
+	2. Create ethe following subclasses and override the work method in each subclass:
+
+			1. Tester
+			2. Developer
+			3. ProductOwner
+			4. BusinessAnalyst
+			5. ScrumMaster
+			6. Teacher
+			7. Driver
+			9. Pilot
+
+		if any adidtional field or methods needed, please add them
+
+
+
+
+
+
