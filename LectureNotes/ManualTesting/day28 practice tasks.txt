@@ -1,0 +1,58 @@
+1. write a program that can set the last element of the Integer arraylist to zero 
+	            ex:
+	                list = [1,2,3,4,5];
+	                output: [1,2,3,4,0];
+	                
+
+2. write a program that can swap the first and last elements of an integer arraylist
+	            ex:
+	                list = [1,2,3,4,5];
+	                output: [5,2,3,4,1];
+
+
+3. write a program that can multiply each odd number by 2
+	            ex: list = [1,2,3,4,5];
+	                output: [2,2,6,4,10]
+
+
+4. write a program that can combine two String arrays into one arrayList
+	            ex: 
+	                arr1 = {"A", "B", "C"};
+	                arr2 = {"D", "E", "F", "G"};
+	                list ==> {"A", "B", "C", "D", "E", "F", "G"}
+
+
+5. Write a program that can find the maximum number from an ArrayList of integers
+		Ex:
+			list = [1,2,3,4,5];
+			output:
+				5
+
+
+6. Write a program that can find the minimum number from an ArrayList of integers
+		Ex:
+			list = [1,2,3,4,5];
+			output:
+				1
+
+7. Write a program that can return the first duplicated element from an arrayList of Integer
+		Ex:
+			list = [1,2,2,3,4,4,5,6,7,7];
+			output:
+				2
+
+
+8. Given the following arraylists:
+		ArrayList<Integer>  scores = new ArrayList<>();
+  		scores.addAll( Arrays.asList(100, 90, 75, 85, 65, 85, 55, 45, 73, 73, 35, 47));
+
+
+  		ArrayList<Integer> gradeOfA = new ArrayList<>(); // 90 ~ 100
+        ArrayList<Integer> gradeOfB = new ArrayList<>(); // 80 ~ 89
+        ArrayList<Integer> gradeOfC = new ArrayList<>(); // 70 ~ 79
+        ArrayList<Integer> gradeOfD = new ArrayList<>(); // 60 ~ 69
+        ArrayList<Integer> gradeOfF = new ArrayList<>(); // 0 ~ 59
+
+
+        Write a program that can count the total numbers of grade A, B, C, D and F
+

@@ -1,0 +1,114 @@
+1. Create a class called NumberToWord, and write a java program that can convert numbers between 0 ~ 9 to words
+			Ex:
+				number = 1;
+
+			output:
+				One
+
+2. Create a class called Calculator, Given two double variables named n1 & n2, and a char variable named mathOperator, write a program that can calculate result of n1&n2 based on the given math Operator.
+
+		char operator -> -, +, *, /
+
+		when operator is + : add num1, num2
+		when operator: - : minus num1, num2
+		when operator: * : multiply num1, num2
+		when operator: / : divide num1, num2
+		for any other operators: print "invalid operator"
+
+		Ex:
+			n1 = 10, n2= 20, mathOperator = '+'
+
+		output:
+			30
+
+3. Creata a class called ChooseLanguage, Given an integer variable named selection that has a number between 1~5, Write a program that can select the language based on the number that's given in selection and prints the following message:
+
+		for 1: Hello, thank for your call
+		for 2: Hola, gracias para llamar
+		for 3: Merhaba, aradiginiz icin tesekkurler
+		for 4: Privet, spasibo za vash zvonok
+		for 5: Merci ,pour votre appel
+
+
+4. Create a class called Character Identity, and write a program that can identify if the given character is a digit or Alphabetic Character(A~Z or a~Z) or a special character
+		
+		Ex:
+			ch = '@'
+
+		output:
+			Special Character
+
+		HINT: You may wanna check out the numbers of the chracters on ASCII table
+
+
+5. Create a class called AgeGroups, and write a program that can define the age groups of a person
+
+	             age groups are:
+	                    infant (1 - 2)
+	                    Toddler (3 - 5),
+	                    Kid (6 - 9),
+	                    Pre-Teen (10 - 12),
+	                    Teenager (13 - 17),
+	                    Young Adult (18 - 20),
+	                    Adult (21 - 39),
+	                    Young Middle-Aged Adult (40 - 49),
+	                    Middle-Aged Adult (50 - 54),
+	                    Very Young Senior Citizen (55 - 64),
+	                    Young Senior Citizen (65 - 74),
+	                    Senior Citizen (75 - 84),
+	                    Old Senior Citizen (85+)
+
+6. Create a class called EqualNumbers, and write a program that can check the equality of the three given numberrs
+	 			declare 3 numbers n1, n2, n3
+	 			if all are equal ==> print "all equal"
+	  			if only n1 and n2 are equal  =>print  "n1&n2 are equal"
+	   			if only n2 and n3 are equal ==>print "n2&n3 are equal"
+	   			if only n3 and n1 are qual ==>print "n3&n1 are equal"
+				if none of them are euqal ==> none of them are equal
+
+
+
+
+7. Creata a class called ChooseLanguage, Given an integer variable named selection that has a number between 1~5, Write a program that can select the language based on the number that's given in selection and prints the following message:
+
+		for 1: Hello, thank for your call
+		for 2: Hola, gracias para llamar
+		for 3: Merhaba, aradiginiz icin tesekkurler
+		for 4: Privet, spasibo za vash zvonok
+		for 5: Merci ,pour votre appel
+
+
+8. Create a class called FieldTrip. Your school goes on a Field trip each year. The place you go will be based on your grade. Given a variable gradeNumber (1-6) figure out the details of your field trip. Print the information at the end.
+
+    Data based on grade:
+
+        grade - 1
+        location -  Apple orchard
+        number of groups - 3
+        teacher in charge - Ms. Smith
+
+        grade - 2
+        location - Zoo
+        number of groups - 7
+        teacher in charge - Mr. Lee
+
+        grade - 3
+        location - Aquarium
+        number of groups - 5
+        teacher in charge - Ms. Wilson
+
+        grade - 4
+        location - Movie theater  
+        number of groups - 2
+        teacher in charge - Ms. Reyes
+
+        grade - 5
+        location - Museum 
+        number of groups - 5
+        teacher in charge - Ms. Lela 
+
+        grade - 6
+        location - Six Flags
+        number of groups - 8
+        teacher in charge - Mr. Watt
+
