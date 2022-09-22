@@ -1,0 +1,246 @@
+SDLC intro note
+If you are new to this class, please watch Orientation recording and previous class recordings. 
+
+Agenda: 
+
+   - SDLC 
+   - Software Environments (4)
+
+Questions? 
+ 
+   - what is the acronym of SDLC? 
+   - What is the goal of each step? 
+   - who is responsible for each step? 
+   - what is the output of each step? 
+   - How many environments do you have? 
+-------------------------------------
+
+Review : 
+
+1. software: they are designed to help people to perform tasks. 
+
+             app / application / project / system / product / platform 
+
+
+2. software are decided into 2 parts: 
+   
+     1. System software
+            
+             - OS : windows, Linux, MacOS 
+                    Android, IOS 
+
+     2. Application software 
+
+            - Web-based app -> amazon, google, youtube 
+
+               browsers: safari, chrome, edge, opera, IE, Firefox , etc
+
+            - Mobile app -> any app use in the phone 
+
+            - Desktop app -> use in desktop 
+
+            - Hybrid app -> app that has 2 or more then versions
+                            amazon.com -> web-based app 
+                            amazon mobile app 
+
+
+3. what are the 3 layers of a software? 
+
+     - FrontEnd / UI 
+     - DataBase (DB)
+     - API 
+
+
+4. Functionality & non-functionality of a software? 
+  
+     Functionality? -> another name is feature. 
+                       action that a user can do on an app 
+                       you test the functionality of the app
+
+     Functionalities of Canvas: 
+        
+          - login 
+          - logout 
+          - watch recording , upload recordings 
+          - take quiz
+          - create a new quiz 
+          - Calendar 
+          - To do list 
+          - select a course
+          - upload file 
+          - downlaod file 
+          - students cannot create a quiz                   
+   
+   Non - functionality ? -> Installation? Speed? stress? capacity? security?  
+
+                         - performance testers 
+
+
+
+5. Who are the people work in the business team? 
+   
+      - QA/SDET/functional tester 
+       - developers 
+           - QA & devs are in development team
+
+      - performance testers
+           - performance team
+
+      - cyber-security engineers 
+          - security team
+     
+
+      - PM, PO, BA -> business team
+
+      - Designers
+
+
+------------------------------------------------
+
+Idea -> someone has an idea to make things easy / let a software perform a task
+
+
+   a teacher has an idea -> software that teachers can provide all the class material. 
+      
+      this teacher has to go to one IT company and ask them to build the software. 
+
+       the teacher has to talk to one PO from the IT company. 
+
+      the teacher -> is a customer / client to the IT company. 
+                     who owns the app after its developed. 
+
+                     Since the teacher does not work in this IT company, he/she is a external client. 
+
+       The teacher may find other people who is willing to spend money together to let the app built. 
+        the teacher + the person spend money --> both of the clients / stakeholders.   
+
+-----------------------------
+   Kuzzat has an idea -> software that teachers and student can use. 
+
+      Kuzzat is a CEO of an IT company. So he just need to hire people to build/develop the app. 
+
+      Kuzzat is the client. -> who has the idea, who owns the app after completed. 
+       Since Kuzzat belongs to this IT company, he is an internal client. 
+
+
+how one idea is eventually became a software in this world? 
+
+   - SDLC 
+   - Software development life cycle 
+
+
+1. Req gathering & analyzing
+
+   req-> the detail expectation of the software that the client asked / request 
+
+        The client/stakeholders -> Eng, logo on left top, login, file upload, communication ...
+
+
+   
+   The client provide his/her idea, his req to the PO.
+
+  Action: 
+   1. PO gathers the req from the client.
+   2. PO with his/her business team members together analyze the req & make a plan. 
+   3. Business team members write documents -> SRS: Software Requirement Specification 
+
+  who : Business team , the client & stakeholders
+
+  output: SRS document 
+
+
+2. Design 
+
+    Action: 
+     1. Designer design the app , design the prototype / model of the app 
+           - according to the SRS 
+     2. designers create design document -> SDS ->Software Design Specification 
+
+   Who : Designers, the client, business team 
+
+   output: SDS doc & prototype of the app 
+
+           sds doc -> will be given to the developers 
+           blueprint/design of the app -> given to the both devs & testers 
+
+
+3. Coding / developing 
+  
+   Action: 
+    1. Developers build/develop the app in the Dev env -> based on SRS, SDS
+
+   who: developers 
+
+   output: initial version of the app 
+
+
+    Developers & DevOps team --> deploy , transfer the developed features from the Dev env to the QA env. 
+
+============================
+Software Environments: 
+  
+    1. Dev env :                      dev.amazon.com
+    2. QA/test env :                  qa.amazon.com
+    3.Staging / pre-production env    stg.amazon.com
+    4. production env                 amazon.com 
+
+End-users : target audience of a software. 
+      
+       who are the end-users for amazon app? 
+       - anyone who wants to buy items from online 
+       - sellers
+       - amazon employees
+
+       Who are the end-users for the BOA software? 
+
+          - any one who are the customers of BOA 
+          - BOA employees 
+
+          who are the end-users for a game app? 
+           - gamer 
+
+=======================
+
+
+4. testing / Quality Assurance 
+
+      Action: 
+
+        - test the software in the QA env 
+        - expected result vs actual result 
+        - to find bugs 
+        - the bugs should be fixed by the developers 
+        - once testers are done with the testings, the client will "test" the app in the Stg env to evaluate if he/she accept the app. 
+
+        expected result -> the client's req 
+                the client: i want users see the company logo in the center of the page. 
+
+        actual result -> how the devs actually developed the app 
+                the software QA env is the actual result 
+
+bug -> expected result does not match with the actual result. 
+
+
+
+   Who: QA/SDET/functional testers 
+        performance testers 
+        the client 
+
+   output: bug - free app which is ready to go to market 
+
+
+
+
+5. production / release / deploy 
+
+    Action : End-users use the app in the production env 
+    
+
+
+assignment: read the sdlc article 
+            sdlc short video 
+            read software testing article 
+
+
+
+
