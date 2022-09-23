@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b49de1b9-49a1-4650-93ad-23d77542f894" name="Changes" comment="New files are added">
-      <change afterPath="$PROJECT_DIR$/../JavaPractice/src/w3Resources/sumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day09_ConvertMinutesToYearAndDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/day04/AmericanFlag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/day04/CoderAtWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/src/day04/AmericanFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/src/day02/AmericanFlag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/src/day04/CoderAtWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/src/day03/CoderAtWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/out/production/JavaProgramming/lectures/Day01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/out/production/JavaProgramming/lectures/Day07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/out/production/JavaProgramming/lectures/Day08.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/out/production/JavaProgramming/lectures/Day08_EvenlyDivisible.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/out/production/JavaProgramming/lectures/Day08_LogicalOperatorsAndIf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/out/production/JavaProgramming/lectures/Day08_NameOfMonths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/out/production/JavaProgramming/lectures/Day09_MedianNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/out/production/JavaProgramming/lectures/Day09_MinNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/src/lectures/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/src/lectures/Day07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/src/lectures/Day08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/src/lectures/Day08_EvenlyDivisible.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day08_EvenlyDivisible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/src/lectures/Day08_LogicalOperatorsAndIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day08_LogicalOperatorsAndIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/src/lectures/Day08_NameOfMonths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day08_NameOfMonths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/src/lectures/Day09_MedianNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day09_MedianNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramming/src/lectures/Day09_MinNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramming/src/lectureNotes/Day09_MinNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Encapsulation/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Encapsulation/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Encapsulation2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Encapsulation2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Encapsulation2/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Encapsulation2/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -172,7 +148,7 @@
       <workItem from="1663554862949" duration="20930000" />
       <workItem from="1663659728562" duration="606000" />
       <workItem from="1663837548801" duration="1160000" />
-      <workItem from="1663848779926" duration="3667000" />
+      <workItem from="1663848779926" duration="4567000" />
     </task>
     <task id="LOCAL-00001" summary="New projects are created">
       <created>1663245668783</created>
@@ -237,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663617798061</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="New projects are added">
+      <created>1663860060979</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663860060979</updated>
+    </task>
+    <task id="LOCAL-00011" summary="New files are added">
+      <created>1663860301921</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663860301921</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
