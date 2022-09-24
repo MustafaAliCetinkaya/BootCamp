@@ -1,5 +1,6 @@
 package accessModifiers;
-
+//PRIVATE: Sadece sınıftan erişilebilir, DEFAULT: Sadece paketten erişilebilir.
+//PUBLIC: Aynı paketteki bütün class lardan da çağrılabilir. PROTECTED: Paket içinden ve sub-class lardan erişime izin verir.
 //Erişim Belirteçleri bilgiye erişimle ilgilidir. Erişim kısıtlanarak güvenlik tedbiri şeklinde kullanılabiliyor.
 public class Main {
     public static void main(String[] args) {
