@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b49de1b9-49a1-4650-93ad-23d77542f894" name="Changes" comment="New files are added">
-      <change afterPath="$PROJECT_DIR$/../JavaPractice/src/MentorPractices/Practice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPractice/src/MentorPractices/Practice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPractice/src/day03/OperatingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/CommonFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Inheritance/CommonFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Inheritance/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Inheritance/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Inheritance/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_generalReview/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_generalReview/Humankind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_generalReview/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_generalReview/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_generalReview/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/w3Resources/sumOfDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/w3Resources/sumOfDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/MentorPractices/Practice1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/MentorPractices/Practice1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/day03/OperatingSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/day03/OperatingSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPractice/src/MentorPractices/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/src/MentorPractices/Practice1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/oblectOrientedProgramming/oop_Last_Encapsulation2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/oblectOrientedProgramming/oop_Last_Encapsulation2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/oblectOrientedProgramming/oop_Last_Encapsulation2/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/oblectOrientedProgramming/oop_Last_Encapsulation2/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessModifiers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessModifiers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Encapsulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Encapsulation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +154,9 @@
       <workItem from="1663848779926" duration="4567000" />
       <workItem from="1663905498264" duration="16568000" />
       <workItem from="1663959125416" duration="4000" />
-      <workItem from="1663982238682" duration="688000" />
+      <workItem from="1663982238682" duration="838000" />
+      <workItem from="1664028215717" duration="906000" />
+      <workItem from="1664031703910" duration="1057000" />
     </task>
     <task id="LOCAL-00001" summary="New projects are created">
       <created>1663245668783</created>
@@ -258,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663905993817</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="New files are added">
+      <created>1663985847349</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663985847349</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

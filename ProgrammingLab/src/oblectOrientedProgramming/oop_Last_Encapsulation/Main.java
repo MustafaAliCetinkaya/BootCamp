@@ -1,5 +1,5 @@
 package oblectOrientedProgramming.oop_Last_Encapsulation;
-
+//Kodlama detaylarının saklanmasıdır, üzümünü ye bağını sorma hesabı: Ne yağtığını bilsin, hizmeti alsın, nasıl yaptığını kullanıcı bilmesin
 public class Main {
 
     public static void main(String[] args) {
