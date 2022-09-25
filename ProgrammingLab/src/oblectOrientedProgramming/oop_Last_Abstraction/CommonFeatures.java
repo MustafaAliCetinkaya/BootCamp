@@ -11,4 +11,6 @@ public abstract class CommonFeatures {//Burayı abstract yaparak nesne oluşturu
     public abstract void voice();//Abstract metotların süslü parantez içinde body bölümleri olmaz.
     //body bölümü olmadığında bişey döndürmez. Niye yaptık peki: BUNLARI OVERRIDE CLASS A EKLEMEK İÇİN ÜRETİRİZ.
 //İstersek Abstract olmayan metot da oluşturabilirdik. Böyle olduğunda miras alır ama override etmek zorunda değildir.
+
+    //Abstract metotlar STATIC olamaz!
 }
