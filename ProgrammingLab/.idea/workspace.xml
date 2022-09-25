@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b49de1b9-49a1-4650-93ad-23d77542f894" name="Changes" comment="New files are added">
-      <change afterPath="$PROJECT_DIR$/../JavaPractice/src/w3Resources/FindTheResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_Final_Abstract/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_Final_Abstract/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interface_Final_Abstract/ToyotaCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overLoad/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overRide/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overRide/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/overRide/Toyota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/w3Resources/characterIdentity.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceVsAbstract/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceVsAbstract/Features.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceVsAbstract/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceVsAbstract/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interface_Final_Abstract/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/accessModifiers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/accessModifiers/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/oblectOrientedProgramming/oop_Last_Abstraction/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/oblectOrientedProgramming/oop_Last_Abstraction/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oblectOrientedProgramming1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oblectOrientedProgramming1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/CommonFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/CommonFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oblectOrientedProgramming/oop_Last_Abstraction/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface_Final_Abstract/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface_Final_Abstract/Year.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface_Final_Abstract/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface_Final_Abstract/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface_Final_Abstract/ToyotaCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface_Final_Abstract/ToyotaCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.interfaceVsAbstract.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="overLoad.Main" />
       <module name="ProgrammingLab" />
@@ -76,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oblectOrientedProgramming.oop_Last_Encapsulation2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oblectOrientedProgramming.oop_Last_Encapsulation2.Main" />
+    <configuration name="interfaceVsAbstract.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceVsAbstract.Main" />
       <module name="ProgrammingLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oblectOrientedProgramming.oop_Last_Encapsulation2.*" />
+          <option name="PATTERN" value="interfaceVsAbstract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oblectOrientedProgramming.oop_Last_Polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oblectOrientedProgramming.oop_Last_Polymorphism.Main" />
+    <configuration name="interface_Final_Abstract.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interface_Final_Abstract.Main" />
       <module name="ProgrammingLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oblectOrientedProgramming.oop_Last_Polymorphism.*" />
+          <option name="PATTERN" value="interface_Final_Abstract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.interfaceVsAbstract.Main" />
+        <item itemvalue="Application.interface_Final_Abstract.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.overRide.Main" />
         <item itemvalue="Application.oblectOrientedProgramming.oop_Last_generalReview.Main" />
-        <item itemvalue="Application.oblectOrientedProgramming.oop_Last_Polymorphism.Main" />
-        <item itemvalue="Application.oblectOrientedProgramming.oop_Last_Encapsulation2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +164,8 @@
       <workItem from="1664028215717" duration="906000" />
       <workItem from="1664031703910" duration="1057000" />
       <workItem from="1664084979558" duration="3794000" />
-      <workItem from="1664094867442" duration="1257000" />
+      <workItem from="1664094867442" duration="1338000" />
+      <workItem from="1664128145211" duration="5453000" />
     </task>
     <task id="LOCAL-00001" summary="New projects are created">
       <created>1663245668783</created>
@@ -265,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663985847349</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="New files are added">
+      <created>1664096193530</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664096193530</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
