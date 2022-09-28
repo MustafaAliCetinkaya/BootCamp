@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b49de1b9-49a1-4650-93ad-23d77542f894" name="Changes" comment="New files are added">
-      <change afterPath="$PROJECT_DIR$/../JavaPractice/src/extraTasks/BiggerNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPractice/src/extraTasks/CappuccinoBuyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaPractice/src/extraTasks/GradeLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/arrayList/IndexUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/arrayList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/linkedlistCollectionsforForEach/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/list/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/sets/Hash_Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/sets/Hash_Tree_ForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/sets/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/sets/Tree_Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b49de1b9-49a1-4650-93ad-23d77542f894" name="Changes" comment="New files are added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +157,7 @@
       <workItem from="1664094867442" duration="1338000" />
       <workItem from="1664128145211" duration="5453000" />
       <workItem from="1664356888687" duration="10938000" />
-      <workItem from="1664395908567" duration="3801000" />
+      <workItem from="1664395908567" duration="3859000" />
     </task>
     <task id="LOCAL-00001" summary="New projects are created">
       <created>1663245668783</created>
@@ -272,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664096193530</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="New files are added">
+      <created>1664399884310</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664399884326</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
