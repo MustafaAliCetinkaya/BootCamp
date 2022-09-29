@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b49de1b9-49a1-4650-93ad-23d77542f894" name="Changes" comment="New files are added" />
+    <list default="true" id="b49de1b9-49a1-4650-93ad-23d77542f894" name="Changes" comment="New files are added">
+      <change afterPath="$PROJECT_DIR$/src/collections/iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/maps/HashTreeForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/maps/Main_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/maps/Tree_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/ArrayList/IndexUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/ArrayList/IndexUsage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/ArrayList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/ArrayList/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/LinkedlistCollectionsforForEach/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/LinkedlistCollectionsforForEach/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Hash_Set.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Hash_Set.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Hash_Tree_ForEach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Hash_Tree_ForEach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Tree_Set.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Tree_Set.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,13 +57,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Hash_Tree_ForEach">
-    <configuration name="Hash_Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.sets.Hash_Set" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HashTreeForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.maps.HashTreeForEach" />
       <module name="ProgrammingLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.sets.*" />
+          <option name="PATTERN" value="collections.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,25 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.arrayList.IndexUsage" />
-      <module name="ProgrammingLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.arrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.linkedlistCollectionsforForEach.Main" />
+      <option name="MAIN_CLASS_NAME" value="collections.iterator.Main" />
       <module name="ProgrammingLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.linkedlistCollectionsforForEach.*" />
+          <option name="PATTERN" value="collections.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree_Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.sets.Tree_Set" />
+    <configuration name="Main_HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.maps.Main_HashMap" />
       <module name="ProgrammingLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.sets.*" />
+          <option name="PATTERN" value="collections.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree_Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.maps.Tree_Map" />
+      <module name="ProgrammingLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HashTreeForEach" />
+        <item itemvalue="Application.Main_HashMap" />
+        <item itemvalue="Application.Tree_Map" />
         <item itemvalue="Application.Hash_Tree_ForEach" />
-        <item itemvalue="Application.Hash_Set" />
-        <item itemvalue="Application.Tree_Set" />
-        <item itemvalue="Application.collections.forForEach.Main" />
-        <item itemvalue="Application.IndexUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +171,7 @@
       <workItem from="1664128145211" duration="5453000" />
       <workItem from="1664356888687" duration="10938000" />
       <workItem from="1664395908567" duration="3859000" />
+      <workItem from="1664425956713" duration="5779000" />
     </task>
     <task id="LOCAL-00001" summary="New projects are created">
       <created>1663245668783</created>
