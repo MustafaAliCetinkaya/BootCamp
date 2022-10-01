@@ -47,13 +47,13 @@ public class Test01 {
     @Test
     public void searchtest(){
         Driver.getDriver().get("https://amazon.com/");
-        WebElement serachbox=Driver.getDriver ().findElement (By.id ("twotabsearchtextbox"));
-        serachbox.sendKeys ("game chairs");//Yazı eklemek selenium da sendKeys ile yapılır
+        WebElement serachBox=Driver.getDriver ().findElement (By.id ("twotabsearchtextbox"));
+        serachBox.sendKeys ("game chairs");//Yazı eklemek selenium da sendKeys ile yapılır
 
         Driver.getDriver ().navigate ().to ("https://www.amazon.com/BENGOO-High-Precision-Adjustable-Programmable-Ergonomic/dp/B09TRB877L/ref=sr_1_1?keywords=WebElement+mouse%3DDriver.getDriver+%28%29.findElement+%28By.partialLinkText+%28%22BENGOO+Gaming+Mouse+Wired%2C+USB+Optical+Computer+Mice+with+RGB+Backlit%2C+4+Adjustable+DPI+Up+to+3600%2C+Ergonomic+Gamer+Laptop+PC+Mouse+with+6+Programmable+Buttons+for+Windows+7%2F8%2F10%2FXP+Vista+Linux+-Black%22%29%29%3B&qid=1664639575&qu=eyJxc2MiOiItMC4wMSIsInFzYSI6IjAuMDAiLCJxc3AiOiIwLjAwIn0%3D&sr=8-1");
         WebElement mouse=Driver.getDriver ().findElement (By.tagName ("h1"));
-        String tagname=mouse.getText ();//Oradaki yazıyı kopyalamak ise getText ile yapılır.
-        System.out.println (tagname);
+        String tagName=mouse.getText ();//Oradaki yazıyı kopyalamak ise getText ile yapılır.
+        System.out.println (tagName);
 
         List<WebElement> links=Driver.getDriver().findElements(By.tagName ("a"));//BüTün linklerli bir liste içine attık ve aşağıda bu listeyi bastıracağız:
         for (WebElement element:links){
