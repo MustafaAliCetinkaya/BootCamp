@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b49de1b9-49a1-4650-93ad-23d77542f894" name="Changes" comment="New files are added">
-      <change afterPath="$PROJECT_DIR$/src/collections/iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/maps/HashTreeForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/maps/Main_HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/maps/Tree_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Throw_Throws.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/TryCatchFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/TypeOfExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/ArrayList/IndexUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/ArrayList/IndexUsage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/ArrayList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/ArrayList/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/LinkedlistCollectionsforForEach/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/LinkedlistCollectionsforForEach/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Hash_Set.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Hash_Set.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Hash_Tree_ForEach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Hash_Tree_ForEach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Tree_Set.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/Sets/Tree_Set.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/iterator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingLab/collections/iterator/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,26 +50,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Throw_Throws">
     <configuration name="HashTreeForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.maps.HashTreeForEach" />
       <module name="ProgrammingLab" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="collections.maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hash_Tree_ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.sets.Hash_Tree_ForEach" />
-      <module name="ProgrammingLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.maps.Main_HashMap" />
+    <configuration name="Throw_Throws" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.Throw_Throws" />
       <module name="ProgrammingLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.maps.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree_Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.maps.Tree_Map" />
+    <configuration name="TryCatchFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.TryCatchFinally" />
       <module name="ProgrammingLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.maps.*" />
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeOfExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.TypeOfExceptions" />
+      <module name="ProgrammingLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Throw_Throws" />
+        <item itemvalue="Application.TryCatchFinally" />
+        <item itemvalue="Application.TypeOfExceptions" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HashTreeForEach" />
-        <item itemvalue="Application.Main_HashMap" />
-        <item itemvalue="Application.Tree_Map" />
-        <item itemvalue="Application.Hash_Tree_ForEach" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +165,8 @@
       <workItem from="1664356888687" duration="10938000" />
       <workItem from="1664395908567" duration="3859000" />
       <workItem from="1664425956713" duration="5779000" />
+      <workItem from="1664450402329" duration="6279000" />
+      <workItem from="1664517249875" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="New projects are created">
       <created>1663245668783</created>
@@ -301,5 +296,15 @@
     <MESSAGE value="New projects are added" />
     <MESSAGE value="New files are added" />
     <option name="LAST_COMMIT_MESSAGE" value="New files are added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
