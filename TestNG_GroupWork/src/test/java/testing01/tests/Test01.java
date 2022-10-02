@@ -61,10 +61,24 @@ public class Test01 {
         }
 
         Driver.getDriver().close();//Kapatma talimatı.
-
-
     }
-
 }
+/*8 farlı locator vardır. İncele deyince kosunu gördüğümüz herşey web elemntidir ve kodlarından bunları bulabiliriz.
+1- id (kimlik numarası gibidir, direk çıkar)
+2- name (aynı isimde başka elemnt çıkabilir, daha özele inmek gerekebilir)
+3- className
+4- tagName
+5- linkText (linkin bütününü kullanarak buluruz, üzerine tıklanabilir olmalıdır.)
+6- partialLinkTex (tıklanabilir elementin linkinin bir bölümü kullamnılır)
+7- xpath (Tüm elemenleri kolayca bulur. En çok bu kullanılır)
+8- cssSelector (elementin css kodunna bakarak, aratabiliriz)
+
+"id" varsa direk bunu kullan.
+"xpath" zaten herkesi buluyor, diğerlerine lüzum yok. İçinde yazı barındıran elementleri daha kısa sürede çıkarırı. Yazı yoksa vakit alabilir bulması ama yine de bulur.
+"css" yazı olmayan elemenlarda birazcık daha hızlı bulabilir, çok da önemli değil. xpath den şaşma.
+Bunları driver üzerinden kullanacağız. Findelement yöntemini kullanacğız.
+ **Her tıklanabilen link değildir. Tıklanabilen butonlar da vardır.
+ **Link olduğunu tag isminden anlarız. "a" olmalı tag ismi "a element" ifadesi görülmeli kod içinde. Hemen başında "a" yazar.
+ */
 
 
