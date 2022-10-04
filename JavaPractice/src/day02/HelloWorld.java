@@ -11,5 +11,10 @@ public class HelloWorld {
         System.out.println("\t  *       *");
         System.out.println("\t *         *");
         System.out.println("\t* * * * * * ");
+
+        int x=10;
+        int y=x++;
+        System.out.println ("y nin değeri:  "+y);
+        System.out.println (y++ +"  "+x++ +"  "+y);
     }
 }
