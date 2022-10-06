@@ -14,7 +14,7 @@ public class Reverse2 {
         } else if (lengthOfWord > 5) {
             System.out.println ("Too long!");
         } else {
-            System.out.println (word.substring (4,5)+word.substring (3,4)+ word.substring (2,3) + word.substring (1,2) + word.substring (0,1));
+            System.out.println (word.substring (4)+word.substring (3,4)+ word.substring (2,3) + word.substring (1,2) + word.substring (0,1));
         }
         keyboard.close ();
 

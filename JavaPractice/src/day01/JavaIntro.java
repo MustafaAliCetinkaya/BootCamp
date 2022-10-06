@@ -4,21 +4,30 @@ import java.util.Scanner;
 
 public class JavaIntro {
     public static void main(String[] args) {
-        System.out.println ("Hello Cydeo");
-        System.out.println (56 + 68678);
-        System.out.println (78 * 35 / 2);
+/*        3. write a program that can check if the first and last characters of the string are same
+        ex:
+        level
+        output:
+        same*/
 
-        Scanner scan = new Scanner (System.in);
-        System.out.println ("Please enter a word: ");
-        char symbol = scan.nextLine ().charAt (0);
+        Scanner input=new Scanner (System.in);
+        System.out.println ("Please enter a word");
+        String word=input.next ();
 
-        if ((symbol >= 'a' && symbol <= 'z') || (symbol >= 'A' && symbol <= 'Z')) {
-            System.out.println (symbol +" is the first character of the word. And it is an alphabet.");
-        } else if (symbol >= '0' && symbol <= '9') {
-            System.out.println (symbol + " is the first character of the word. And it is a digit.");
-        } else {
-            System.out.println (symbol + " is the first character of the word. And it is a special character.");
+        String first=word.substring (0,1);
+        String last=word.substring (word.length ()-1);
+
+      /*  char first=word.charAt (0);
+        char last=word.charAt (word.length ()-1);*/
+
+        if(first.equals (last)){
+            System.out.println ("same");
+        }else {
+            System.out.println ("not");
         }
+
+
+
 
     }
 }
