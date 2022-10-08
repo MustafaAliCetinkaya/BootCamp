@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9af8a69-3e77-4573-9452-a856186e6f58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SapmleJavaProject_TestNG.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AssertionsExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FirstTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GroupingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrioritizingDisablingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC_TestCase1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC_TestCase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestNG_GroupWork/src/test/java/testing01/pages/W3Schools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestNG_GroupWork/src/test/java/testing01/tests/TableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/IdeaProjects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_github_docker_java_docker_java_3_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_code_gson_gson_2_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__dev_failsafe_failsafe_3_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_ci_environment_9_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_cucumber_core_7_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_cucumber_expressions_16_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_7_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_messages_7_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_cucumber_plugin_7_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_datatable_7_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_docstring_7_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_gherkin_24_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_html_formatter_20_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_messages_19_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_cucumber_tag_expressions_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_buffer_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_codec_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_common_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_handler_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_60_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_resolver_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_transport_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_transport_classes_kqueue_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_60_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_60_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_16_0_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_16_0_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_16_0_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__io_ous_jtoml_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_asynchttpclient_async_http_client_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_asynchttpclient_async_http_client_netty_utils_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_jsoup_jsoup_1_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v102_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v103_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v104_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/Configuration.Properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/Cucumber.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/src/test/java/pages/AmazonPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/src/test/java/runners/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/src/test/java/stepDefinitions/AmazonSearchStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/src/test/java/utilities/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/src/test/resources/features/amazonSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber01/target/test-classes/features/amazonSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_GroupWork/configurations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_GroupWork/configurations.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_GroupWork/src/test/java/testing01/pages/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_GroupWork/src/test/java/testing01/pages/AmazonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_GroupWork/src/test/java/testing01/tests/AmazonSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_GroupWork/src/test/java/testing01/tests/AmazonSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_GroupWork/target/test-classes/testing01/pages/AmazonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_GroupWork/target/test-classes/testing01/pages/AmazonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestNG_GroupWork/target/test-classes/testing01/tests/AmazonSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG_GroupWork/target/test-classes/testing01/tests/AmazonSearchTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Fn0roo1MtyWiAXjDCFuTBaC1mH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/Desktop/Drivers/Drivers/4.4",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AssertionsExamples (1)">
+    <configuration name="AssertionsExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssertionsExamples" />
+      <module name="SapmleJavaProject_TestNG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsExamples (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SapmleJavaProject_TestNG" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertionsExamples" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsExamples" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SapmleJavaProject_TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertionsExamples" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="&quot;C:\\Users\\User\\Desktop\\Drivers\\Drivers\\chromedriver_win32\\chromedriver.exe&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsExamples" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SapmleJavaProject_TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertionsExamples" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="&quot;C:\\Users\\User\\Desktop\\Drivers\\Drivers\\chromedriver_win32\\chromedriver.exe&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsExamples" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SapmleJavaProject_TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertionsExamples" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="&quot;C:\\Users\\User\\Desktop\\Drivers\\Drivers\\chromedriver_win32\\chromedriver.exe&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependencyExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SapmleJavaProject_TestNG" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DependencyExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupingExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SapmleJavaProject_TestNG" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GroupingExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AssertionsExamples" />
+      <item itemvalue="TestNG.DependencyExample" />
+      <item itemvalue="TestNG.AssertionsExamples (1)" />
+      <item itemvalue="TestNG.AssertionsExamples" />
+      <item itemvalue="TestNG.GroupingExample" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AssertionsExamples (1)" />
+        <item itemvalue="TestNG.DependencyExample" />
+        <item itemvalue="Application.AssertionsExamples" />
+        <item itemvalue="TestNG.AssertionsExamples" />
+        <item itemvalue="TestNG.AssertionsExamples" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9af8a69-3e77-4573-9452-a856186e6f58" name="Changes" comment="" />
+      <created>1665112757288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665112757288</updated>
+      <workItem from="1665112759275" duration="2029000" />
+      <workItem from="1665115125696" duration="8088000" />
+      <workItem from="1665179990077" duration="1454000" />
+      <workItem from="1665215721054" duration="17390000" />
+      <workItem from="1665238233109" duration="4867000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

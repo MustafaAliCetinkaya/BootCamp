@@ -1,10 +1,8 @@
 package testing01.tests;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import testing01.utilities.Driver;
-
 import java.util.List;
 
 public class Test02 {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="groupingtests">
+        <groups><!--Testleri aynı gruba atınca bazılarını ayırıp sadece onları çalıştırabiliyoruz. Yoksa topluca çalışıyorlar.-->
+            <run>
+               <exclude name="regression"></exclude><!--  istediğime ket vurup engel olabiliyorum. Ama include ve exlude ikisi aynı isimle çalışmaz. İçeriğindeki isimler farklı olmalı yoksa çakışır-->
+                <include name="sanity"/><!--Sadece tınak içine yazılanlar, şimdi sanitiy adındaki testler çalıştırılacak-->
+            </run><!--İçinde regression geçenler bloke olacak, sadece sanity yazanlar çalışacak-->
+        </groups>
+        <classes>
+            <class name="GroupingExample"></class><!--Önce grupla, sonra parçala, yanındaki isimlere göre istediğini çalıştır-->
+        </classes>
+    </test>
+</suite>
