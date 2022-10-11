@@ -16,7 +16,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library name="testng">
         <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/" />
@@ -31,18 +31,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$USER_HOME$/Desktop/Drivers/Drivers/4.4" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$USER_HOME$/Desktop/Drivers/Drivers/4.4" />
-        </SOURCES>
-        <jarDirectory url="file://$USER_HOME$/Desktop/Drivers/Drivers/4.4" recursive="false" />
-        <jarDirectory url="file://$USER_HOME$/Desktop/Drivers/Drivers/4.4" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="selenium-java-4" level="project" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
   </component>
 </module>
