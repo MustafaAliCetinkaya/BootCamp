@@ -10,7 +10,7 @@ public class RemoveDublicates {
 
         for (int i = 0; i <=sentence.length ()-1 ; i++) {
             String newSentence=""+sentence.charAt (i);
-            if (!result.contains (newSentence)){
+            if (! result.contains (newSentence)){
                 result=result+newSentence;
             }System.out.println ("Characters: "+newSentence);
         }System.out.println (result);
