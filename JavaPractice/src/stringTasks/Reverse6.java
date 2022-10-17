@@ -14,8 +14,5 @@ public class Reverse6 {
             char ch = sentence.charAt(i);
             System.out.println(ch);
         }
-
-
-
     }
 }

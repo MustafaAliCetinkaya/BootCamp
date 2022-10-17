@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Day17_LogIn {
     public static void main(String[] args) {
 
-
         Scanner scan = new Scanner (System.in);
         System.out.println ("enter your username: ");
         String u = scan.next ();
