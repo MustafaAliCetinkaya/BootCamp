@@ -1,0 +1,174 @@
+Review Questions
+
+1- Why we need main method?
+
+2- What is the difference between print() and println()?
+
+3- What do you know about escape sequences?
+
+4- What kind of primitive data type we have?
+
+5- What is concatenation ?
+
+6- What do you know about casting?
+
+
+Topics:
+
+* Operators
+		- Arithmetic Operators (%)        
+	
+		- Unary Operators (+, -, ++, --)  
+	
+		- Shorthand Operators (=, +=, -=, *=, /=, %=)
+	
+		- Relational Operators (>, <, >=, <=, ==, !=)
+
+        - Logical Operators (&&, ||, !)
+
+* If Statements:
+        
+        - Single If
+        - If & Else Statement
+        - Multi-Branch If
+
+
+=================================
+Unary Operators:
++  :	Addition	    ->  Adds together two values	            x + y	
+-  :	Subtraction	    ->  Subtracts one value from another	    x - y	
+*  :	Multiplication  ->	Multiplies two values	                x * y	
+/  :	Division	    -> 	Divides one value by another	        x / y	
+%  :	Modulus	        ->	Returns the division remainder	        x % y	
+++ :	Increment       ->	Increases the value of a variable by 1	++x	
+-- :	Decrement	    ->	Decreases the value of a variable by 1	--x
+
+        
+      Post vs Pre:
+        Pre : changes the value immediately
+          ++ a
+          -- a
+       post: changes the value in the second step.
+          a ++
+          a --
+
+=============================
+Shorthand Operators (=, +=, -=, *=, /=, %=)
+int a=a+5;
+or
+int a+=5;
+
+
+int b=b-5;
+or
+int b-=5;
+
+
+=========================
+Relational Operators (>, <, >=, <=, ==, !=)
+
+
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+Equal to a == b
+Not Equal to: a != b
+
+========================
+
+
+
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+}
+
+___________________________
+
+
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+}
+else
+{
+    // Executes this block if
+    // condition is false
+}
+___________________________
+
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+    //it will not look next contion
+}
+else if(condition)
+{
+    // Executes this block if
+    // before contion is false
+    // if that condition is true
+    //it will not look next contion
+}else if(condition)
+{
+    // Executes this block if
+    // before contion is false
+    // if that condition is true
+    //it will not look next contion
+}else{
+	// Executes this block if
+    // all conditions are false
+}
+
+
+Tasks:
+
+Task 1 : Create a class which is "IntroPostIncrementDecrement" define a variable,
+          
+          int a=5;
+          print a;
+          print the a++;
+          print the a--;
+Task 2:  Create a class which is "IntroPreIncrementDecrement" define a variable,
+          
+          int a=5;
+          print a;
+          print the ++a;
+          print the --a;
+
+Task 3: Create a class which is "IsNumberPositive" and create a variable if the variable is positive print true
+
+
+          
+Task 4: Create a class which is "NumberPositiveOrNegaive" and create a variable if the variable is positive print "positive" if not "negative"
+
+
+Task 5: Create a class which is "CalculateCarTax" 
+        if the price between $20000 and $39999 taxRate=0.2 
+        if the price between $40000 and $59999 taxRate=0.3
+        if the price between $60000 and $80000 taxRate=0.4
+
+Task 6: Create a class which is "FindTheResult" create a variable
+    int a=15;
+         if a is divisable by 3 add 20
+         if a is divisable by 5 add 25
+         if a is divisable by 15 add 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

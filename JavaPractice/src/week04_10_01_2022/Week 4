@@ -1,0 +1,176 @@
+Review Questions
+
+1- What do you know about pre and post increment/decrement?
+2- What is the difference between & and && ?
+
+Topics:
+ 
+  * Nested If
+  * Ternaries
+  * Switch Statement
+  * Scanner
+
+
+  =======================================
+  Nested If
+
+   - Pre-condition
+
+   if(condition){
+
+    if(condition){
+
+   
+    }
+
+   }
+
+  =======================================
+   Ternaries
+
+   Ternaries: shortcut of if statement
+if:        (Condition)?
+else:                 :
+else if:   :(Condition)?
+
+
+
+Scanner
+
+Scanner Class: used for getting user inputs
+
+in order to use it: 
+
+Needs to create an object from Scnanner
+
+Syntax: 
+Scanner referenceName = new Scanner(System.in);
+
+Scanner methods:
+
+	* nextInt() :in order to get int value from user as input
+	* nextDouble() :in order to get double value from user as input
+	* nextBoolean() :in order to get boolean value from user as input
+	* next() :in order to get String value (only one word) from user as input
+	* nextLine() :in order to get String value (with spaces) from user as input
+
+
+
+***** if we are using nextLine() method after the other methods of scanner, we MUST provide one addition nextLine()
+========================================
+Switch Statement
+
+Switch Statement: switch, case, default, break
+
+syntax:
+
+switch(Data){
+       case data1:
+
+        Statements;
+        break;
+
+       case data2:
+
+       Statements;
+       break;
+
+       default:
+
+       Statements;
+       break;
+}
+
+
+- Case value MUST match with switch' data type and UNIQUE
+- Switch' Data can not be long, float, double and boolean data types
+- break: used for exiting the switch.
+  ** if we don't give the break statement, switch statement continue to execute the next block(s) until the break statement
+
+- default block gets executed if none of the case blocks matched. there can only be ONE DEFAULT block
+
+==================================
+
+Tasks: 
+
+  Task 1: 
+  Write a function:
+			that, given a positive integer N  However, any number divisible by 2, 3 or 5 shouldbe replaced by the word
+
+				    			Codility -- 2
+				    			Test     -- 3
+				    			Coders   -- 5
+
+			- If a number is divisible by more than one of the numbers:2,3 or 5, it should be replaced by a concatenation of the respective words Codility, Test and Coders in this given order.
+
+				    			EXPECTED
+
+				    	numbers divisible by both 2 and 3 should be replacée by CodilityTest
+				    	INPUT : 6    OUTPUT :  CodilityTest
+
+				    	numbers divisible by allthree numbers: 2,3 and 5, should be replaced by CodilityTestCoders.
+				    	INPUT : 30    OUTPUT :  CodilityTestCoders
+
+
+Task 2:
+ Given a character, the task is to check whether the given character is in upper case, lower case, or non-alphabetic 		character
+
+							Input: ch = 'A'
+							Output: A is an UpperCase character
+
+							Input: ch = 'a'
+							Output: a is an LowerCase character
+
+							Input: ch = '0'
+							Output: 0 is not an aplhabetic character
+
+Task 3: ( Scanner Class can be used )
+
+
+
+					        Create a program that accepts age and weight(kg) as int.
+
+					        If age greater than or equal 18 and weight greater than 50 kg give a message
+					        	EXPECTED  :  "You are eligible to donate blood"
+
+					        If age greater than or equal 18 and weight smaller or equal than 50 kg give a message
+					        	EXPECTED  :  "You are not eligible to donate blood"
+
+					        If age is smaller than 18 "Age must be greater than 18"
+					        	EXPECTED  :  "Age must be greater than 18"
+
+  
+Task 4: 
+
+Given two integer inputs from user a and b and compare two values return the bigger one (use ternary)
+
+Task 5: 
+
+Create  a program that accepts animal as String
+
+							DOG 	- domestic animal
+							CAT 	- domestic animal
+							TIGER 	- wild  animal
+
+							For other animal - unknown animal
+
+							INPUT : DOG 		EXPECTED OUTPUT : DOG is domestic animal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
