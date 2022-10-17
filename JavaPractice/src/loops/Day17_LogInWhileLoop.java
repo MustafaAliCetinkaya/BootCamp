@@ -2,7 +2,7 @@ package loops;
 
 import java.util.Scanner;
 
-public class Day17_LogIn {
+public class Day17_LogInWhileLoop {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner (System.in);
