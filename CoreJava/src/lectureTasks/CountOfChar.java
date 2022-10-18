@@ -14,9 +14,15 @@ public class CountOfChar {
 
                 if(each==ch)
                     count++;
-            }result=result+ch;
+            } if(result.contains(""+ch)) {
+                continue;
+            }
+            result=result+ch+" = ";
             result+=count+" / ";
+
+        }System.out.println(result);
+
         }
-        System.out.println(result);
+
     }
-}
+
