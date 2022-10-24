@@ -1,5 +1,7 @@
 package lectureTasks;
 
+import reviewSessions.SystemExist;
+
 import java.util.Scanner;
 
 /*Create a class called RoomReservation, write a program for the room
@@ -52,8 +54,8 @@ public class RoomReservation {
             if (another.equalsIgnoreCase("no")) {
                 System.out.println("Your total price is: $" + totalPrice);
                 flag = false;
+                System.exit(0);
             }
-            System.out.println(totalPrice);
 
         }
     }
