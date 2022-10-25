@@ -11,8 +11,12 @@ public class ArraysUtility {
         System.out.println(Arrays.toString(numbers));
 
         Arrays.sort(numbers); // sorts the array in ascending order
-
         System.out.println(Arrays.toString(numbers));
+
+        System.out.println("-----------------------------------------------------");
+
+        int [] numbers2=Arrays.copyOfRange(numbers,5,numbers.length);
+        System.out.println(Arrays.toString(numbers2));
 
 
     }
