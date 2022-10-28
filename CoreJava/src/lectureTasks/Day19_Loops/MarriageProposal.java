@@ -11,16 +11,17 @@ public class MarriageProposal {
 
         String a = scan.next().toLowerCase();
 
-        while( !( a.equals("yes")||a.equals("no") ) ){
+        while (!(a.equals("yes") || a.equals("no"))) {
             System.out.println("Invalid answer, please re-enter");
             a = scan.next().toLowerCase();
         }
 
-        if(a.equals("yes")){
+        if (a.equals("yes")) {
             System.out.println("Congrats");
-        }else{
+        } else {
             System.out.println("Goodbye");
         }
+        scan.close();
     }
 
 }

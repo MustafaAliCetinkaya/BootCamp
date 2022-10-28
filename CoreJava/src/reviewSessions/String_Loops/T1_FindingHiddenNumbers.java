@@ -16,22 +16,22 @@ public class T1_FindingHiddenNumbers {
     public static void main(String[] args) {
 
         // int hidenNumber=6; this is not logical
-        Random random=new Random();
+        Random random = new Random();
         // create a number from 0 (inclusive) to 10 (exclusive)
         int hiddenNumber = random.nextInt(10) + 1; // we have one number in that variable from 1 to 10
-        Scanner scanner=new Scanner(System.in);
-        boolean flag=true;
+        Scanner scanner = new Scanner(System.in);
+        boolean flag = true;
         do {
             System.out.println("Enter a number");
-            int searchedNumber= scanner.nextInt();
-            if (searchedNumber==hiddenNumber){
+            int searchedNumber = scanner.nextInt();
+            if (searchedNumber == hiddenNumber) {
                 System.out.println("you find number Congrats!");
-                flag=false;
-            }else {
+                flag = false;
+            } else {
                 System.out.println("try again!");
             }
 
-        }while (flag);
-
+        } while (flag);
+        scanner.close();
     }
 }

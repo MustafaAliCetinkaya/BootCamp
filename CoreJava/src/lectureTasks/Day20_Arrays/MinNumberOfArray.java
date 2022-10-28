@@ -1,5 +1,4 @@
 package lectureTasks.Day20_Arrays;
-
 public class MinNumberOfArray {
 
     public static void main(String[] args) {
