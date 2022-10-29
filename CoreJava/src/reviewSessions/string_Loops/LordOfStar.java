@@ -1,4 +1,4 @@
-package reviewSessions.String_Loops;
+package reviewSessions.string_Loops;
 
 public class LordOfStar {
     public static void main(String[] args) {

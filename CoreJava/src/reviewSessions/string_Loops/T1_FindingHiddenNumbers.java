@@ -1,4 +1,4 @@
-package reviewSessions.String_Loops;
+package reviewSessions.string_Loops;
 
 import java.util.Random;
 import java.util.Scanner;

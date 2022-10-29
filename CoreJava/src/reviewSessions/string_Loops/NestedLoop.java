@@ -1,4 +1,4 @@
-package reviewSessions.String_Loops;
+package reviewSessions.string_Loops;
 
 public class NestedLoop {
     public static void main(String[] args) {

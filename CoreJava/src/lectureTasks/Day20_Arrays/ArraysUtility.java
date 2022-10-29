@@ -15,10 +15,8 @@ public class ArraysUtility {
 
         System.out.println("-----------------------------------------------------");
 
-        int [] numbers2=Arrays.copyOfRange(numbers,5,numbers.length);
+        int [] numbers2=Arrays.copyOfRange(numbers,5,numbers.length-3);
         System.out.println(Arrays.toString(numbers2));
 
-
     }
-
 }
