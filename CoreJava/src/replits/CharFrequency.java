@@ -5,20 +5,25 @@ import java.util.Arrays;
 public class CharFrequency {
     public static void main(String[] args) {
         String word = "fdgdkflgdğsksdfsdfklsmdğf";
-        String each = "";
+        String result="";
 
         for (int j = 0; j < word.length(); j++) {
-            String element = "" + word.charAt(j);
-            int frequency = 0;
-            for (int i = 0; i < word.length(); i++) {
-                if (element.equals("" + word.charAt(i))) {
-                    frequency++;
+            int frequency = frequencyFinder(word,word.charAt(j));
+
+            if (frequency == 2) {
+                if (!result.contains(""+word.charAt(j))) {
+                    result += word.charAt(j) + " - ";
                 }
             }
-            if (frequency == 2) {
-                System.out.print(word.charAt(j) + " - ");
+        }System.out.print(result);
+    }
+    public static int frequencyFinder(String str, char ch){
+        int count=0;
+        for(char each:str.toCharArray()){
+            if(ch==each){
+                count++;
             }
-        }
+        } return count;
     }
 }
 

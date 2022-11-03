@@ -1,6 +1,6 @@
 package lectureTasks.day23_Methods;
 
-public class Reverse {
+public class Reverse_Palindrome {
     public static void reverse(String input) {
         String reversed = "";
         for (int i = input.length() - 1; i >= 0; i--) {

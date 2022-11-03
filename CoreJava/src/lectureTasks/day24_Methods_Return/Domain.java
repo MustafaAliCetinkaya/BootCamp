@@ -1,6 +1,6 @@
-package lectureTasks;
+package lectureTasks.day24_Methods_Return;
 
-public class day24_Methods {
+public class Domain {
     public static void main(String[] args) {
         domain("roka@cloudmail.com");
         System.out.println("---------------------------");
