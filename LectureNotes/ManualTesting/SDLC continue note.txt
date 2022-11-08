@@ -1,0 +1,161 @@
+SDLC continue 
+
+Agenda:
+    1. Review SDLC's 4 steps 
+    2. review 4 environments 
+    2. new - SDLC last 2 steps 
+    3. SDLC summary 
+
+==============================
+
+what is SDLC? 
+
+1. SDLC - stands for "software development life cycle" 
+
+    - standard guideline , steps to build/develop a software
+
+    - 6 steps to build a software/app 
+
+    - develop a high quality 
+
+the client -> who has idea , who owns the app 
+business team -> PO, PM, BA 
+End users -> are the one who use the app , target people 
+
+1st step: 
+
+   action -> the client provides the req/functionalities to the PO 
+             BT(business team) analyze 
+             BT prepare documents -> SRS doc 
+
+   output -> SRS document 
+
+
+2nd step
+  
+  action: designers design the software prototype/model based on SRS doc
+          designers write SDS documents
+
+  output -> SDS document & prototype of the app 
+
+
+3rd step: 
+
+   action : Develop the software based on SRS, SDS, and design prototype
+
+   output: first version of the app  --> the app is in the dev env
+
+   [note: Develoeprs move/tranfer/deploy all the developed functionalities of the app from the dev env to the QA env]
+
+4 software env: 
+
+dev [development] env        http//:dev.amazon.com
+QA/test env                  http//:qa.amazon.com 
+Staging/pre-production env   http//:stg.amazon.com 
+production env               http//:amazon.com -> end users 
+
+
+4th step : testing 
+
+   functional testing : login/logout, type? click? zoom in-out? select? 
+
+         you(QA) will responsible to the functional testing
+
+   Non-functional testing : stress testing? performance level-fast-slow? security 
+
+         Performance testers 
+
+  
+   action: testers test the software in the QA env based on the req
+
+           the expected result(srs)  VS. the actual result (the qa env)
+
+           if any mismatch/error/bug is found by a tester, he/she will create a bug report
+
+
+   output: bug free app 
+
+
+
+ ---> the client will see the app in the staging env. 
+      the client will accept or reject the result?  
+
+
+
+5th step: deploy/release/production 
+    
+          action: end users use the app in the production env
+
+
+          output: end users might found any bug 
+
+
+6th step: maintaining 
+ 
+         support team : might receive bug feedback from the end users 
+
+         support team -> it depends on the company how they want to build that support team. 
+                         
+                         support team -> several technical people.(not the exact dev or QA)
+
+                         support team -> the exact developers & testers 
+
+         The client's more new ideas? 
+
+          new ideas == new features / functionalities / req
+
+          SDLC starts again with the new req == that is why we call it life cycle 
+
+          any bug found from the production should be fixed at first -> hot fix.
+
+
+
+As a QA, do I need to be involved into the maintaining step? 
+
+ - it depends. 
+
+ - ex: 4 dev, 2 qa -> support team members will let you know about the emails/feedback from the end users, any bug will be fixed by the developers and testers. 
+
+
+-----------------------------
+
+
+
+release cycle : 
+
+         
+         every 3/4/6 month : game:
+                         Jan - Mar : register/login/lout/play/stop/next level 
+
+                                    release date : 03/28th Friday at 7pm - 10pm 
+                                     V1.0 -> released 
+
+                                     maintain -> fix the bugs 
+
+                                     after one month, V1.1  
+                         
+                         Apr - Jun : invite friends / communicate-text/voice/video 
+
+                                    V2.0 released 
+
+                                    maintain - fix the bugs 
+
+                                    V2.1, V2.2 etc 
+
+        once a year : Apple 
+
+                     2020 - IOS V14.0 
+                                V14.1 
+                                V14.2
+
+                     2021 - IOS V15.0
+
+
+
+
+which version of Java you are using? 
+can you rate your self on java from 0 -10? 7-8
+JDK JRE JVM? 
+
+
+

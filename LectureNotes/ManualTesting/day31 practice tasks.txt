@@ -1,0 +1,143 @@
+1. SalaryCalculator Task:
+		1.1 Create a class named Salary calculator:
+		        Attributes:
+		            hourlyRate, stateTaxRate, federalTaxRate, weeklyHours
+
+	            Add a constructor to set all the fields
+
+		        Actions:        
+		            salary(): calculates the salary ( hourlyRate * weeklyHour * 52)
+		            stateTax(): calculates the totalStateTax 
+		            federalTax(): calculates the total federal tax
+		            salaryAfterTax(): calculates the salary after tax
+		            toString(): displays the salary, stateTax, federalTax, salaryAfterTax of the Object
+
+
+2. Address Task:
+	2.1 Create a class named Address
+		    Attributes:
+		         buildingNumber, street, city, state, zipCode;
+		   
+		   	Add a constructor to set all the fields
+
+		    Actions
+		            toString: returns the address
+		                        EX:
+		                            7925 Jones Branch Dr
+		                            McLean Va, 22012
+
+
+3. Movie Task:
+		
+	3.1. Create a class named Movie
+	    Attributes:
+	        country (String), title (String), Genre (String), releaseDate (String), director (String), casts (ArrayList<String>)
+
+		Add a constructor to set the country, title, release date, and director of the Movie
+
+	    Actions
+	        addCast(String): adds the given string argument to the arrayList casts
+	        addCasts(String[]): adds the given string array argument to the arrayList casts
+	        toString(): returns the name of country, title, release date, and total number of casts
+
+    3.2create a class called MovieObjects
+            1. create an object of the movie:
+                    title: Journey to SDET: Cydeo Batch 25
+                    country: USA
+                    Genre: Adventure, Comedy, Thriller
+                    release date: 10/25/2021
+                    director: Kuzzat Altay
+                    Casts: Asiya, Adam, Muhtar and 5 more students from your group
+
+        print the full info of the movie
+
+
+4. Item Task:
+		4.1 Create a class called Item
+            Attributes:
+                name, unitPrice, quantity
+
+            Add a constructor to initialize all the fields
+
+            Methods:
+                calcCost(): returns the total price of the Item
+                toString(): retuns the name, unitPrice, quantity and total Price that's calculated by calcCost() 
+
+
+  
+5. Carpet Task:
+	5.1create a custom class for the Carpet class that should contain the following:
+                instance variables:
+                        width, length, unitPrice, isPersian (boolean)
+
+		Add a constructor to set all the instances
+
+                instance methods:
+                        
+                        calcCost(): should be able to calculate the total cost of the carpet and return it as double
+                        toString(): should be able to display all the info of the carpet including the total cost of the carpet as calculated by calcCost()
+
+            total price of carpet = (width*length)*unitprice
+
+            if the carpet is persian  carpet, add 200$ to the totalPrice
+
+
+6. Restaurant Task:
+		6.1  Create a class called Server
+                   
+	        Attributes:
+	                name (String), employeeID (int), hourlyRate (double), fullTime (boolean)
+		
+Add A constructor that can set all the fields
+
+	        Actions: (all void methods)    
+	            takeOrder(): server's name + "is taking an order"
+	            cleanTable(): server's name + "is cleaning the table"
+	            toString(): Returns (String) all the information of a Server
+	                -> Extra: For fullTime status, instead of printing a boolean value, print "full-time" or "part-time"
+
+		6.2 Create a class called Chef
+		                   
+		            Attributes:
+		                name (String), employeeID (int), hourlyRate (double), fullTime (boolean)
+			
+			   Add A constructor that can set all the fields
+
+		            Actions: (all void methods)		                	             
+		                makeOrder(): chef's name + "is making an order"
+		                washDishes(): chef's name + "is washing the dishes"
+		                toString(): Returns (String) all the information of a Chef
+		                    -> Extra: For fullTime status, instead of printing a boolean value, print "full-time" or "part-time"
+
+		6.3 Create a class called Restaurant
+	                   
+	            Attributes:
+	                Owner (String), Location (String), numberOfStars (int)
+	                Servers (ArrayList of Server objects)
+	                Chefs (ArrayList of Chef objects)
+
+                Add a constructor that sets the owner, location, and number of stars.
+
+	            Actions: (all void methods)
+	                
+	                hireServer(Server server): accepts a server object and adds it to the Servers ArrayList 
+	                hireServer(Server [] servers): accepts an array of Server objects and adds all of them to the Servers ArrayList               
+	              
+	                hireChef(Chef chef): accepts a chef object and adds it to the Chefs ArrayList 
+	                hireChef(Chef [] chefs): accepts an array of Chef objects and adds all of them to the Chef ArrayList                 
+
+	                terminateChef(int employeeID): removes the chef with the matching ID from the arraylist of chef
+	                terminateServer(int employeeID) removes the server with the matching ID from the arraylist of server
+
+	                toString(): Return (String) of all the information of a Restaurant object. No need to print the whole list of Servers or Chefs. Print the number of Servers and Chefs along side the other information
+	                
+
+		6.4. Create a class LocalRestaurant that has a main method with the following: 
+	        	- Make a Restaurant object 
+	        	- Create an array of servers with their information set. Add those initial servers to the ArrayList of Servers in the Restaurant object
+	            - Create an array of chefs with their information set. Add those initial chefs to the ArrayList of Chefs in the Restaurant object
+
+	            - Print your whole restaurants information 
+
+
+

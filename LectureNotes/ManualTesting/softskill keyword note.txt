@@ -1,0 +1,110 @@
+softskill keyword intro 
+
+Welcome to Cydeo - SDET course 
+
+This is softskill class. Instructor is Asiya. 
+
+Agenda for today: 
+  
+    1. Overall schedule intro 
+    2. What does softskill mean? vs Hardskill? 
+    3. What do we learn from this softskill? 
+
+- Instructors' slides and notes will be uploaded to the Canvas. Also in Discord. 
+
+If you have any issue with zoom, okta, canvas, discord etc, please ask help from the support team. 
+
+If you have any class - related question, you can ask during the class in discord - class_channel. or you can send direct message in discord to the correspond instructor.
+
+Please do not ask any question that not relates to the class in class-chat. 
+----------------------------------
+
+
+week 1 - week 2 --> will have new students. 
+
+Orientation day recording - > Canvas -> soft skill course. 
+
+
+break for 15m; 
+
+
+=================================
+
+Software = app = application = project = platform = product = system 
+
+
+
+Which OS do you use the most ? 
+
+
+Which browser do you use? 
+
+ - safari, Firefox, edge, IE, chrome
+
+
+
+you will be a SDET/QA/Tester who test web-based application. 
+we will provide classes to learn mobile app. But it is optional. 
+
+
+FrontEnd testers 
+BackEnd (DB&API) testers 
+Full-stack testers -> know how to test both FrontEnd and BackEnd -> YOU 
+
+
+----------------------
+functionality of an app/software -> any action that users can do, cannot do
+ functionalities == feature of app
+
+
+functionalities of Discord: 
+
+   - login 
+   - logout 
+   - create Chanel/group 
+   - send text message 
+   - add users/friends
+   - delete message 
+   - send voice message 
+   - upload files 
+   - download files
+   - emojis
+   - announcement 
+
+
+you test functionalities of a software on all 3 layres: UI/FronetEnd, DB and API. 
+
+   example: file upload 
+
+      UI/FronrEnd -> go to the app, and try to upload files + take screenshot
+
+      DB -> if the files are stored in the correct category? 
+
+      API -> if the files are delivered to the DB successfully or not
+
+
+
+Non-Functional -> installation, stress, speed, security, capacity 
+                  These are tested by performance testers. 
+                  security is tested by cyber-security engineers.
+
+
+ Non-functional area for the Discord 
+
+     - can users download discord to the different OS? 
+     - discoed opens/loads in 4 seconds
+     - 300 users use the class-chat at the same time --> stress 
+     - 500GB files -> capacity 
+
+
+
+You will be a full stack SDET, test functionalities of an app + on 3 layers: UI, DB, API
+
+
+assignment: 
+ 1. Read SDLC article
+ 2. Watch SDLC short video 
+ 3.Review / study today's class 
+
+
+
