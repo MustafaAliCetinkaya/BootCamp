@@ -1,0 +1,126 @@
+Week 2
+
+Topics:
+
+ ** Variables
+		-Primitive Data Types
+		-String
+        -Declaring multiple variables
+        -Concatenation		
+        -Primitive Type Castings
+        -Arithmetic Operators
+
+  ==============================
+  Primitive Data Types:
+    1- numerical primitives:
+					double > float > long > int > short > byte
+     
+    2- boolean
+    3- char
+
+
+primitives:
+	int: for integers
+	double: for decimals
+	char: for single characters, ''
+	boolean: true/false
+
+String: sequence of characters (String of text), "" (non-primitive)
+
+===============================
+Variables:
+
+variable naming rules:
+		1. MUST be unique
+		2. camelCase
+		3. Can Not start with digits
+		4. starts with lower case letters
+		5. Can Not be Java Reserved words
+		6. Can Not have special characters other than _ and $
+		7. readable, understandable
+
+
+declare variable:
+		dataType  variableName = data;
+
+===============================
+Addition: +
+		
+	 number +  number ==> addition
+	 	1   +    2   ===> 3
+
+
+Concatenation: +
+
+		String + Data
+		Data   + String
+		String + String
+===============================
+Primitive Type Castings:
+
+Implicit Casting: Smaller primitives can be directly assigned to larger primitive type		
+Implicit Casting: Larger ptimitives can NOT be directly assigned to smaller primitive types (need to be casted manually)
+
+================================
+Tasks:
+
+1. Create a class named SumTwoNumber, write a Java program to print the sum of two numbers. 
+
+2. Create a class named DivideTwoNumber, write a Java program to divide two numbers and print on the screen.
+
+3. Create a class named BasicCalculator. write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
+
+
+4. Create a class named GallonsToLitters, Write a program that can convert gallon (int) to litter (double)
+					Hints: 1 gallon = 3.79 litters
+							1000
+							10000	
+
+
+5. Create a class named EmployeeInfo. declare the following variables:
+				1. name (String)
+				2. age (int)
+				3. gender (char)
+				4. company (String)
+				5. jobTitle (String)
+				6. yearsOfExpereince (double)
+				7. salary (int)
+				8. isFullTime (boolean)
+				9. isMarried (boolean)
+				10. employeeId (String)
+				11. SSN (String)							
+
+
+
+ 6. Create class named "TemperatureConverter" and make a main method
+
+						- Write a Java program to convert temperature from Fahrenheit to Celsius degree
+						- Input a degree in Fahrenheit: 212
+
+							Formula : 		C = (5(F-32))/9
+
+							Expected Output:
+							212.0 degree Fahrenheit is equal to 100.0 in Celsius
+
+
+7. Create class named CircleCalculator, write a Java program to print the area and perimeter of a circle. 
+
+
+8. Create class named ConvertMiutesToYearAndDay, write a Java program to convert minutes into a number of years and days.
+     
+     Input the number of minutes: 3456789
+     Expected Output :
+     3456789 minutes is approximately 6 years and 210 days
+
+(Bonus)
+9.Create class named CurrentTime, write a Java program that prints the current time.
+
+
+
+
+
+
+
+
+
+

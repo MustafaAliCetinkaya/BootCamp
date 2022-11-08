@@ -1,0 +1,145 @@
+Review Week 1:
+
+   **Introduction To Java
+
+   **main method
+
+   **println() vs print() statement
+
+   **Comments
+
+   **Escape Sequences
+
+  **Introduction To Java 
+What is java?
+ 
+ - One of the programming language which is commonly used
+
+Components in Java 
+
+  - JVM: Java Virtual Machine 
+    * in order to read and run byte codes 
+
+  - JRE: Java Runtime Environment
+    * it has ready java classes and libraries (in order to run java codes we should have it)
+
+  - JDK: Java Development Kit
+    * it has development tools (javac,jconsole,...) (in order to develop software we hould have it)
+
+  - Javac: Java Compiler
+    * in order to convert high level java syntax to byte code which is understandable for JVM 
+
+What is IDE?
+ 
+ - Integrated development environment (IDE) is a software application which is used for developng software applications. (we will learn IntelliJ)
+
+=====================================
+
+How to open preference window?
+- in order to setup configurations
+
+- Windows Users:
+  file -> settings
+
+- Mac Users:
+  IntelliJ IDEA -> Preference
+
+* How to create project?
+- File -> new -> Project
+
+* How to open recent projects?
+- File -> Open recent
+
+* How to rename?
+  right click -> refactor -> rename
+
+=====================================
+**main method
+  - in order to run java program w should have main method
+ public static void main(String[] args) {}
+
+=====================================
+ **println() vs print() statement
+
+  -- println(): after printing appends a new line after last character
+
+  -- print(): after printing not append a new line after last character
+
+=====================================
+ **Comments
+  -- single line comments : in order to put single comment line, we need use // 
+  -- multi line comments : in order to put multi line comment line, we need use /* */
+=====================================
+ **Escape Sequences
+   
+  Escape sequences: MUST be given with double quote like "\n"
+
+\n: starts a new line
+\t: paragraph space(tab)
+\\: single back slash
+\": double quote
+=====================================
+   Tasks:
+
+   Task 1: Create a java class which is MyName.java and print your name.
+
+   Task 2: Create a class which is Triangle.java and print  it.
+                   
+                   *
+                  * *
+                 * * *
+                * * * *
+               * * * * *
+
+    Task 3: Crate a class Square.java and print it (use escape secuences)
+
+            * * * * * * *
+            *           *
+            *           *
+            *           *
+            *           *
+            *           *
+            * * * * * * *
+
+    Task 4: Create a class AboutMe.java and print your first name, last name, Batch number (do not use println())
+        
+        output:
+               First Name  :  Adam
+               Last Name   :  Barry
+               Batch Number:  EU10 
+              
+
+    Task 5: Create a class RightTriangle.java and print it (do not use println())
+          *
+          * *
+          * * *
+          * * * *
+          * * * * *
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
