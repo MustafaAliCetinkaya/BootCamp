@@ -2,7 +2,7 @@ package lectureTasks.day25_Methods_Overloading;
 
 import utilities.StringUtility;
 
-public class Test {
+public class TestString {
 
     public static void main(String[] args) {
 

@@ -15,7 +15,6 @@ public class AddElementsToArray_Overloading {
         chars = addElement(chars, 'E');
 
         String[] names = {"Ahmet", "Oleksandr", "Sinem", "Cihad"}; // "Layan"
-
         names = addElement(names, "Layan");
 
 
