@@ -2,7 +2,7 @@ package lectureTasks.day24_Methods_Return;
 
 import java.util.Arrays;
 
-public class isAnagram {
+public class IsAnagram {
 
     public static boolean isAnagram(String str1, String str2){
         char[] ch1 =str1.toCharArray();

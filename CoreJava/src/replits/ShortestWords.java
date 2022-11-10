@@ -27,7 +27,29 @@ public class ShortestWords {
             }
 
             String[] shortest = shortest1.split(", ");
-            System.out.print(Arrays.toString(shortest));
+            System.out.println(Arrays.toString(shortest));
+            System.out.println("---------------------------------------------");
+            String[] strArr = str.split(", ");
+            int min = strArr[0].length();
+            for (int i = 0; i < strArr.length; i++) {
+                if (strArr[i].length()<=min){
+                    min=strArr[i].length();
+                }
+            }
+            int counter = 0;
+            for (String each : strArr) {
+                if (each.length()==min) counter++;
+            }
+            String[] result = new String[counter];
+            int index = 0;
+            for (String each : strArr) {
+                if (each.length()==min){
+                    result[index]=each;
+                    index++;
+                }
+            }
+            System.out.println(Arrays.toString(result));
+
         }
     }
 

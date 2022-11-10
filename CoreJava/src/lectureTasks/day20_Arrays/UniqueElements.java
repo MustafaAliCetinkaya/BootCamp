@@ -21,13 +21,6 @@ public class UniqueElements {
             if(frequency == 1){
                 System.out.println(element);
             }
-
         }
-
-
-
-
-
     }
-
 }

@@ -17,7 +17,7 @@ Write a method named swapPairs that accepts an array of strings as a parameter a
 
 import java.util.Arrays;
 
-public class swapPairs {
+public class SwapPairs {
     public static void main(String[] args) {
         String[] a = {"four", "score", "and", "seven", "years", "ago", "PERMANENT"};
         for (int i = 0; i < a.length/2; i++) {

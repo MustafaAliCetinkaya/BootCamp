@@ -1,6 +1,6 @@
 package replits;
 
-public class equalStrings {
+public class EqualStrings {
     public static void main(String[] args) {
         String word1=new String("java");
         String word2=new String("java");
