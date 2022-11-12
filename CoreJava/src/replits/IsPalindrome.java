@@ -4,7 +4,7 @@ and /false if not. For example, the array {"alpha", "beta", "gamma", "delta", "g
 Arrays with zero or one element are considered to be palindromes.*/
 import java.util.Arrays;
 
-public class isPalindrome {
+public class IsPalindrome {
     public static void main(String[] args) {
         String[] array = {"alpha", "beta", "gamma", "delta", "gamma", "beta", "alpha"};
         String[] reversed = new String[array.length];

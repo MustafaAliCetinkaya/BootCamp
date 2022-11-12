@@ -50,5 +50,32 @@ public class Increment {
         doub[1] = 89.5;
         doub[3] = 13.1;
         System.out.println(Arrays.toString(doub));
+        System.out.println("-------------------------");
+        String str5 = "The whole time it was raining.";
+        while (!str5.isEmpty()) {
+            System.out.println(str5.charAt(0));
+            str5 = str5.substring(3);
+            System.out.println(str5 + " / " + str5.length());
+        }
+        System.out.println("-------------------------");
+        String word = "ali";
+        String w = word.substring(3);
+        System.out.println(w);
+        System.out.println(w.length());
+        System.out.println("-------------------------");
+        int[] array = {14, 1, 84, 97, 1243, 46};
+        int total = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 != 0) {// work while i=> 1, 97, 1243
+                total += 3;//+9
+            } else {// work while i=> 14,84
+                total += 10;//+20
+            }
+
+            if (i % 3 == 0) {// work while i=> 0,3
+                total -= 15;//-30
+            }
+        }
+        System.out.println(total);
     }
 }

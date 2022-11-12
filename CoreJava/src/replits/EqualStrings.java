@@ -15,5 +15,15 @@ public class EqualStrings {
         }else {
             System.out.println("not equal");
         }
+        System.out.println("-----------------------");
+        String s1="abc";
+        String s2="abc";
+        System.out.println("s1==s2 is "+s1==s2);
+        System.out.println("s1==s2 is "+(s1==s2));
+        System.out.println("-----------------------");
+        int n1=3;
+        int n2=33;
+        System.out.println("test / "+false);
+        System.out.println(31+n1==n2);
     }
 }

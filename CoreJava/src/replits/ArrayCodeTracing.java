@@ -2,7 +2,7 @@ package replits;
 
 import java.util.Arrays;
 /*Swap the indexes*/
-public class arrayCodeTracing {
+public class ArrayCodeTracing {
     public static void main(String[] args) {
         int[]numbers={11,12,13,23,24,34,33,45,56,67,78};
         int i=0;
