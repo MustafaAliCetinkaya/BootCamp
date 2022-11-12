@@ -1,4 +1,4 @@
-package reviewSessions.methods;
+package reviewSessions.methods.customMethods;
 
 /*  Task 3 :   Write a method that can check if a number is Armstrong number
 

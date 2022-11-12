@@ -1,10 +1,7 @@
 package replits;
-
-import kotlin.text.StringsKt;
-
 import java.util.Arrays;
 
-public class Increment {
+public class Assigments {
     public static void main(String[] args) {
         int a = 0;
         do {

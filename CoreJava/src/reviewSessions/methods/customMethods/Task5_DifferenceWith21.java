@@ -1,4 +1,4 @@
-package reviewSessions.methods;
+package reviewSessions.methods.customMethods;
 
 public class Task5_DifferenceWith21 {
 

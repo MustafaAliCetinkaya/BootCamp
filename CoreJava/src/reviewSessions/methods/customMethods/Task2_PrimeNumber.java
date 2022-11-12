@@ -1,4 +1,4 @@
-package reviewSessions.methods;
+package reviewSessions.methods.customMethods;
 
 public class Task2_PrimeNumber {
     public static void main(String[] args) {

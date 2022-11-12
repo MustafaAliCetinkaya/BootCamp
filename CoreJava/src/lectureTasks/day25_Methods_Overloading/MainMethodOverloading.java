@@ -1,8 +1,10 @@
 package lectureTasks.day25_Methods_Overloading;
 public class MainMethodOverloading {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Only this one runs, it is builder method.
         System.out.println("String");
+        main(new int[]{3,6,7,5});//Overloaded method
+        //If we do not use other overloaded methods, no error, no action!
 
     }
 
