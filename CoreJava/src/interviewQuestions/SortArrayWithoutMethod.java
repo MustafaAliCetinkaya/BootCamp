@@ -1,23 +1,12 @@
 package interviewQuestions;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
-public class Interview_SecondBiggestElement {//Without using sort() method
-
+public class SortArrayWithoutMethod {
     public static void main(String[] args) {
         int nums[] = {45, 67, 34, -12, 89, 56, 49};
-        System.out.println("secondMax(nums) = " + secondMax(nums));
-    }
-
-    public static int secondMax(int[] nums) {
- /*     int max=nums[0];
-        int secondMax=0;
-
-       for (int i = 0; i < nums.length; i++) {
-            if(nums[i]>max)
-                max=nums[i];
-        }*/
-
+        System.out.println("Normal: "+Arrays.toString(nums));
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 int tmp = 0;
@@ -28,6 +17,6 @@ public class Interview_SecondBiggestElement {//Without using sort() method
                 }
             }
         }
-        return nums[nums.length-2];
+        System.out.println("Sorted: "+Arrays.toString(nums));
     }
 }

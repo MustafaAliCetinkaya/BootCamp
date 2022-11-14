@@ -21,6 +21,7 @@ public class ArraysUtility {
 
         return result;
     }
+
     // when i call this method i can pass one array and one integer, then it adds the integer to the array
     //adds double to a double array
     public static double[] addElement(double[] array, double number) {
@@ -601,11 +602,8 @@ public class ArraysUtility {
             if (array[i] == oldValue) {
                 array[i] = newValue;
             }
-
         }
-
         return array;
-
     }
 
 
@@ -639,42 +637,41 @@ public class ArraysUtility {
         return array;
     }
 
-    public static int[] insert(int[]array,int index,int element){
-        int insert[]=new int[array.length+1];
+    public static int[] insert(int[] array, int index, int element) {
+        int insert[] = new int[array.length + 1];
 
         for (int i = 0; i < insert.length; i++) {
-            insert[i]=(i!=index)? array[i]:element;//Ternary
+            insert[i] = (i != index) ? array[i] : element;//Ternary
         }
         return insert;
     }
 
-    public static double[] insert(double[]array,int index,double element){
-        double insert[]=new double[array.length+1];
+    public static double[] insert(double[] array, int index, double element) {
+        double insert[] = new double[array.length + 1];
 
         for (int i = 0; i < insert.length; i++) {
-            insert[i]=(i!=index)? array[i]:element;//Ternary
+            insert[i] = (i != index) ? array[i] : element;//Ternary
         }
         return insert;
     }
 
-    public static char[] insert(char[]array,int index,char element){
-        char insert[]=new char[array.length+1];
+    public static char[] insert(char[] array, int index, char element) {
+        char insert[] = new char[array.length + 1];
 
         for (int i = 0; i < insert.length; i++) {
-            insert[i]=(i!=index)? array[i]:element;//Ternary
+            insert[i] = (i != index) ? array[i] : element;//Ternary
         }
         return insert;
     }
 
-    public static String[] insert(String[]array,int index,String element){
-        String insert[]=new String[array.length+1];
+    public static String[] insert(String[] array, int index, String element) {
+        String insert[] = new String[array.length + 1];
 
         for (int i = 0; i < insert.length; i++) {
-            insert[i]=(i!=index)? array[i]:element;//Ternary
+            insert[i] = (i != index) ? array[i] : element;//Ternary
         }
         return insert;
     }
-
 }
 
 

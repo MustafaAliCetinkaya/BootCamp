@@ -1,4 +1,4 @@
-package lectureTasks.day27_ArrayList;
+package lectureTasks.day27_ArrayList1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

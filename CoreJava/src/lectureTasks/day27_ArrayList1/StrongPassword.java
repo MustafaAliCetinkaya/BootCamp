@@ -1,4 +1,4 @@
-package lectureTasks.day27_ArrayList;
+package lectureTasks.day27_ArrayList1;
 /*
 1.Write a program that can verify if a password is a strong password. Characteristics of strong passwords are:
         1.1 Password must be at least have 8 characters long, and should not contain space
