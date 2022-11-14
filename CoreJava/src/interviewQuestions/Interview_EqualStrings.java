@@ -1,6 +1,6 @@
-package replits;
+package interviewQuestions;
 
-public class EqualStrings {
+public class Interview_EqualStrings {
     public static void main(String[] args) {
         String word1=new String("java");
         String word2=new String("java");

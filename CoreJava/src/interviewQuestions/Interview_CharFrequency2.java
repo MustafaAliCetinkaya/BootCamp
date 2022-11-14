@@ -1,6 +1,6 @@
-package replits;
+package interviewQuestions;
 
-public class CharFrequency2 {
+public class Interview_CharFrequency2 {
     public static void main(String[] mali) {
         String words = "Afyonkarahisar Sülümenli Kasabası";
 
