@@ -55,10 +55,6 @@ public class RemoveIfMethod {
 
         System.out.println(names);
 
-
-
-
-
     }
 
 
