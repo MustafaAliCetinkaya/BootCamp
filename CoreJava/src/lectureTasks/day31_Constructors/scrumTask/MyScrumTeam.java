@@ -22,15 +22,19 @@ public class MyScrumTeam {
 
         // 1 ScrumTeam Object
         ScrumTeam scrum = new ScrumTeam("Nigara", "Huseyin", "Neira", 14);
+        System.out.println(scrum);
+        System.out.println("------------------------------------------------------");
 
         scrum.addTester(tester1);
         scrum.addDeveloper( developer1);
+
+        System.out.println(scrum);
+        System.out.println("------------------------------------------------------");
 
         scrum.addTesters(testers);
         scrum.addDevelopers( developers );
 
         System.out.println(scrum);
-
         System.out.println("------------------------------------------------------");
 
         for(Tester eachTester : scrum.testersList ){

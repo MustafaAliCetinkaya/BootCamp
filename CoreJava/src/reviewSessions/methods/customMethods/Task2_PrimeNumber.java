@@ -17,7 +17,7 @@ public class Task2_PrimeNumber {
 
          */
 
-        boolean result = isPrime(2); //true
+        boolean result = isPrime(101); //true
         System.out.println(result);
 
     }
