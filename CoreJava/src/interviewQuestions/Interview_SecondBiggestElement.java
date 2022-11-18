@@ -10,6 +10,8 @@ public class Interview_SecondBiggestElement {//Without using sort() method
         int nums[] = {45, 67, 34, -12, 89, 56, 49};
         System.out.println("secondMax(nums) = " + secondMax(nums));
 
+
+
         System.out.println("-------- Second Solution: By using ArrayList method ---------");
 
         ArrayList<Integer> max = new ArrayList<>();
@@ -46,4 +48,5 @@ public class Interview_SecondBiggestElement {//Without using sort() method
         }
         return nums[nums.length - 2];
     }
+
 }

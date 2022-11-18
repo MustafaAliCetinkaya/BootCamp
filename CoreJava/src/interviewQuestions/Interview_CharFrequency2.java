@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Interview_CharFrequency2 {
     public static void main(String[] mali) {
-        String words = "Afyonkarahisar Sülümenli Kasabası";
+        String words = "AnkaraxyAnkaraxyAnkara";
 
         String result = "";
 

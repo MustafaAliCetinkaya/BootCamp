@@ -1,11 +1,13 @@
 package interviewQuestions;
 
+import java.util.Arrays;
+
 public class Interview_Increment {
     public static void main(String[] args) {
-        int a,b,c;
-        a=9;
-        b=10;
-        c=++a + b++;
+        int a, b, c;
+        a = 9;
+        b = 10;
+        c = ++a + b++;
 
         System.out.println(c);
         System.out.println(b);
@@ -13,9 +15,11 @@ public class Interview_Increment {
 
         System.out.println("-------------------------------");
 
-        int i=0;
-        i=i++ + i;
+        int i = 0;
+        i = i++ + i;
         System.out.println("i = " + i);
+
+        System.out.println("-------------------------------");
 
     }
 }

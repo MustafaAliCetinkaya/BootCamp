@@ -10,6 +10,7 @@ public class Interview_DifferenceOfElementNumbers {
         int b = 0;
         int result = 0;
 
+
         for (char each : element.toCharArray()) {
             if (each == 'A') {
                 a++;
@@ -17,13 +18,13 @@ public class Interview_DifferenceOfElementNumbers {
                 b++;
             }
         }
-
-        if (a < b)
+        result = a - b;
+      /*  if (a < b)
             result = b - a;
         else if (a > b)
-            result = a - b;
+            result = a - b;*/
 
-        System.out.println("result = " + result);
+        System.out.println(Math.abs(result));
 
         System.out.println("-------- Second Solution: By using ArrayList method ---------");
         int result2 = 0;
@@ -36,11 +37,11 @@ public class Interview_DifferenceOfElementNumbers {
         int counta = Collections.frequency(chars, 'A');
         int countb = Collections.frequency(chars, 'B');
 
-        if (counta < countb)
+       /* if (counta < countb)
             result2 = countb - counta;
-        else if (counta > countb)
+        else if (counta > countb)*/
             result2 = counta - countb;
 
-        System.out.println("Second result = " + result2);
+        System.out.println("Second result = " + Math.abs(result2));
     }
 }
