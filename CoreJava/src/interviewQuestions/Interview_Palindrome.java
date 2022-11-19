@@ -3,7 +3,7 @@ package interviewQuestions;
 public class Interview_Palindrome {
     public static void main(String[] args) {
         String word="annax";
-        System.out.println("isPalindrome(word) = " + isPalindrome(word));
+        System.out.println("isPalindrome("+word+") = " + isPalindrome(word));
 
     }
     public static String isPalindrome(String str){
