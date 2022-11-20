@@ -1,7 +1,6 @@
 package reviewSessions.methods.customMethods;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /*Task 3 :
 
