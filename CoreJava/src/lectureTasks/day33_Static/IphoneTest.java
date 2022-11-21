@@ -1,6 +1,6 @@
 package lectureTasks.day33_Static;
 
-public class TestIphone {
+public class IphoneTest {
 
     public static void main(String[] args) {
 
@@ -10,6 +10,10 @@ public class TestIphone {
         System.out.println( Iphone.isTouchScreen );
 
     }
-
-
 }
+/*instance: belong to the object
+		each object has its own copy of the instances (can have multiple copies)
+
+
+static: belongs to the class.
+		There is only one copy os statics thta's shared by all objects of the class*/
