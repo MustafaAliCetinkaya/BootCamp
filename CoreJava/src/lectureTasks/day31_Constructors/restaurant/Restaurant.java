@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Restaurant {
-    String Owner;
-    String Location;
-    int numberOfStars;
+    public String Owner;
+    public String Location;
+    public int numberOfStars;
 
-    ArrayList<Server> serverList=new ArrayList<>();
-    ArrayList<Chef> chefList=new ArrayList<>();
+    public ArrayList<Server> serverList=new ArrayList<>();
+    public ArrayList<Chef> chefList=new ArrayList<>();
 
     public Restaurant(String owner, String location, int numberOfStars) {
         Owner = owner;
@@ -21,16 +21,16 @@ public class Restaurant {
         serverList.addAll(Arrays.asList(server));
     }
 
-    public void hireServer(Server [] servers){
+    public void hireServer(Server[] servers){
         serverList.addAll(Arrays.asList(servers));
     }
 
 
-    public void hireServer(Chef chef){
+    public void hireChef(Chef chef){
         chefList.addAll(Arrays.asList(chef));
     }
 
-    public void hireServer(Chef [] chefs){
+    public void hireChef(Chef [] chefs){
         chefList.addAll(Arrays.asList(chefs));
     }
 

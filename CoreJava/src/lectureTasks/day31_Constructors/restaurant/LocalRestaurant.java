@@ -23,11 +23,11 @@ public class LocalRestaurant {
         System.out.println("----------------------------------------------------");
 
         restaurant.hireServer(server4);
-        restaurant.hireServer(chef4);
+        restaurant.hireChef(chef4);
         System.out.println(restaurant);
         System.out.println("----------------------------------------------------");
 
-        restaurant.hireServer(chefs);
+        restaurant.hireChef(chefs);
         restaurant.hireServer(servers);
         System.out.println(restaurant);
         System.out.println("----------------------------------------------------");

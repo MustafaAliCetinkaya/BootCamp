@@ -2,9 +2,9 @@ package lectureTasks.day31_Constructors.restaurant;
 
 public class Chef {
     String name;
-    int employeeID;
-    double hourlyRate;
-    boolean fullTime;
+    public int employeeID;
+    public double hourlyRate;
+    public boolean fullTime;
 
     public Chef(String name, int employeeID, double hourlyRate, boolean fullTime) {
         this.name = name;
@@ -21,14 +21,14 @@ public class Chef {
     }
 
     public void makeOrder(){
-        System.out.println(name+" is a chef and making an order");
+        System.out.println(name+" is a chef and making an order.");
     }
 
     public void washDishes(){
-        System.out.println(name+" is a chef and washing the dishes");
+        System.out.println(name+" is a chef and washing the dishes.");
     }
 
-    @Override
+
     public String toString() {
         return "Chef{" +
                 "name= '" + name + '\'' +

@@ -2,9 +2,9 @@ package lectureTasks.day31_Constructors.restaurant;
 
 public class Server {
     String name;
-    int employeeID;
-    double hourlyRate;
-    boolean fullTime;
+    public int employeeID;
+    public double hourlyRate;
+    public boolean fullTime;
 
     public Server(String name, int employeeID, double hourlyRate, boolean fullTime) {
         this.name = name;
@@ -21,11 +21,11 @@ public class Server {
     }
 
     public void takeOrder(){
-        System.out.println(name+" is a server and taking an order");
+        System.out.println(name+" is a server and taking an order.");
     }
 
     public void cleanTable(){
-        System.out.println(name+" is server and taking cleaning the table");
+        System.out.println(name+" is a server and taking cleaning the table.");
     }
 
     public String toString() {

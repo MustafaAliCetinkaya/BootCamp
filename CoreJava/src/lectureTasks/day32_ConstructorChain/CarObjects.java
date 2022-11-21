@@ -14,12 +14,15 @@ public class CarObjects {
 
         Car car5 = new Car("Tesla", "Model 3", 2019, 70000, "Black");
 
+        Car car6= new Car("Hacı Murat","130",1980,2000,"Ocean Blue");
+
 
         System.out.println(car1);
         System.out.println(car2);
         System.out.println(car3);
         System.out.println(car4);
         System.out.println(car5);
+        System.out.println(car6);
 
 
     }
