@@ -2,7 +2,7 @@ package lectureTasks.day33_Static;
 
 import java.util.Arrays;
 
-public class Task1_Test {
+public class Task1_CydeoStudentTest {
     public static void main(String[] args) {
         Task1_CydeoStudent student1 = new Task1_CydeoStudent(36, 345, 10, 7, "Emin", 'M', 'A');
         Task1_CydeoStudent student2 = new Task1_CydeoStudent(23, 545, 11, 23, "Ayla", 'F', 'C');
