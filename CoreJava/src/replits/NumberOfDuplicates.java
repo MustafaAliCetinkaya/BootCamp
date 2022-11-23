@@ -3,7 +3,7 @@ package replits;
 import java.util.Arrays;
 import java.util.Scanner;
 
-class NumberOfDuplicates {
+public class NumberOfDuplicates {
    /* public static int getDup(String[] arr) {
         String result = "";
 
@@ -26,7 +26,7 @@ class NumberOfDuplicates {
         return answer;
     }*/
 
-    public static int getDup2(String[] arr) {
+    static int getDup2(String[] arr) {
        /* Finish the method called getDup() that will take a String[] argument arr
     and return an int. Find and return the number of duplicate elements. A
         ny element is duplicate if it appears in the array more than once.
