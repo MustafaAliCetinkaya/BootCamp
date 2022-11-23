@@ -7,16 +7,36 @@ import java.util.Arrays;
 
 public class Fibonacci {
     public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(nthFib(i));
+        }
+        System.out.println("------------------------------------");
+        nthFib2(19);
+    }
+
+    public static int nthFib(int number){
         ArrayList<Integer>fibonacci=new ArrayList<>();
         fibonacci.addAll(Arrays.asList(0,1));
 
         for (int i = 0; i < fibonacci.size(); i++) {
             fibonacci.add(fibonacci.get(i)+fibonacci.get(i+1));
-            if(i>100)
+            if(i>1000)
                 break;
         }
-        System.out.println(fibonacci);
+        if(number<0) {
+            System.out.println("Invalid index! Please enter a valid number.");
+        }
+        return fibonacci.get(number);
+    }
 
+    public static void nthFib2(int n){
+        int [] newArray=new int[n+1];
+        newArray[1]=1;
+
+        for (int i = 0; i <= newArray.length-3; i++) {
+            newArray[i+2]=newArray[i+1]+newArray[i];
+        }
+        System.out.println(newArray[newArray.length-1]);
     }
 }
 /*Task 6 :  Fibonacci
