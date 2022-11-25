@@ -18,5 +18,39 @@ returns:2
 myCal.minus();
 returns:0*/
 public class MyCalculator {
+public int number1;
+public int number2;
 
+    public MyCalculator(int number1, int number2) {
+        this.number1 = number1;
+        this.number2 = number2;
+    }
+
+    public int minus(){
+        int result=number1-number2;
+        return Math.abs(result);
+    }
+    public int plus(){
+        int result=number1+number2;
+        return result;
+    }
+    public int multiply(){
+        int result=number1*number2;
+        return result;
+    }
+    public double divide(){
+        int result=number1/number2;
+        return result;
+    }
+
+    public String toString() {
+        return "MyCalculator{" +"\n"+
+                "number1= " + number1 +"\n"+
+                ", number2= " + number2 +"\n"+
+                "Plus result= " + plus() +"\n"+
+                ", Minus result= " + minus() +"\n"+
+                "Multiply result= " + multiply() +"\n"+
+                ", Divide result= " + divide() +"\n"+
+                '}';
+    }
 }
