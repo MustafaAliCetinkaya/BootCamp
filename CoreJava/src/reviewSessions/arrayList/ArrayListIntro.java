@@ -30,6 +30,8 @@ public class ArrayListIntro {
         //Vienna, London, Paris, Istanbul, Rome
 
         System.out.println(cities);
+        cities.remove("Rome");
+        System.out.println("Test: "+cities);
 
         //how to get element
         System.out.println(cities.get(0)); //Vienna
@@ -129,11 +131,11 @@ public class ArrayListIntro {
 
         System.out.println(numbers);
 
-        for (Integer number : numbers) {
+     /*   for (Integer number : numbers) {
             if (number<3)
                 numbers.remove(number); // we are not able to use like this because for each iterations the indexes  are changing
 
-        }                // each
+        }  */              // each
         System.out.println(numbers);
         numbers.removeIf(k   -> k<3);
 

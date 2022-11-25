@@ -37,7 +37,7 @@ public class AssesmentStudies {
             lengths.add(word.length()); }//if we use as word.length-->generate error
         System.out.println(lengths);
         System.out.println("********************************");
-        Scanner in = new Scanner(System.in);
+        /*Scanner in = new Scanner(System.in);
         ArrayList<Integer> nums2 = new ArrayList<>();
         int run = in.nextInt();
         while(run > 0) {
@@ -68,6 +68,86 @@ public class AssesmentStudies {
             }
         }
         System.out.print(nums2);
-        in.close();
+        in.close();*/
+        System.out.println("********************************");
+        String cities[] = {"Boston", "Houston", "Austin", "Lincoln", "Tulsa"};
+        ArrayList<String> list = new ArrayList(Arrays.asList(cities));
+        int a = list.size();
+        for(String str: list) {
+            String rev ="";
+            for(int i= str.length()-1; i >= 0; i--) {
+                rev+=str.charAt(i);
+            }
+            list.set(--a, rev);
+        }
+        System.out.println(list);
+        System.out.println("********************************");
+        ArrayList<String> strs = new ArrayList<>();
+        strs.add("j");
+        strs.add(0,"1");
+        strs.add("i");
+        strs.add(2, "5");
+        strs.remove(1);
+        strs.add("e");
+        strs.add("i");
+        strs.remove("i");
+        System.out.println(strs);
+        System.out.println("********************************");
+        ArrayList<Character> listm = new ArrayList<>();
+        for(char i = 'a'; i <= 'z'; i++){
+            listm.add(i);
+        }
+            boolean result = listm.containsAll(Arrays.asList('a', 'c', 'D'));
+            System.out.println(result);
+        System.out.println("********************************");
+        ArrayList<Integer> listx = new ArrayList<>();
+        listx.addAll(Arrays.asList(1,2,3,4,5,6,7));
+            for(Integer each : listx){
+                if(each % 2!=0){
+                continue;
+            } System.out.println(each+" ");
+                break;
+            }
+        System.out.println("********************************");
+
+        System.out.println("********************************");
+
+
+
+
+        System.out.println("********************************");
+
+
+
+        System.out.println("********************************");
+
+
+
+        System.out.println("********************************");
+
+
+
+        System.out.println("********************************");
+
+
+
+
+        System.out.println("********************************");
+
+
+
+
+        System.out.println("********************************");
+
+
+
+
+        System.out.println("********************************");
+
+
+
+
+        System.out.println("********************************");
+
     }
 }
