@@ -1,6 +1,6 @@
 package replits;
 /*public class Test {
-    public static void main(String[] args) {
+*//*    public static void main(String[] args) {
         double number = add (3.4);
         number += add("dual");
         number += add (Integer.parseInt("100"));
@@ -53,7 +53,7 @@ public class Test {
 }
 */
 
-public class Test {
+/*public class Test {
     public static void main(String[] args) {
         int result = method4('z', "zebra"); System.out.print("result");
     }
@@ -63,6 +63,13 @@ public class Test {
         } else {
             return 0;
         }
+    }
+}*/
+
+public class Test {
+    public static void main(String[] args) {
+        double a=1234546L;
+        System.out.println(a);
     }
 }
 
