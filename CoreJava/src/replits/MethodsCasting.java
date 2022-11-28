@@ -66,7 +66,7 @@ public class Test {
     }
 }*/
 
-public class Test {
+public class MethodsCasting {
     public static void main(String[] args) {
         double a=1234546L;
         System.out.println(a);
