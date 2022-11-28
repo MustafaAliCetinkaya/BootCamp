@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bc1c116-e48f-486a-8b46-161b83c76503" name="Changes" comment="New files are uploaded." />
+    <list default="true" id="9bc1c116-e48f-486a-8b46-161b83c76503" name="Changes" comment="New files are uploaded.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,13 +212,8 @@
       <workItem from="1669492032823" duration="2853000" />
       <workItem from="1669577144254" duration="3529000" />
       <workItem from="1669617478965" duration="2611000" />
-    </task>
-    <task id="LOCAL-00004" summary="New tasks are added">
-      <created>1666082279203</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1666082279203</updated>
+      <workItem from="1669651992078" duration="376000" />
+      <workItem from="1669652379436" duration="131000" />
     </task>
     <task id="LOCAL-00005" summary="New tasks are added">
       <created>1666465392799</created>
@@ -554,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669632404462</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="New files are uploaded.">
+      <created>1669652016362</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1669652016362</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +569,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
