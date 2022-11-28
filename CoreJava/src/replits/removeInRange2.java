@@ -12,11 +12,11 @@ public class removeInRange2 {
         ArrayList<Integer>list1=new ArrayList<>();
 
         for (int i = 0; i < list.size(); i++) {
-         /*   if (i>=0 && i<5){
+         /*   if (i>=0 && i<5){//Not necessary
                 list1.add(list.get(i));
             }*/
 
-            if(i>=5&&i<13){
+            if(i>=5&&i<13){//We combined other if blocks by using else
                 if(list.get(i)!=0){
                     list1.add(list.get(i));
                 }
@@ -24,7 +24,7 @@ public class removeInRange2 {
                 list1.add(list.get(i));
             }
 
-            /*if(i>=13&&i<list.size()){
+            /*if(i>=13&&i<list.size()){//Not necessary
                 list1.add(list.get(i));
             }*/
 
