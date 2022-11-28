@@ -1,6 +1,6 @@
 package replits;
-/*public class Test {
-*//*    public static void main(String[] args) {
+public class MethodsCasting {
+    public static void main(String[] args) {
         double number = add (3.4);
         number += add("dual");
         number += add (Integer.parseInt("100"));
@@ -14,10 +14,10 @@ package replits;
     }
     public static long add(String s) { return 10;
     }
-}*/
+}
 
-/*
-import java.util.Scanner;
+
+/*import java.util.Scanner;
 
 public class Test {
     public static int action() {
@@ -51,9 +51,9 @@ public class Test {
         }
     }
 }
-*/
 
-/*public class Test {
+
+public class Test {
     public static void main(String[] args) {
         int result = method4('z', "zebra"); System.out.print("result");
     }
@@ -66,6 +66,7 @@ public class Test {
     }
 }*/
 
+/*
 public class MethodsCasting {
     public static void main(String[] args) {
         double a=1234546L;
@@ -73,4 +74,5 @@ public class MethodsCasting {
     }
 }
 
+*/
 
