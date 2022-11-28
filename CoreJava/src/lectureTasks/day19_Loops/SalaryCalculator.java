@@ -62,7 +62,7 @@ public class SalaryCalculator {
 
         }
 
-        scan.close();
+        scan.close();//Always must be closed
 
     }
 

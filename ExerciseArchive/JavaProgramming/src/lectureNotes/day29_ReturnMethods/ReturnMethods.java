@@ -1,4 +1,4 @@
-package day29_ReturnMethods;
+package lectureNotes.day29_ReturnMethods;
 
 public class ReturnMethods {
 

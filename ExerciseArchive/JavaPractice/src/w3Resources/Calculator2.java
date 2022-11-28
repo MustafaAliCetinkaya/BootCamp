@@ -27,5 +27,6 @@ public class Calculator2 {
         } else {
             System.out.println("invalid operator number");
         }
+
     }
 }
