@@ -4,7 +4,7 @@ public class MethodsCasting {
         double number = add (3.4);
         number += add("dual");
         number += add (Integer.parseInt("100"));
-        number += add (11341L);
+        number += add (11341L);//Long is implicitly casted to double.
         number += add (Float.parseFloat("50.8"));
         System.out.print(number);
     }
