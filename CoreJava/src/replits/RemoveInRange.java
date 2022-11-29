@@ -3,7 +3,7 @@ package replits;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class removeInRange {
+public class RemoveInRange {
     public static void main(String[] args) {
         ArrayList<Integer>list=new ArrayList<>();
         list.addAll(Arrays.asList(0, 0, 2, 0, 4, 0, 6, 0, 8, 0, 10, 0, 12, 0, 14, 0, 16));
