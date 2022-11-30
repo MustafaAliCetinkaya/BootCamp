@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class UniqueOccurrences {
     public static void main(String[] args) {
-        Integer[] arr = {1, 2, 2, 1, 1, 5, 7, 7, 7, 7, 9, 9};
+        Integer[] arr = {1, 2, 2, 1, 1, 5, 7, 7, 7, 7, 9, 9, 9, 9, 9, 9 , 9, 9};
         boolean isUniqueOccurrences = true;
 
         ArrayList<Integer> arr2 = new ArrayList<>();
