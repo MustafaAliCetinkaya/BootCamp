@@ -1,10 +1,11 @@
 package replits;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Group7 {
     public static void main(String[] args) {
-        String s1 = "cydeo";
+/*        String s1 = "cydeo";
         String s2 = "cydeo";
         System.out.println(s1 == s2);
         System.out.println(s1.equals(s2));
@@ -57,7 +58,20 @@ public class Group7 {
                 result[i++]= each;
         }
 
-        System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result));*/
+        System.out.println("----------------------");
+        String names="Ali, Veli";
+        String[]words={"Kara", "Ak","Kara", "Ak"};
+        ArrayList<String> temp=new ArrayList<>(Arrays.asList(words));
+        System.out.println(temp);
+
+        ArrayList<String> temp2=new ArrayList<>(Arrays.asList("Ak"));
+
+        temp.removeAll(temp2);
+        System.out.println(temp);
+
+
+
 
     }
 }

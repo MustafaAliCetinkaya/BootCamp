@@ -1,4 +1,4 @@
-package lectureTasks.OOP.day35_Encapsulation;
+package lectureTasks.day35_OOP_Encapsulation.seperateTasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;

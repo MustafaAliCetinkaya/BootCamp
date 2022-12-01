@@ -1,4 +1,4 @@
-package lectureTasks.OOP.day35_Encapsulation.restaurant;
+package lectureTasks.day35_OOP_Encapsulation.restaurant;
 
 import java.util.ArrayList;
 import java.util.Arrays;

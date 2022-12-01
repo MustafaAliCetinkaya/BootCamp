@@ -12,8 +12,9 @@ public class Task1 {
     public static void main(String[] args) {
         ArrayList<Integer>nums=new ArrayList<>();
         nums.addAll(Arrays.asList(1,2,3,4,5));
+        System.out.println(nums);
 
-        nums.add(nums.size(),0);
+        nums.set(nums.size()-1,0);
         System.out.println(nums);
     }
 

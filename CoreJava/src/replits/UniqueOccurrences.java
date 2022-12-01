@@ -6,26 +6,24 @@ import java.util.Collections;
 
 public class UniqueOccurrences {
     public static void main(String[] args) {
-        Integer[] arr = {1, 2, 2, 1, 1, 5, 7, 7, 7, 7, 9, 9, 9, 9, 9, 9 , 9, 9};
+        Integer[] arr = {1, 2, 2, 1, 1, 5, 5, 5, 5, 13, 13};
         boolean isUniqueOccurrences = true;
 
         ArrayList<Integer> arr2 = new ArrayList<>();
         arr2.addAll(Arrays.asList(arr));
-        String temp1 = "";
-        String temp2 = "";
+        String temp = "";
 
         for (int i = 0; i < arr2.size(); i++) {
             int frequency = Collections.frequency(arr2, arr2.get(i));
-            if (temp2.contains("" + arr2.get(i))) {
-                continue;
-            } else {
-                temp2 += arr2.get(i);
-                if (!temp1.contains("" + frequency)) {
-                    temp1 += frequency;
-                } else {
-                    isUniqueOccurrences = false;
-                }
+            arr2.removeAll(Arrays.asList(arr2.get(i)));
+
+            if (!temp.contains("" + frequency)) {
+                temp += frequency;
+            }else {
+                isUniqueOccurrences=false;
             }
+
+            i--;
         }
         System.out.println(isUniqueOccurrences);
     }

@@ -1,4 +1,4 @@
-package lectureTasks.OOP.day35_Encapsulation.scrumTask;
+package lectureTasks.day35_OOP_Encapsulation.scrumTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;

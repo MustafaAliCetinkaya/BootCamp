@@ -1,4 +1,4 @@
-package lectureTasks.OOP.day35_Encapsulation.restaurant;
+package lectureTasks.day35_OOP_Encapsulation.restaurant;
 
 public class LocalRestaurant {
     public static void main(String[] args) {

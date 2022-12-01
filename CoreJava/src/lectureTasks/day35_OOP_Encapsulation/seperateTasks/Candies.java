@@ -1,4 +1,4 @@
-package lectureTasks.OOP.day35_Encapsulation;
+package lectureTasks.day35_OOP_Encapsulation.seperateTasks;
 
 public class Candies {
     private String brand;
