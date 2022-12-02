@@ -76,7 +76,7 @@ public class ArrayListMethods2 {
         list2.add(100);
 
         System.out.println(list1 == list2);//Are they same objects
-        System.out.println(list1.equals(list2));//Are they same senetence
+        System.out.println(list1.equals(list2));//Are they same sentence
 
         System.out.println("-----------------------------------------");
         list1.clear();
