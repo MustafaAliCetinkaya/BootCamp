@@ -21,5 +21,19 @@ public class Interview_Increment {
 
         System.out.println("-------------------------------");
 
+        String s1="yes";
+        String s2="yes";
+        String s3=new String("yes");
+        String s4=new String(s2);
+        System.out.println(s1==s2);
+        System.out.println(s1.equals(s2));
+        System.out.println(s4==s2);
+        System.out.println(s4.equals(s2));
+        System.out.println("-------------------------------");
+        System.out.println(s1==s3);
+        System.out.println(s1.equals(s3));
+        System.out.println(s3==s2);
+        System.out.println(s3.equals(s2));
+
     }
 }
