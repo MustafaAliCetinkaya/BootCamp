@@ -3,7 +3,7 @@ package replits;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Group7 {
+public class GroupWork {
     public static void main(String[] args) {
 /*        String s1 = "cydeo";
         String s2 = "cydeo";
