@@ -1,6 +1,4 @@
 package lectureTasks.day36_OOP_Inheritence.restaurant;
-
-import java.util.ArrayList;
 public class LocalRestaurant {
     public static void main(String[] args) {
         Server server1 = new Server("Barney", 34, 'M', "Sommelier",34,1000,"ValiAsr" );
@@ -21,11 +19,15 @@ public class LocalRestaurant {
         restaurant.addChef(chefs);
         restaurant.addServer(servers);
         System.out.println(restaurant);
+        System.out.println(restaurant.serverList);
+        System.out.println(restaurant.chefList);
         System.out.println("----------------------------------------------------");
 
         restaurant.removeChef(90);
         restaurant.removeServer(45);
         System.out.println(restaurant);
+        System.out.println(restaurant.serverList);
+        System.out.println(restaurant.chefList);
 
     }
 }
