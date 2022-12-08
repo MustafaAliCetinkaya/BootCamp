@@ -1,4 +1,8 @@
 package lectureTasks.day36_OOP_Inheritence.restaurant;
+
+import lectureTasks.day36_OOP_Inheritence.scrumTask.Developer;
+import lectureTasks.day36_OOP_Inheritence.scrumTask.Tester;
+
 public class LocalRestaurant {
     public static void main(String[] args) {
         Server server1 = new Server("Barney", 34, 'M', "Sommelier",34,1000,"ValiAsr" );
@@ -12,7 +16,7 @@ public class LocalRestaurant {
         Chef chef3 = new Chef("Mehramiz", 49, 'f', "Kitchen Manager",49,2700,"ValiAsr" );
 
         Chef[] chefs = {chef1, chef2, chef3};
-        System.out.println("----------------------------------------------------");
+
 
         Restaurant restaurant = new Restaurant("Big Boss", "North Sicily", 5);
 
@@ -28,6 +32,18 @@ public class LocalRestaurant {
         System.out.println(restaurant);
         System.out.println(restaurant.serverList);
         System.out.println(restaurant.chefList);
+
+        System.out.println("------------------------------------------------");
+
+        for (Chef chef : restaurant.chefList) {
+            System.out.println(chef.name +" : "+"$"+chef.salary);
+        }
+
+        System.out.println("------------------------------------------------");
+
+        for (Server server : restaurant.serverList) {
+            System.out.println(server.name+" : "+"$"+server.salary);
+        }
 
     }
 }
