@@ -1,3 +1,5 @@
+[![linkedin](https://img.shields.io/badge/Linkedin-000000?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/mustafa-çetinkaya-b61741216)
+
 ![Mustafa Ali Çetinkaya's GitHub stats](https://github-readme-stats.vercel.app/api?username=MustafaAliCetinkaya&show_icons=true&theme=radical)
 
 # Cydeo-BootCamp
