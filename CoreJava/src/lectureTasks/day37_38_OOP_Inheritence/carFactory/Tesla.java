@@ -1,4 +1,4 @@
-package lectureTasks.day37_38_OOP_Inheritence;
+package lectureTasks.day37_38_OOP_Inheritence.carFactory;
 
 public class Tesla extends Car{
 
