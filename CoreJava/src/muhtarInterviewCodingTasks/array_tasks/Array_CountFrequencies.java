@@ -1,4 +1,4 @@
-package array_tasks;
+package muhtarInterviewCodingTasks.array_tasks;
 
 import java.util.Arrays;
 
