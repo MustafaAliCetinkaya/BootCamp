@@ -1,6 +1,7 @@
 package lectureTasks.day39_Encapsulation_Inheritence.restaurant;
 
 public class Chef extends KitchenStaff {
+
     public Chef(String name, int age, char gender, String jobTitle, int id, double salary, String restaurantName) {
         super(name, age, gender, jobTitle, id, salary, restaurantName);
     }
