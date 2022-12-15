@@ -31,7 +31,7 @@ public class Number_CombinationOfUSCoins {
         // now fill rest of the matrix.
         for (int i = 1; i <= coins.length; i++) {
             for (int j = 1; j <= cents; j++) {
-                    // check if the coin value is less than the amount needed
+                // check if the coin value is less than the amount needed
                 if (coins[i - 1] <= j) {
                     // reduce the amount by coin value and
                     // use the subproblem solution (amount-v[i]) and

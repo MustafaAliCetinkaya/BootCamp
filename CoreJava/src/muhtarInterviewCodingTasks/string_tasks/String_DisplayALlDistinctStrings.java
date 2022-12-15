@@ -1,7 +1,6 @@
 package string_tasks;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class String_DisplayALlDistinctStrings {
@@ -24,16 +23,15 @@ public class String_DisplayALlDistinctStrings {
         List<String> list = new ArrayList<>();
 
         for (int j = 0; j < str.length(); j++) {
-            for (int i = str.length()-1; i>=j; i--) {
-                list.add(str.substring(j, i+1 ));
+            for (int i = str.length() - 1; i >= j; i--) {
+                list.add(str.substring(j, i + 1));
             }
         }
 
         System.out.println(list);
 
-        
-    }
 
+    }
 
 
 }

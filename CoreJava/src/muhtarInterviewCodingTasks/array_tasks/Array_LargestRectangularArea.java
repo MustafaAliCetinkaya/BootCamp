@@ -16,14 +16,14 @@ public class Array_LargestRectangularArea {
         int[][] temp = new int[arr.length][arr.length];
         int max = arr[0];
 
-        for(int w = 1; w <= arr.length; w++){
-            for(int l = 0; (l+w) -1 < arr.length; l++){
+        for (int w = 1; w <= arr.length; w++) {
+            for (int l = 0; (l + w) - 1 < arr.length; l++) {
                 int r = l + w - 1; //adjustment
-                if(w == 1){ // 10 * 1 ===> 10
+                if (w == 1) { // 10 * 1 ===> 10
                     temp[l][l] = arr[l];
                     max = Math.max(max, temp[l][l]);
                 } else {
-                    temp[l][r] = Math.min(temp[l][r-1], arr[r]);
+                    temp[l][r] = Math.min(temp[l][r - 1], arr[r]);
                     max = Math.max(max, temp[l][r] * w);
                 }
             }

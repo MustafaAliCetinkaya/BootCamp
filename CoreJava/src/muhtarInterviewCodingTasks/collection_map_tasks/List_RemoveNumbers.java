@@ -11,12 +11,12 @@ public class List_RemoveNumbers {
 
 
     // solution 1
-    public static List<Integer> remove1(List<Integer> list){
+    public static List<Integer> remove1(List<Integer> list) {
 
         Iterator<Integer> it = list.iterator();
 
-        while (it.hasNext()){
-            if(it.next()>100){
+        while (it.hasNext()) {
+            if (it.next() > 100) {
                 it.remove();
             }
         }
@@ -25,15 +25,11 @@ public class List_RemoveNumbers {
     }
 
 
-
     // solution 2
-    public List<Integer> remove2(List<Integer> list){
+    public List<Integer> remove2(List<Integer> list) {
         list.removeIf(number -> number > 100);
         return list;
     }
-
-
-
 
 
 }

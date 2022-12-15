@@ -9,7 +9,7 @@ public class Map_FrequencyOfCharacters {
     Write a method that prints the frequency of each character from a String
      */
 
-    public static void FrequencyTest(String  str ) {
+    public static void FrequencyTest(String str) {
 
         Map<Character, Integer> map = new LinkedHashMap<>();
 
@@ -26,7 +26,6 @@ public class Map_FrequencyOfCharacters {
         System.out.println(map);
 
     }
-
 
 
 }

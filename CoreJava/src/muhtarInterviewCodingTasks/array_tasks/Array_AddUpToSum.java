@@ -1,4 +1,4 @@
-package array_tasks;
+package muhtarInterviewCodingTasks.array_tasks;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,8 +27,8 @@ public class Array_AddUpToSum {
         Map<Integer, Integer> pairs = new HashMap<>();
 
         for (int i = 0; i < arr.length; i++) {
-            for (int j = i+1; j < arr.length; j++) {
-                if(arr[i] + arr[j] == sum){
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] + arr[j] == sum) {
                     pairs.put(arr[i], arr[j]);
                 }
             }
@@ -38,8 +38,6 @@ public class Array_AddUpToSum {
 
 
     }
-
-
 
 
 }

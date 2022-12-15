@@ -16,7 +16,7 @@ Write a Java function to find the maximum profit.
      */
 
     public static void main(String[] args) {
-        int[] arr = { 1, 9, 3, 3, 3, 4, 9, 12, 11};
+        int[] arr = {1, 9, 3, 3, 3, 4, 9, 12, 11};
 
         int min = arr[0];
         int max = Integer.MIN_VALUE;
@@ -27,7 +27,7 @@ Write a Java function to find the maximum profit.
                 if (profit > max) {
                     max = profit;
                 }
-            }else{
+            } else {
                 min = arr[i];
             }
         }
@@ -48,25 +48,23 @@ Write a Java function to find the maximum profit.
 
          */
 
-        System.out.println("Maximum profit: "+max);
+        System.out.println("Maximum profit: " + max);
 
-        int buy =0, sell =0;
+        int buy = 0, sell = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            for (int j = i+1; j < arr.length; j++) {
-                if(arr[j] - arr[i] == max){
-                    buy = i+1;
-                    sell = j+1;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] - arr[i] == max) {
+                    buy = i + 1;
+                    sell = j + 1;
                 }
             }
         }
 
-        System.out.println("Buy on day "+buy+" sell on day "+sell);
-
+        System.out.println("Buy on day " + buy + " sell on day " + sell);
 
 
     }
-
 
 
 }

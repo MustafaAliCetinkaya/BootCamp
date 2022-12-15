@@ -38,15 +38,15 @@ public class String_CountUniqueChars {
 
 
     //solution 2
-    public static int countUniqueChars2(String str){
+    public static int countUniqueChars2(String str) {
         int count = 0;
         for (String each : str.split("")) {
-            int f = Collections.frequency(Arrays.asList(str.split("")) , each);
-            if(f==1) {
+            int f = Collections.frequency(Arrays.asList(str.split("")), each);
+            if (f == 1) {
                 count++;
             }
         }
-        return (count==0)? -1 : count;
+        return (count == 0) ? -1 : count;
     }
 
 

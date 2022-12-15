@@ -19,7 +19,7 @@ public class String_Smallest {
     public static String smallestString(String s) {
         int l = s.length();
         String result = "";
-        for (int i = 0; i < l-1; i++) {
+        for (int i = 0; i < l - 1; i++) {
             if (s.charAt(i) > s.charAt(i + 1)) {
                 for (int j = 0; j < l; j++) {
                     if (i != j) {

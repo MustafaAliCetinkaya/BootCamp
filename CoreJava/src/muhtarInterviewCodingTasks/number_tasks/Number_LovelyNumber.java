@@ -34,17 +34,17 @@ public class Number_LovelyNumber {
     */
 
 
-    public static int countLovelyNumbers(int a, int b){
+    public static int countLovelyNumbers(int a, int b) {
         int count = 0;
         for (int i = a; i <= b; i++) {
-            List<String> list = new ArrayList<>(Arrays.asList((i+"").split("")));
+            List<String> list = new ArrayList<>(Arrays.asList((i + "").split("")));
             boolean result = false;
 
             for (String each : list) {
-                if(Collections.frequency(list, each) < 3)
+                if (Collections.frequency(list, each) < 3)
                     result = true;
             }
-            if(result) {
+            if (result) {
                 count++;
             }
         }

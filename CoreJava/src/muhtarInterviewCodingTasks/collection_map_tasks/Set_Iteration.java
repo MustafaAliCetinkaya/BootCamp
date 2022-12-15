@@ -18,13 +18,13 @@ public class Set_Iteration {
         }
 
         System.out.println("-----------------------------------");
-        for(Iterator it = someObj.iterator(); it.hasNext();){
+        for (Iterator it = someObj.iterator(); it.hasNext(); ) {
             System.out.println(it.next());
         }
 
         System.out.println("-----------------------------------");
 
-        someObj.forEach( p -> {
+        someObj.forEach(p -> {
             System.out.println(p);
         });
 

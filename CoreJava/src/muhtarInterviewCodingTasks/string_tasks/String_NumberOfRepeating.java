@@ -22,19 +22,19 @@ public class String_NumberOfRepeating {
 
     public static void main(String[] args) {
 
-        List<Integer> numList = Arrays.asList(5,3,4,1,3,7,2,9,9,4);
-        List<String> stringList=Arrays.asList("Amanda","John","Alex","Amanda","John");
+        List<Integer> numList = Arrays.asList(5, 3, 4, 1, 3, 7, 2, 9, 9, 4);
+        List<String> stringList = Arrays.asList("Amanda", "John", "Alex", "Amanda", "John");
 
-        Map<Integer,Long> output= numList.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+        Map<Integer, Long> output = numList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         output.forEach((Key, value) -> {
-            System.out.println(Key + " - " +value);
+            System.out.println(Key + " - " + value);
         });
-        Map<String,Long> output2= stringList.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+        Map<String, Long> output2 = stringList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
 
         output2.forEach((Key, value) -> {
-            System.out.println(Key + " - " +value);
+            System.out.println(Key + " - " + value);
         });
     }
 

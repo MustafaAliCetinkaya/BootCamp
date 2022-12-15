@@ -54,7 +54,7 @@ public class String_ReverseConsecutiveStrings {
                 }
             }
 
-            result += isWord? new StringBuilder(subs[j]).reverse().toString() : subs[j];
+            result += isWord ? new StringBuilder(subs[j]).reverse().toString() : subs[j];
         }
 
         System.out.println(result);

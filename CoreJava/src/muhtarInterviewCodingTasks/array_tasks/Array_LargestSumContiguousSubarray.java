@@ -14,13 +14,13 @@ public class Array_LargestSumContiguousSubarray {
     public static int maxSum(int[] arr) {
         int max = 0, temp = 0;
 
-        for (int each: arr) {
+        for (int each : arr) {
             temp = temp + each;
             temp = Integer.max(temp, 0);
             max = Integer.max(max, temp);
         }
 
-       return max;
+        return max;
     }
 
 }

@@ -33,7 +33,7 @@ public class Number_IntegerToRoman {
     private static final TreeMap<Integer, String> treemap;
 
     static {
-        treemap =new TreeMap<Integer, String>();
+        treemap = new TreeMap<Integer, String>();
         treemap.put(1000, "M");
         treemap.put(900, "CM");
         treemap.put(500, "D");

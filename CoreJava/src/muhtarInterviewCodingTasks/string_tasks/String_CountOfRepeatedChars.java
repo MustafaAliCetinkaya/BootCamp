@@ -6,21 +6,21 @@ public class String_CountOfRepeatedChars {
      */
 
 
-    public static String solution(String str){
+    public static String solution(String str) {
         String result = "";
         int count = 0;
         char temp = str.charAt(0);
 
         for (char c : str.toCharArray()) {
-            if(temp == c) {
+            if (temp == c) {
                 count++;
             } else {
-                result +=  ""+temp + count;
+                result += "" + temp + count;
                 temp = c;
                 count = 1;
             }
         }
-        result += ""+temp + count;
+        result += "" + temp + count;
 
         return result;
     }

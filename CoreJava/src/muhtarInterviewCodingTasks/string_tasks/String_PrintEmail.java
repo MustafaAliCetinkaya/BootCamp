@@ -28,7 +28,6 @@ public class String_PrintEmail {
         System.out.println(result2);
 
 
-
     }
 
 

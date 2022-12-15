@@ -18,15 +18,14 @@ public class String_SumOfAllIntegers {
 
         int sum = 0;
 
-        String[] numbers = s.replaceAll("[\\D]+"," ").split(" ");
+        String[] numbers = s.replaceAll("[\\D]+", " ").split(" ");
 
-        for(String each : numbers){
-                sum+=Integer.parseInt(each);
+        for (String each : numbers) {
+            sum += Integer.parseInt(each);
         }
 
         return sum;
     }
-
 
 
 }

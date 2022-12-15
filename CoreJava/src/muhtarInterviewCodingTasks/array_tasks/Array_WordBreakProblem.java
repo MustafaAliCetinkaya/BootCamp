@@ -30,20 +30,18 @@ public class Array_WordBreakProblem {
         ArrayList<String> words = new ArrayList<>();
         for (int i = 0; i < input.length(); i++) {
             for (int j = i; j < input.length(); j++) {
-                String temp = input.substring(i, j+1);
-               if(Arrays.asList(dictionary).contains(temp) ){
-                   if(!words.contains(temp)) {
-                       words.add(temp);
-                   }
-               }
+                String temp = input.substring(i, j + 1);
+                if (Arrays.asList(dictionary).contains(temp)) {
+                    if (!words.contains(temp)) {
+                        words.add(temp);
+                    }
+                }
             }
         }
 
-       String result = (words.size() > 0) ? "YES" : "NO";
+        String result = (words.size() > 0) ? "YES" : "NO";
 
     }
-
-
 
 
 }

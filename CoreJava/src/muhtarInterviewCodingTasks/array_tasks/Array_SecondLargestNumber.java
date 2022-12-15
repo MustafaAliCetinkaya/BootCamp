@@ -5,14 +5,13 @@ import java.util.Arrays;
 public class Array_SecondLargestNumber {
 
 
-
     //solution1
-    public static int secondLargestNumber(int[] arr){
-        return Arrays.stream(arr).filter( p -> p != Arrays.stream(arr).max().getAsInt()).max().getAsInt();
+    public static int secondLargestNumber(int[] arr) {
+        return Arrays.stream(arr).filter(p -> p != Arrays.stream(arr).max().getAsInt()).max().getAsInt();
     }
 
     //solution2
-    public static int secondLargestNumber2(int[] arr){
+    public static int secondLargestNumber2(int[] arr) {
         int max1 = arr[0];
         int max2 = arr[0];
         for (int num : arr) {

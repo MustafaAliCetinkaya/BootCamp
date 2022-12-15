@@ -19,12 +19,12 @@ public class String_CamelCase {
      */
 
 
-    public static String CamelCase(String s){
+    public static String CamelCase(String s) {
         String[] words = s.replaceAll("\\p{Punct}", " ").toLowerCase().split("\\s+");
         StringBuilder result = new StringBuilder();
         result.append(words[0]);
         for (int i = 1; i < words.length; i++) {
-            result.append(words[i].substring(0,1).toUpperCase()).append(words[i].substring(1));
+            result.append(words[i].substring(0, 1).toUpperCase()).append(words[i].substring(1));
         }
         return result.toString();
     }

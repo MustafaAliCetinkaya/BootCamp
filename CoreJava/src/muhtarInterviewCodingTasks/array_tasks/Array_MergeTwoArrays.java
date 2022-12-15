@@ -1,7 +1,5 @@
 package array_tasks;
 
-import java.util.Arrays;
-
 public class Array_MergeTwoArrays {
 
     /*

@@ -10,13 +10,6 @@ public class Number_Nodes_TraverseTheTree {
 
      */
 
-    // Please do not change this interface
-    public static interface Node {
-        int getValue();
-
-        List<Node> getChildren();
-    }
-
     public static int getLevelSum(Node root, int N) {
 
         int result = 0;
@@ -31,6 +24,13 @@ public class Number_Nodes_TraverseTheTree {
         }
 
         return result;
+    }
+
+    // Please do not change this interface
+    public static interface Node {
+        int getValue();
+
+        List<Node> getChildren();
     }
 
 

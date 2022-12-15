@@ -21,17 +21,14 @@ public class String_PassWordValidation {
                 hasDigits = password.matches("(.*[0-9].*)"),
                 hasSpecialChar = password.matches("(.*[ -/, :-@].*)");
 
-        if(password.length() >= 6 && !password.contains(" ")) {
+        if (password.length() >= 6 && !password.contains(" ")) {
             if (hasLowerCaseChar && hasUpperCaseChar && hasDigits && hasSpecialChar) {
                 return true;
             }
         }
 
-            return false;
+        return false;
     }
-
-
-
 
 
 }

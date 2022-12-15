@@ -11,16 +11,16 @@ public class Array_RemoveDuplicates {
 
 
     // solution 1
-    public static int[] removeDuplicates(int[] array){
+    public static int[] removeDuplicates(int[] array) {
         return Arrays.stream(array).distinct().toArray();
     }
 
 
     //solution 2
-    public static int[] removeDuplicates2(int[] array){
+    public static int[] removeDuplicates2(int[] array) {
         ArrayList<Integer> list = new ArrayList<>();
-        for(int each: array){
-            if(!list.contains(each)){
+        for (int each : array) {
+            if (!list.contains(each)) {
                 list.add(each);
             }
         }
@@ -33,9 +33,6 @@ public class Array_RemoveDuplicates {
         return array;
 
     }
-
-
-
 
 
 }

@@ -25,14 +25,6 @@ public class List_RemovePalindromeStrings {
         return list;
     }
 
-
-
-    //solution 2:
-    public List<String> removePalindromes2(List<String> list) {
-        list.removeIf(p -> isPalindrome(p));
-        return list;
-    }
-
     public static boolean isPalindrome(String str) {
         String reversed = "";
         for (int i = str.length() - 1; i >= 0; i--) {
@@ -41,6 +33,11 @@ public class List_RemovePalindromeStrings {
         return reversed.equalsIgnoreCase(str);
     }
 
+    //solution 2:
+    public List<String> removePalindromes2(List<String> list) {
+        list.removeIf(p -> isPalindrome(p));
+        return list;
+    }
 
 
 }
