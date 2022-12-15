@@ -45,19 +45,21 @@ public class AmazonInc {
         System.out.println("------------------------------------------------");
 
         for (Tester tester : scrumTeam.testers) {
-            System.out.println(tester.name +" : "+tester.salary);
+            System.out.println(tester.getName() +" : "+tester.getSalary());
         }
 
         System.out.println("------------------------------------------------");
 
         for (Developer developer : scrumTeam.developers) {
-            System.out.println(developer.name+" : "+developer.salary);
+            System.out.println(developer.getName()+" : "+developer.getSalary());
         }
 
+        System.out.println("------------------------------------------------");
 
+        scrumTeam.removeDeveloper(3665);
+        scrumTeam.removeDeveloper(3654);
+        scrumTeam.removeTester(1418);
 
-
-
+        System.out.println(scrumTeam);
     }
-
 }

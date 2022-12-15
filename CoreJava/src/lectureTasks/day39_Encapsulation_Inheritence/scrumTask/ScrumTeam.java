@@ -5,17 +5,41 @@ import java.util.Arrays;
 
 public class ScrumTeam {
 
-    public ProductOwner PO;
-    public BusinessAnalyst BA;
-    public ScrumMaster SM;
+    private ProductOwner PO;
+    private BusinessAnalyst BA;
+    private ScrumMaster SM;
+
+    public ProductOwner getPO() {
+        return PO;
+    }
+
+    public void setPO(ProductOwner PO) {
+        this.PO = PO;
+    }
+
+    public BusinessAnalyst getBA() {
+        return BA;
+    }
+
+    public void setBA(BusinessAnalyst BA) {
+        this.BA = BA;
+    }
+
+    public ScrumMaster getSM() {
+        return SM;
+    }
+
+    public void setSM(ScrumMaster SM) {
+        this.SM = SM;
+    }
 
     public ArrayList<Tester> testers =  new ArrayList<>();
     public ArrayList<Developer> developers = new ArrayList<>();
 
     public ScrumTeam(ProductOwner PO, BusinessAnalyst BA, ScrumMaster SM) {
-        this.PO = PO;
-        this.BA = BA;
-        this.SM = SM;
+        setPO(PO);
+        setBA(BA);
+        setSM(SM);
     }
 
     public void addTester(Tester tester){
@@ -27,7 +51,7 @@ public class ScrumTeam {
     }
 
     public void removeTester(int id){
-        testers.removeIf( p -> p.id == id);
+        testers.removeIf( p -> p.getId() == id);
     }
 
     public void addDeveloper(Developer developer){
@@ -39,14 +63,14 @@ public class ScrumTeam {
     }
 
     public void removeDeveloper(int id){
-        developers.removeIf( p -> p.id == id);
+        developers.removeIf( p -> p.getId() == id);
     }
 
     public String toString() {
         return "ScrumTeam{" +
-                "PO=" + PO.name +
-                ", BA=" + BA.name +
-                ", SM=" + SM.name +
+                "PO=" + PO.getName() +
+                ", BA=" + BA.getName() +
+                ", SM=" + SM.getName() +
                 ", number of testers=" + testers.size() +
                 ", number of developers=" + developers.size() +
                 '}';

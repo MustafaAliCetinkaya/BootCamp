@@ -7,7 +7,7 @@ public class Tester extends Employee { //Tester IS A Employee,  Tester IS A Pers
     }
 
     public void createTicket(){
-        System.out.println(jobTitle + " " + name + "is creating ticket");
+        System.out.println(getJobTitle() + " " + getName() + "is creating ticket");
     }
 
 
