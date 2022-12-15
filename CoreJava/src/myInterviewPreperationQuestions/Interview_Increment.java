@@ -1,6 +1,4 @@
-package interviewQuestions;
-
-import java.util.Arrays;
+package myInterviewPreperationQuestions;
 
 public class Interview_Increment {
     public static void main(String[] args) {

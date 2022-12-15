@@ -1,4 +1,4 @@
-package interviewQuestions;
+package myInterviewPreperationQuestions;
 
 import java.util.Arrays;
 

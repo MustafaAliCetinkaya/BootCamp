@@ -1,4 +1,4 @@
-package interviewQuestions;
+package myInterviewPreperationQuestions;
 
 public class Interview_PerfectNumber {
     public static void main(String[] args) {

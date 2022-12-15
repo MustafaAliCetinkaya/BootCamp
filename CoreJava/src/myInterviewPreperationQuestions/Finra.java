@@ -1,4 +1,4 @@
-package interviewQuestions;
+package myInterviewPreperationQuestions;
 
 public class Finra {
     public static void main(String[] args) {

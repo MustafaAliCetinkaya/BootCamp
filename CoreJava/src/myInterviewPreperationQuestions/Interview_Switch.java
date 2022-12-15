@@ -1,4 +1,4 @@
-package interviewQuestions;
+package myInterviewPreperationQuestions;
 
 public class Interview_Switch {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package interviewQuestions;
+package myInterviewPreperationQuestions;
 
 public class Reverse_StringBufferMethod {
     public static void main(String[] args) {
