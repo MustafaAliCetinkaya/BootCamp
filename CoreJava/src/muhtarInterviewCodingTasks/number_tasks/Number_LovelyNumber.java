@@ -1,4 +1,4 @@
-package number_tasks;
+package muhtarInterviewCodingTasks.number_tasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
