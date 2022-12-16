@@ -1,4 +1,4 @@
-package muhtarInterviewCodingTasks.number_tasks;
+package myInterviewPreperationQuestions;
 
 public class Number_FactorialNumber {
 
@@ -12,6 +12,19 @@ public class Number_FactorialNumber {
                 because 5 * 4 * 3 * 2 * 1 = 120
      */
 
+    public static void main(String[] args) {
+        System.out.println(factorial(5));
+        System.out.println(factorialNumber(15));
+    }
+
+    public static int factorial(int n){
+        if (n == 0) {
+        return 1;
+    } else {
+        return n * factorial(n-1);
+    }
+
+    }
 
     public static int factorialNumber(int n) {
 
@@ -24,6 +37,5 @@ public class Number_FactorialNumber {
         return result;
 
     }
-
 
 }

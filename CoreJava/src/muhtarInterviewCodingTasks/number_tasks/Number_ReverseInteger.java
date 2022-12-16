@@ -1,7 +1,9 @@
-package number_tasks;
+package muhtarInterviewCodingTasks.number_tasks;
 
 public class Number_ReverseInteger {
-
+    public static void main(String[] args) {
+        System.out.println(reverse(1657));
+    }
 
     public static int reverse(int number) {
         if (number < 10 && number >= 0) {

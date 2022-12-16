@@ -1,4 +1,4 @@
-package number_tasks;
+package muhtarInterviewCodingTasks.number_tasks;
 
 public class Number_Prime {
 
