@@ -12,6 +12,8 @@ public class Test{
         System.out.print(str);
     }
     public static void main (String[] args) {
+
         Test obj = new Test(7);
+
     }
 }
