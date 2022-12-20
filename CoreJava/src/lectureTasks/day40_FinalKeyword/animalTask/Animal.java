@@ -44,7 +44,6 @@ public class Animal {
         return age;
     }
 
-
     //----------Setters---------------------
 
     public void setName(String name) {
@@ -59,9 +58,7 @@ public class Animal {
         this.age = age;
     }
 
-
     //----------Setters---------------------
-
 
     public void eat(){
         System.out.println(name+" is eating");
@@ -70,8 +67,5 @@ public class Animal {
     public final void drink(){
         System.out.println(name+" is drinking water");
     }
-
-
-
 
 }
