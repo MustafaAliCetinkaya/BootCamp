@@ -20,7 +20,7 @@ public class WrapperClassMethods {
         1. parseInt():  parse a string and return its integer value
         2. valueOf(): convert a string to an Integer object
         3. toString(): take a int/Integer's string value( convert it to string object)
-        4. Integer.max or min take maximum Integer value or minimum INteger value
+        4. Integer.max or min take maximum Integer value or minimum integer value
          */
 
 //        System.out.println(Integer.toString(123).concat("OneTwoThree"));  // "123"
