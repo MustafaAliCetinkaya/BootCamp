@@ -10,6 +10,14 @@ public class Interview_EqualStrings {
             System.out.println("not equal");
         }
         System.out.println("-----------------------");
+        String word5="java";
+        String word6="java";
+        if(word5==word6){//Are they same object
+            System.out.println("equal-5-6");
+        }else {
+            System.out.println("not equal-5-6");
+        }
+        System.out.println("-----------------------");
         if(word2.equals(word1)){//are they same word
             System.out.println("equal");
         }else {
