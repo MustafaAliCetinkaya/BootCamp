@@ -7,7 +7,6 @@ public class Tree {
         Tree t3;
         t3 = new Tree();
         Tree t4 = t3;
-        System.out.println(t3 == t4);
         t4 = new Tree();
         System.out.println(t1 == t2);
         System.out.println(t3 == t4);

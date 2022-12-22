@@ -9,6 +9,7 @@ public class Pond {
     }*/
     static Water water;
     /* line 5 */  public Pond (String color){
+
         water = new Water (color);
     }
 }
