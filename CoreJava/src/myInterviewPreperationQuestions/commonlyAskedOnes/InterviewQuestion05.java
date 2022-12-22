@@ -23,6 +23,7 @@ public class InterviewQuestion05 {
 		for(int i=0; i<len; i++) {
 			arr[i] = scan.nextInt();
 		}
+
 		System.out.println(Arrays.toString(arr));
 		
 		Arrays.sort(arr);

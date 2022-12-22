@@ -32,7 +32,5 @@ public class InterviewQuestion06 {
 		}else {
 			System.out.println(str + " is not palindrome");
 		}
-
 	}
-
 }
