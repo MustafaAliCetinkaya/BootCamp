@@ -1,4 +1,4 @@
-package officeHour;
+package officeHour.recepBySolvingProblems;
 
 import java.util.Arrays;
 

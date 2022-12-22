@@ -1,4 +1,4 @@
-package officeHour;
+package officeHour.recepBySolvingProblems;
 
 
 import static lectureTasks.day34_GarbageCollection_AccessModifiers.TestMathCircle.name;
