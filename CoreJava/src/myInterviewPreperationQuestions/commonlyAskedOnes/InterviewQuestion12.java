@@ -6,7 +6,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class InterviewQuestion12 {
-
 	/*
 	 * 15 Minutes Mountain Array ==> [0, 2, 5, 3, 1] It is constantly increasing to
 	 * the maximum value, decreasing constantly after the maximum value

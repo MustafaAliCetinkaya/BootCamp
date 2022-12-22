@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class InterviewQuestion13 {
-	
 	/*
 	  Ask user to enter 2 Strings.
 	  If the characters and the numbers of characters of the Strings are same then print "Anagram" on the console.
@@ -15,7 +14,7 @@ public class InterviewQuestion13 {
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Iki String giriniz");
+		System.out.println("Please enter two strings");
 		String s1 = scan.nextLine();
 		String s2 = scan.nextLine();
 		isAnagram(s1, s2);
@@ -31,13 +30,13 @@ public class InterviewQuestion13 {
 		Arrays.sort(a2);
 
 		if (s1.length() != s2.length()) {
-			System.out.println("Bu String'ler 'Anagram' degildir");
+			System.out.println("Given strings are not 'Anagram'");
 		} else if (s1.isEmpty() || s2.isEmpty()) {
-			System.out.println("Bu String'ler 'Anagram' degildir");
+			System.out.println("Given strings are not 'Anagram'");
 		} else if (Arrays.equals(a1, a2)) {
-			System.out.println("Bu String'ler 'Anagram'dir");
+			System.out.println("Given strings are 'Anagram'!");
 		} else {
-			System.out.println("Bu String'ler 'Anagram' degildir");
+			System.out.println("Given strings are not 'Anagram'");
 		}
 	}
 }

@@ -8,7 +8,6 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class InterviewQuestion11 {
-	
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);

@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Map;
 
 public class InterviewQuestion10 {
-	
 	/*
 	  Count the words in a String one by one
 	  String is "Ali came to school and Ayse came to school"

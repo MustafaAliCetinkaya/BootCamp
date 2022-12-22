@@ -38,5 +38,4 @@ public class InterviewQuestion08 {
 		scan.close();
 
 	}
-
 }
