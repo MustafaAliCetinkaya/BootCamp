@@ -1,7 +1,6 @@
 package myInterviewPreperationQuestions.commonlyAskedOnes;
 
 public class InterviewQuestion15 {
-	
 	/*
 	  	Ask user to enter the number of lines of a half pyramid.
 	  	Type a program to create the half pyramid.
