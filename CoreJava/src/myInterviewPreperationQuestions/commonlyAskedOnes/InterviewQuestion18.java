@@ -1,9 +1,8 @@
 package myInterviewPreperationQuestions.commonlyAskedOnes;
-
 	/*
-	 Ask user to enter the number of lines of a pyramide.
-	  Type a program to create the pyramide.
-	  For example if the number of lines is 5, the pyramide will be like;           * 
+	 Ask user to enter the number of lines of a pyramid.
+	  Type a program to create the pyramid.
+	  For example if the number of lines is 5, the pyramid will be like;           *
 																			      * * * 
 																			    * * * * * 
 																			  * * * * * * * 

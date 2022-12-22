@@ -1,7 +1,6 @@
 package myInterviewPreperationQuestions.commonlyAskedOnes;
 
 public class InterviewQuestion17 {
-	
 	/*
 	  	Ask user to enter the number of lines of a inverted half pyramid by using numbers.
 	  	Type a program to create the inverted half pyramid.

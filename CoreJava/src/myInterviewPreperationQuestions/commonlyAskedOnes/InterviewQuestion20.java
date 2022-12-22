@@ -1,7 +1,6 @@
 package myInterviewPreperationQuestions.commonlyAskedOnes;
 
 public class InterviewQuestion20 {
-	
 	/*
 	 Type code to draw isosceles right triangle whose side length will be given by user.
 	 For example; if the side is 5 triangle will be like;   *

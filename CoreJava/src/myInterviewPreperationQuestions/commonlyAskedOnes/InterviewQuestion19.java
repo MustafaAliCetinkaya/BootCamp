@@ -10,23 +10,22 @@ public class InterviewQuestion19 {
 																			      * * *
 																			        *
     */
-	
-	public static void main(String[] args) {
-		
-	    int rows = 5;
 
-	    for(int i = rows; i > 0; --i) {
-	    	
-	      for(int space = 0; space < rows - i; space++) {
-	        System.out.print("  ");
-	      }
+    public static void main(String[] args) {
 
-	      for(int j=0; j < 2 * i - 1; j++) {
-	        System.out.print("* ");
-	      }
+        int rows = 5;
 
-	      System.out.println();
-	    }
-	  }
+        for (int i = rows; i > 0; --i) {
 
+            for (int space = 0; space < rows - i; space++) {
+                System.out.print("  ");
+            }
+
+            for (int j = 0; j < 2 * i - 1; j++) {
+                System.out.print("* ");
+            }
+
+            System.out.println();
+        }
+    }
 }
