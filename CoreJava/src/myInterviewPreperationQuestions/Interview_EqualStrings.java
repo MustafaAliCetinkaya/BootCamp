@@ -24,6 +24,8 @@ public class Interview_EqualStrings {
         int n1=3;
         int n2=33;
         System.out.println("test / "+false);
-        System.out.println(31+n1==n2);
+        System.out.println(30+n1==n2);
+        System.out.println((30+n1)==n2);
+        System.out.println("30"+(n1==n2));
     }
 }
