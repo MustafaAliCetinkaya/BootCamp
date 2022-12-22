@@ -1,7 +1,6 @@
 package myInterviewPreperationQuestions.commonlyAskedOnes;
 
 public class InterviewQuestions27 {
-
 	public static void main(String[] args) {
 		
 		String str = "aaabbccccaaaa";

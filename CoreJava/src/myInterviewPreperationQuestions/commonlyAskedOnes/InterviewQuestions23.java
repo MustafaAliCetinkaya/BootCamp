@@ -1,7 +1,6 @@
 package myInterviewPreperationQuestions.commonlyAskedOnes;
 
 public class InterviewQuestions23 {
-	
 	/*
 	 	Find the longest palindrome in a String
 	 */

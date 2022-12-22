@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Optional;
 
 public class InterviewQuestions24 {
-	
 	/*
 	 	We are organizing a horse race with horses having distinct strengths. 
 	 	The strength of the horses is represented by an array of integers. 
