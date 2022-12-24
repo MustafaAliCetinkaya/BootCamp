@@ -23,7 +23,6 @@ public class CustomExceptions {
 
         // throw new FadyException("It's time for lunch break");
 
-
         try {
             throw new NoBreakException();
         } catch (NoBreakException e) {
