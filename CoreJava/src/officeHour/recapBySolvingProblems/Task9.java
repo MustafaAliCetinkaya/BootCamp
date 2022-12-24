@@ -1,4 +1,4 @@
-package officeHour.recepBySolvingProblems;
+package officeHour.recapBySolvingProblems;
 
 /*What is the use of methods in Java?
 A method is a block of code which only runs when it is called.

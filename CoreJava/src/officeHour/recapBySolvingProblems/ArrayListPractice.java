@@ -1,4 +1,4 @@
-package officeHour.recepBySolvingProblems;
+package officeHour.recapBySolvingProblems;
 
 import java.util.*;
 

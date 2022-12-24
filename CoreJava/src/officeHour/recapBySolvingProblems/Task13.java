@@ -1,7 +1,5 @@
-package officeHour.recepBySolvingProblems;
+package officeHour.recapBySolvingProblems;
 
-
-import static lectureTasks.day34_GarbageCollection_AccessModifiers.TestMathCircle.name;
 
 public class Task13 {
 

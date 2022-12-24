@@ -1,4 +1,4 @@
-package officeHour.recepBySolvingProblems;
+package officeHour.recapBySolvingProblems;
 
 public class Task3 {
     public static void main(String[] args) {

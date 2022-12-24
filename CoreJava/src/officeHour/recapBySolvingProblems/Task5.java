@@ -1,6 +1,4 @@
-package officeHour.recepBySolvingProblems;
-
-import java.util.Arrays;
+package officeHour.recapBySolvingProblems;
 
 public class Task5 {
     public static void main(String[] args) {
