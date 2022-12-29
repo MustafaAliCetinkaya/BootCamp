@@ -7,7 +7,7 @@ public class ThrowsKeyword {
         System.out.println("-------- Test 1------------");
 
         System.out.println("Hello");
-        Thread.sleep(3000);
+        Thread.sleep(3000);//Fast solution but not the best solution. Temporarily solves problem
         System.out.println("Cydeo");
 
         System.out.println("-------- Test 1 Completed------------");
