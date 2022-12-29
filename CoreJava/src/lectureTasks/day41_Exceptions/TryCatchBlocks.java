@@ -23,8 +23,6 @@ public class TryCatchBlocks {
         }
 
 
-
-
         System.out.println("Test1 Completed");
 
         System.out.println("------------------------------");
@@ -47,13 +45,11 @@ public class TryCatchBlocks {
 
         }
 
-
         System.out.println("Test2 Completed");
 
         System.out.println("--------------------------------------------------");
 
         System.out.println("Test3 started");
-
 
         try {
             System.out.println("Cydeo".substring(2, 0));
@@ -63,9 +59,7 @@ public class TryCatchBlocks {
 
         System.out.println("Test3 started");
 
-
         System.out.println("--------------------------------------------------");
-
 
         System.out.println("Hello");
 
@@ -81,9 +75,7 @@ public class TryCatchBlocks {
 
         System.out.println("Cydeo");
 
-
         System.out.println("------------------------------------------");
-
 
         try {
             FileInputStream file = new FileInputStream("File path");
@@ -91,5 +83,4 @@ public class TryCatchBlocks {
             e.printStackTrace();
         }
     }
-
 }
