@@ -15,7 +15,4 @@ public final class Tesla extends Car {
         System.out.println(getBrand()+" "+getModel()+" has auto pilot feature");
     }
 
-
-
-
 }
