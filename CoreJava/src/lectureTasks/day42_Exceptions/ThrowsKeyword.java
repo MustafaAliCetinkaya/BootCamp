@@ -12,7 +12,6 @@ public class ThrowsKeyword {
 
         System.out.println("-------- Test 1 Completed------------");
 
-
         System.out.println("-------- Test 2------------");
 
         System.out.println("Hello");
@@ -20,8 +19,6 @@ public class ThrowsKeyword {
         System.out.println("Batch 25");
 
         System.out.println("-------- Test 2 Completed------------");
-
-
 
     }
 
