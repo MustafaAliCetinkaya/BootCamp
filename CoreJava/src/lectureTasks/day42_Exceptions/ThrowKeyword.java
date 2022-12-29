@@ -17,7 +17,7 @@ public class ThrowKeyword {
         if(age > 21){
             System.out.println("You are eligible");
         }else{
-            throw new RuntimeException("You must be at least 21 years old");
+            throw new RuntimeException("You must be at least 21 years old");//Instead of using system.exit() method, we prefer to use throw new...
         }
     }
 }
