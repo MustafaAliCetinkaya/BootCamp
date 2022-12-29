@@ -50,6 +50,7 @@ public class DisadvantageOfThrowsKeyword2 {
 
 
     public static void method4() throws InterruptedException {
+
         method3();
     }
 
