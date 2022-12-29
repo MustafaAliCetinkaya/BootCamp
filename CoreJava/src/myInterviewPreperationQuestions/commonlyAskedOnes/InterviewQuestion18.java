@@ -8,7 +8,6 @@ package myInterviewPreperationQuestions.commonlyAskedOnes;
 																			  * * * * * * * 
 																			* * * * * * * * *
 	 */
-
 public class InterviewQuestion18 {
 
 	public static void main(String[] args) {
