@@ -1,4 +1,4 @@
-package lectureTasks.day43_Abstraction;
+package lectureTasks.day43_Abstraction.car;
 
 public abstract class Car {
 
