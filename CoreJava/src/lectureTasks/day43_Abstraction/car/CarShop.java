@@ -1,8 +1,5 @@
 package lectureTasks.day43_Abstraction.car;
 
-
-import lectureTasks.day37_38_OOP_Inheritence.carFactory.Tesla;
-
 public class CarShop {
 
     public static void main(String[] args) {
