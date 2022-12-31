@@ -13,7 +13,7 @@ public abstract class Car {
         setColor(color);
 
         if(year < 1886){
-            throw new RuntimeException("Invalid Year: "+year);
+            throw new RuntimeException("Invalid Year: "+year);//Before check then assign
         }
         this.year = year;
         setPrice(price);
