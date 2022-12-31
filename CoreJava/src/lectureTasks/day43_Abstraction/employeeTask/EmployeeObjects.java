@@ -36,10 +36,5 @@ public class EmployeeObjects {
         teacher.sleep();
         teacher.eat();
 
-
-
-
     }
-
-
 }
