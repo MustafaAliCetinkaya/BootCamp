@@ -15,7 +15,7 @@ public final class Tester extends Employee {
 
     @Override
     public void sleep() {
-        System.out.println(getName()+" sleeps 8 hours");
+        System.out.println(getName()+" sleeps 8 hours in a day");
     }
 
     public void bugReport(){
