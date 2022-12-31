@@ -10,7 +10,7 @@ public abstract class Employee extends Person{
     public Employee(String name, int age, char gender, int id, String jobTitle, double salary) {
         super(name, age, gender);
         if(id <= 0){
-            throw new RuntimeException("Invalid ID: "+id);
+            throw new RuntimeException("Invalid ID: "+id);//We do not have setter for id since it is final. But by giving condition before id, we can manage it.
         }
         this.id = id;
         setJobTitle(jobTitle);
