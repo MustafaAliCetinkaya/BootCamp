@@ -38,9 +38,5 @@ public class FinalVariable {
         //  FinalVariable.name = "Python";
 
         System.out.println(FinalVariable.name);
-
-
     }
-
-
 }

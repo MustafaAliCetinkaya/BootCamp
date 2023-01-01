@@ -30,6 +30,4 @@ public class EncapsulationReview {
     public void setSquare(Square square) {
         this.square = square;
     }
-
-
 }
