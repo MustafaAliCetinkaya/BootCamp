@@ -27,14 +27,21 @@ public class AnimalObjects {
 
 
         Parrot parrot1 = new Parrot("King","Macaw","Big", "White",'M', 7,"Red and Green");
+        Animal parrot2 = new Parrot("Queen","Femaw","Small", "Black",'F', 5,"White and Green");
 
         System.out.println(parrot1);
+        System.out.println(parrot2);
 
         parrot1.sing();
         parrot1.eat();
         parrot1.typeOfMoving();
         parrot1.drink();
-
+        ((Parrot) parrot2).sing(); //It is created differently. Animal is cast as parrot.
+        /*parrot2.sing(); This throws checked error!
+        We create it in a different way. So it can not sing. It has only animal feature.*/
+        parrot2.eat();
+        parrot2.typeOfMoving();
+        parrot2.drink();
 
     }
 }
