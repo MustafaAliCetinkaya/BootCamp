@@ -89,8 +89,6 @@ public class ArrayListIntro {
         System.out.println(numbers.indexOf(1)); //0
         System.out.println(numbers.lastIndexOf(1)); //7
 
-
-
         ArrayList<Integer> numbers1=new ArrayList<>();
 
         numbers1.add(2);
