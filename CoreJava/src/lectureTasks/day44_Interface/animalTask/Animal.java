@@ -25,7 +25,7 @@ public abstract class Animal {
     public final static boolean canBreathe;
 
     static{
-        canBreathe = true;
+        canBreathe = true;//Since it is final, after declaring we can not change it.
     }
 
     public Animal(String name, String breed, char gender, int age, String size, String color) {
