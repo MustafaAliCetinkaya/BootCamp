@@ -10,5 +10,4 @@ public interface Playable {
 
     void play();    // abstract by default
 
-
 }

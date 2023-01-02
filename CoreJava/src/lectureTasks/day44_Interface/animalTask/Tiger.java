@@ -15,6 +15,4 @@ public final class Tiger extends Animal implements WildAnimal{
     public void hunt() {
         System.out.println(getName()+" hunts deer");
     }
-
-
 }
