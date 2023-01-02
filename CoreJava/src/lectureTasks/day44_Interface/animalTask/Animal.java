@@ -4,9 +4,8 @@ class Test{
 
     public static void main(String[] args) {
 
-        System.out.println(new Test().getClass().getSimpleName());
-        System.out.println(new Test().getClass().getName());
-
+        System.out.println(new Test().getClass().getSimpleName());//Only the typed name, shot. We used it in the toString method
+        System.out.println(new Test().getClass().getName());//Absolute name, long
     }
 }
 */
