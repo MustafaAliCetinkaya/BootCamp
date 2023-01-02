@@ -4,13 +4,11 @@ public interface Playable {
 
     boolean isFriendly = true; // static & final by default
 
-    /*
-    public static void method1(){
+   /* public static void method1(){
         System.out.println(isFriendly);
-    }
-    */
+    }*/
 
-    void play(); // abstract by default
+    void play();    // abstract by default
 
 
 }
