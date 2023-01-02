@@ -1,6 +1,6 @@
 package lectureTasks.day43_Abstraction.animalTask;
 
-public class Cat extends Animal {
+public final class Cat extends Animal {
 
     public Cat(String name, String breed, String size, String color, char gender, int age) {
         super(name, breed, size, color, gender, age);

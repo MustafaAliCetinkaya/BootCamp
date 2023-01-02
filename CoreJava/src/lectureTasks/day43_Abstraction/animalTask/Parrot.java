@@ -2,7 +2,7 @@ package lectureTasks.day43_Abstraction.animalTask;
 
 import java.util.InputMismatchException;
 
-public class Parrot extends Animal {
+public final class Parrot extends Animal {
 
     private String parrotWingColor;
 
