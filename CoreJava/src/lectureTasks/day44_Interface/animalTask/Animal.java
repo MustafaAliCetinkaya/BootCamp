@@ -1,5 +1,4 @@
 package lectureTasks.day44_Interface.animalTask;
-
 /*
 class Test{
 
@@ -9,7 +8,6 @@ class Test{
         System.out.println(new Test().getClass().getName());
 
     }
-
 }
 */
 
