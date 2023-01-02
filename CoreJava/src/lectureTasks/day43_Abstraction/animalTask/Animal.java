@@ -95,8 +95,8 @@ public abstract class Animal {
     }
 
     public String toString() {
-        return "Animal{" +
-                "name='" + getName() + '\'' +
+        return getClass().getSimpleName()+"{" +//Every class wil have its own name
+                "name='" + getName() + '\'' +//No need to use getters but not given error.
                 ", breed='" + getBreed() + '\'' +
                 ", gender=" + getGender() +
                 ", age=" + getAge() +
