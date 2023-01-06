@@ -18,6 +18,9 @@ public class ShapeObject {
                         cube1.getName()
         );
         System.out.println("---------------------------");
+        Cube cube2 = new Cube(12);
+        cube2.setSide(-12);
+        System.out.println("---------------------------");
 
     }
 }
