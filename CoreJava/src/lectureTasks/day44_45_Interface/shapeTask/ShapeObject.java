@@ -17,5 +17,7 @@ public class ShapeObject {
                         cube1.volume() + "\n"+
                         cube1.getName()
         );
+        System.out.println("---------------------------");
+
     }
 }
