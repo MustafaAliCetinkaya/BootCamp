@@ -19,7 +19,9 @@ public class ShapeObject {
         );
         System.out.println("---------------------------");
         Cube cube2 = new Cube(12);
-        cube2.setSide(-12);
+        //cube2.setSide(-12);
+        cube2.setSide(30);
+        System.out.println(cube2.area() - cube1.area());
         System.out.println("---------------------------");
 
     }

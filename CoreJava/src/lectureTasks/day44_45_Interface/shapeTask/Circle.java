@@ -61,6 +61,4 @@ public class Circle extends Shape {
                 ", radius=" + radius +
                 '}';
     }
-
-
 }
