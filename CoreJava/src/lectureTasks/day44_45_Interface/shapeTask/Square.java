@@ -31,9 +31,11 @@ public class Square extends Shape{
 
     @Override
     public String toString() {
-        return "Square{" +
-                super.toString()+//We called the toString method of the parent class.
-                "side=" + side +
+        return
+                super.toString()+"\n" +//We called the toString method of the parent class.
+                "side=" + side +"\n" +
+                "perimeter=" + perimeter() +"\n" +
+                "area=" + area() +
                 '}';
     }
 

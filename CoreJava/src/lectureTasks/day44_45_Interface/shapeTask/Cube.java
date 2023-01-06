@@ -35,4 +35,15 @@ public class Cube extends Shape implements Volume{
     public double volume() {
         return getSide() * getSide() * getSide();
     }
+
+    @Override
+    public String toString() {
+        return
+                super.toString()+"\n" +
+                "side=" + side +"\n" +
+                "perimeter=" + perimeter() +"\n" +
+                "area=" + area() +"\n" +
+                "volume=" + volume() +
+                '}';
+    }
 }

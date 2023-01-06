@@ -3,6 +3,8 @@ package lectureTasks.day44_45_Interface.shapeTask;
 public class ShapeObject {
     public static void main(String[] args) {
         Cube cube1 = new Cube(12);
+        System.out.println(cube1);
+        System.out.println("---------------------------");
         System.out.println(
                 cube1.perimeter() + "\n" +
                         cube1.area() + "\n" +
