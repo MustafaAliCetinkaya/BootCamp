@@ -1,4 +1,4 @@
-package lectureTasks.day44_Interface.animalTask;
+package lectureTasks.day44_45_Interface.animalTask;
 
 public final class Parrot extends Animal implements Playable, Flyable {
 
