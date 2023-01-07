@@ -8,7 +8,7 @@ public final class Toyota extends Car implements AutoPark {
 
     @Override
     public void start() {
-        System.out.println("Push the start button");
+        System.out.println(getBrand()+" "+getModel()+" Push the start button");
     }
 
     @Override
@@ -23,6 +23,6 @@ public final class Toyota extends Car implements AutoPark {
     @Override
     public String toString() {
         return super.toString()+
-        ", Has Auto Park=" + false;
+        ", Has Auto Park=" + hasAutoPark;
     }
 }

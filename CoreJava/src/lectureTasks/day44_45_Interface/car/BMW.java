@@ -1,18 +1,34 @@
 package lectureTasks.day44_45_Interface.car;
 
-public final class BMW extends Car {
+public final class BMW extends Car implements AutoPilot {
 
-
-    public BMW(String model, String color, int year, double price) {
-        super("Tesla", model, color, year, price);
+    public BMW(String brand, String model, String color, int year, double price) {
+        super(brand, model, color, year, price);
+    }
+    @Override
+    public void autoPark() {
+        System.out.println(getBrand()+" "+getModel()+" has auto park feature");
     }
 
+    @Override
+    public void selfDrive() {
+        System.out.println(getBrand()+" "+getModel()+" has self drive feature");
+    }
+
+    @Override
     public void start() {
-        System.out.println("Say \"start\"");
+        System.out.println(getBrand()+" "+getModel()+" Say \"start\"");
     }
 
-    public void autoPilot(){
-        System.out.println(getBrand()+" "+getModel()+" has auto pilot feature");
+    @Override
+    public void drive() {
+
     }
 
+    @Override
+    public String toString() {
+        return super.toString()+
+                ", Has Auto Park=" + hasAutoPark +
+                ", Has Auto Pilot=" + hasAutoPilot;
+    }
 }
