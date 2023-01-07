@@ -8,11 +8,11 @@ public abstract class Car {
     private double price;
 
     public Car(String brand, String model, String color, int year, double price) {
-        if(color.isEmpty()&&color==null){
+        if(brand.isEmpty()&&brand.isBlank()){
             throw new RuntimeException("Invalid brand: "+brand);//Before check then assign
         }
         this.brand = brand;
-        if(color.isEmpty()&&color==null){
+        if(model.isEmpty()&&model.isBlank()){
             throw new RuntimeException("Invalid model: "+model);//Before check then assign
         }
         this.model = model;
@@ -46,7 +46,7 @@ public abstract class Car {
     }
 
     public void setColor(String color) {
-        if(color.isEmpty()&&color==null){
+        if(color.isEmpty()&&color.isBlank()){
             throw new RuntimeException("Invalid color: "+color);//Before check then assign
         }
         this.color = color;
