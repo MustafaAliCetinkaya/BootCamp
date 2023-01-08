@@ -5,21 +5,17 @@ public interface PropertiesOfInterface {
     int a = 100;  // static & final by default
     static int b = 200; // final by default
 
-    /*
-    public PropertiesOfInterface(int a){
+/*    public PropertiesOfInterface(int a){  //We do not have constructor and can not create object. Ama classımız abstract olsaydı bu bölümde hata vermezdi.
         this.a =a;
-    }
-    */
+    }*/
 
-    /*static{
+    /*static{   //Interface is not a class. We do not have static block. Ama classımız abstract olsaydı bu bölümde hata vermezdi.
         b = 100;    Since it is final by default, we can not use static block.
     }*/
 
-    /*
-    public void method1(){
+  /*  public void method1(){    In ınterface we do not have object, so we can not use instance method. Ama classımız abstract olsaydı bu bölümde hata vermezdi.
         System.out.println("Instance method");
-    }
-     */
+    }*/
 
      static void method2(){
         System.out.println("Static method");
@@ -31,18 +27,4 @@ public interface PropertiesOfInterface {
         System.out.println("Default method");
     }
 
-}
-
-class Test implements PropertiesOfInterface{
-
-    @Override
-    public void method3() {
-
-    }
-
-    public static void main(String[] args) {
-
-        new Test().method4();
-
-    }
 }

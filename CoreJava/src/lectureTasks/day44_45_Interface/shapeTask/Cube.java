@@ -30,7 +30,6 @@ public class Cube extends Shape implements Volume{
         return 12 * getSide();
     }
 
-
     @Override
     public double volume() {
         return getSide() * getSide() * getSide();
