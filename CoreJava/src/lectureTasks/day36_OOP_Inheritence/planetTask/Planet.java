@@ -89,6 +89,10 @@ public class Planet {
         this.population = population;
     }
 
+    public static void  testForMoonClass(){
+        System.out.println("Moon static Test is started");
+    }
+
     public String toString() {
         return "Planet{" +
                 "name='" + name + '\'' +
