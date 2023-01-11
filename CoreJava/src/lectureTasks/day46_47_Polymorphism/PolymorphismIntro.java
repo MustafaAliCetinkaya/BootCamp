@@ -82,13 +82,14 @@ public class PolymorphismIntro {
             animal.drink()
 
          */
+        System.out.println("-------------------------------------------");
 
         Animal animal = new Dog("Max", "Husky", 'M', 3, "Small", "White");
         animal.drink();
         animal.eat();
        // animal.play();
       //  animal.bark();
-
+        System.out.println("-------------------------------------------");
 
         Playable animal2 = new Dog("Max", "Husky", 'M', 3, "Small", "White");
         System.out.println(animal2.isFriendly);
@@ -98,12 +99,18 @@ public class PolymorphismIntro {
 
 
         Animal animal3 = new Cat("Max", "Husky", 'M', 3, "Small", "White");
+        System.out.println("animal3 = " + animal3);
+
+        System.out.println("-------------------------------------------");
 
         Shape shape = new Circle(5);
-        shape.area();
+        System.out.println("shape = " + shape);
+        System.out.println("shape.area() = " + shape.area());
+        System.out.println("shape.perimeter() = " + shape.perimeter());
 
-      //  System.out.println( shape.getRadius());
+        //  System.out.println( shape.getRadius());
        // System.out.println( shape.PI);
+        System.out.println("-------------------------------------------");
 
         boolean isSquare = shape instanceof Square;
         boolean isRectangle = shape instanceof Rectangle;
