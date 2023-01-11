@@ -63,7 +63,7 @@ public class PolymorphismIntro {
         System.out.println("employee.getId() = " + employee.getId());
         // employee.bugReport();
 
-        /*
+/*
             WebDriver driver1 = new ChromeDriver();
             WebDriver driver2 = new ChromeDriver();
 
@@ -81,7 +81,7 @@ public class PolymorphismIntro {
             Animal animal = new Tiger()
             animal.drink()
 
-         */
+*/
         System.out.println("-------------------------------------------");
 
         Animal animal = new Dog("Max", "Husky", 'M', 3, "Small", "White");
