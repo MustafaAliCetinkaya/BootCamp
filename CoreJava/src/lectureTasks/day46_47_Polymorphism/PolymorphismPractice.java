@@ -46,7 +46,6 @@ public class PolymorphismPractice {
                 }
             }
 
-
         }
 
 
@@ -72,8 +71,6 @@ public class PolymorphismPractice {
 
         System.out.println(carWithHighestMileage);
         System.out.println(carWithLowestMileage);
-
-
 
 
     }
