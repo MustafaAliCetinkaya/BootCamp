@@ -47,7 +47,7 @@ public class ReferenceTypeCastings {
 
         ((Cat) animal2).meow();
 
-        // ( (Dog) animal2 ).bark(); My object type is Cat. No inheritence so trows ClassCastException. IS A relationship is a must
+        // ( (Dog) animal2 ).bark();                My object type is Cat. No inheritance so trows ClassCastException. IS A relationship is a must
 
         System.out.println("---------------------------------------------------");
 
@@ -55,13 +55,13 @@ public class ReferenceTypeCastings {
 
         ((Tester) employee).bugReport();
 
-        //  ( (Tester)employee ).unitTest();It is a checked error. Tester can not call developer method.
+        //  ( (Tester)employee ).unitTest();        It is a checked error. Tester can not call developer method.
 
-        //  ( (Developer)employee ).unitTest();My object type is tester. No inheritence so trows ClassCastException. IS A relationship is a must
+        //  ( (Developer)employee ).unitTest();     My object type is tester. No inheritance so trows ClassCastException. IS A relationship is a must
 
-        //  Driver driver = (Driver) employee;  // line 1
-        Person person = (Person) employee; // line 2
-        //    Teacher teacher = (Teacher) employee; // line 3
+        //  Driver driver = (Driver) employee;  // line 1       My object type is tester. No inheritance so trows ClassCastException.
+        Person person = (Person) employee; // line 2            There is an inheritance. Tester is a person. So it is implicitly cast.
+        //    Teacher teacher = (Teacher) employee; // line 3   My object type is tester. No inheritance so trows ClassCastException.
 
         System.out.println("----------------------------------------------------");
 
@@ -69,7 +69,7 @@ public class ReferenceTypeCastings {
         s1.area();
         s1.perimeter();
 
-        ((Cube) s1).volume();
+        ((Cube) s1).volume();   //s1 object type is circle. No inheritance between cube and circle. So trows ClassCastException.
 
 
     }
