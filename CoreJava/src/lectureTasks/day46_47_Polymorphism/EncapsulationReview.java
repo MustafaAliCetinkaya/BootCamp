@@ -12,7 +12,7 @@ public class EncapsulationReview {
     }
 
     public String getBookTitle() {
-        if(bookTitle == null){
+        if(bookTitle == null){//In order to prevent NullPointerException
             return "";
         }
         return bookTitle;
