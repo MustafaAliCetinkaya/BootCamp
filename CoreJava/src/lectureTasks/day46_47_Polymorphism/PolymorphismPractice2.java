@@ -1,6 +1,7 @@
 package lectureTasks.day46_47_Polymorphism;
 
 
+import lectureTasks.day37_38_OOP_Inheritence.carFactory.Car;
 import lectureTasks.day43_Abstraction.employeeTask.Developer;
 import lectureTasks.day43_Abstraction.employeeTask.Employee;
 import lectureTasks.day43_Abstraction.employeeTask.Tester;
@@ -59,11 +60,21 @@ public class PolymorphismPractice2 {
         System.out.println("-------------------------------------------------------");
 
         Tester testerWithMaxSalary = testers.get(0);
+        Tester testerWithMinSalary = testers.get(0);
         Developer developerWithMaxSalary = developers.get(0);
 
+        for (Tester eachTester : testers) {
+            if(eachTester.getSalary() > testerWithMaxSalary.getSalary()){
+                testerWithMaxSalary = eachTester;
+            }
+            if(eachTester.getSalary() < testerWithMinSalary.getSalary()){
+                testerWithMinSalary = eachTester;
+            }
 
+        }
 
-
+        System.out.println(testerWithMinSalary);
+        System.out.println(testerWithMaxSalary);
 
     }
 
