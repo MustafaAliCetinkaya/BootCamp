@@ -10,9 +10,11 @@ public class Quiz {
         b=111;
         System.out.println(b);
         System.out.println("------------------");
+
         System.out.println("0. attempt: "+a);
         a=380;
         System.out.println("1. attempt: "+a);
+
         try {
             System.out.println("2. attempt: "+a);
             a = 200;
@@ -35,6 +37,7 @@ public class Quiz {
     static {
         a = 500;
     }
+
 
   /*  public static void main(String[] args) throws InterruptedException {
         pause1(); //line 1
