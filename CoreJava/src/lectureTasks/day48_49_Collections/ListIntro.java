@@ -8,22 +8,25 @@ public class ListIntro {
 
 
         List<Integer> list1 = new ArrayList<>();
-        list1.addAll(Arrays.asList(10, 20, 30, 40, 50, 60));
-
+        list1.addAll(Arrays.asList(5, 5, 10, 20, 30, 40, 40, 50, 60));
+        System.out.println("All list1 members: "+list1);
         System.out.println(list1.get(0));
 
+        System.out.println("-------------------------------------------------------");
 
         List<Integer> list2 = new LinkedList<>();
-        list2.addAll(Arrays.asList(10, 20, 30, 40, 50, 60));
-
+        list2.addAll(Arrays.asList(3, 10, 20, 30, 40, 50, 60, 7, 7));
+        System.out.println("All list2 members: "+list2);
         System.out.println(list2.get(0));
 
+        System.out.println("-------------------------------------------------------");
 
         List<Integer> list3 = new Vector<>();
-        list3.addAll(Arrays.asList(10, 20, 30, 40, 50, 60));
+        list3.addAll(Arrays.asList(19, 10, 20, 30, 40, 50, 60, 21));
+        System.out.println("All list3 members: "+list3);
+        System.out.println(list3.get(list3.size()-1));
 
-        System.out.println(list3.get(0));
-
+        System.out.println("-------------------------------------------------------");
 
         List<Integer> list4 = new Stack<>();
         list4.addAll(Arrays.asList(10, 20, 30, 40, 50, 60));
