@@ -1,4 +1,4 @@
-package reviewSessions.oop;
+package reviewSessions.oop.exeptions;
 
 public class MultiCatchBlock {
 

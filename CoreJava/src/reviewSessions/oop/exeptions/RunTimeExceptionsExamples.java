@@ -1,4 +1,4 @@
-package reviewSessions.oop;
+package reviewSessions.oop.exeptions;
 
 import lectureTasks.day39_Encapsulation_Inheritence.scrumTask.Employee;
 
