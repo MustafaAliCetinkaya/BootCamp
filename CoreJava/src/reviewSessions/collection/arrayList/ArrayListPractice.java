@@ -1,4 +1,4 @@
-package reviewSessions.arrayList;
+package reviewSessions.collection.arrayList;
 
 import java.util.*;
 
