@@ -10,14 +10,26 @@ public class ListSetPractice {
         Set<Integer> set = new HashSet<>();
         set.addAll(Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3, 4, 5));
 
-        System.out.println(set);
+        System.out.println("This is set: " + set);
 
         Integer[] array = set.toArray(new Integer[0]);
-        System.out.println(Arrays.toString(array));
+
+        System.out.println("This is array: " + Arrays.toString(array));
+
+        System.out.println("==============================");
+
+        ArrayList<Integer> intList = new ArrayList<>();
+        intList.addAll(Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3, 4, 51, 2, 3, 4, 5, 1, 2, 3, 4, 51, 2, 3, 4, 5, 1, 2, 3, 4, 5));
+        System.out.println("This is array list (intList): "+intList);
+
+        Set<Integer>intSet=new HashSet<>(intList);
+        System.out.println("This is set (intSet): "+intSet);
+
+        System.out.println("==============================");
 
         List<Integer> list = new ArrayList<>(set);
 
-        System.out.println(list);
+        System.out.println("This is converted from set to list: " + list);
 
 
         //  List<String> names = null;
