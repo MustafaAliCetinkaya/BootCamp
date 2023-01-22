@@ -31,9 +31,8 @@ public class ListSetPractice {
 
         System.out.println("This is converted from set to list: " + list);
 
-
-        //  List<String> names = null;
-        // System.out.println(names.size());
+        /*List<String> name = null;
+        System.out.println(name.size());        NullPointerException*/
 
         System.out.println("----------------------------------------");
 
