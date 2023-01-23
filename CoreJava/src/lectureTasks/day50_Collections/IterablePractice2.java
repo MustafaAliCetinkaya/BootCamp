@@ -12,11 +12,19 @@ public class IterablePractice2 {
         ));
 
         //remove all the names "ahmed"
+        List<String> namesWithoutAhmed=new ArrayList<>();
+        for (String eachName : names) {
+            if (!eachName.equalsIgnoreCase("ahmed")) {
+                namesWithoutAhmed.add(eachName);
+            }
+        }
+
+        System.out.println("My solution: "+namesWithoutAhmed);
 
         Iterator<String> it = names.iterator();
 
-        while(it.hasNext()){
-            if(it.next().equalsIgnoreCase("ahmed")){
+        while (it.hasNext()) {
+            if (it.next().equalsIgnoreCase("ahmed")) {
                 it.remove();
             }
         }
@@ -31,8 +39,8 @@ public class IterablePractice2 {
                 "Ahmed", "ahmed", "aHmEd", "John", "Ercon", "Daniel", "Mustafa", "Mohammed", "Ahmed", "ahmed", "Yuliia", "Chris"
         ));
 
-        for(Iterator<String> i=names2.iterator(); i.hasNext() ;  ){
-            if(i.next().equalsIgnoreCase("ahmed")){
+        for (Iterator<String> i = names2.iterator(); i.hasNext(); ) {
+            if (i.next().equalsIgnoreCase("ahmed")) {
                 i.remove();
             }
         }
@@ -48,22 +56,22 @@ public class IterablePractice2 {
         ));
 
 
-        names3.removeIf(each -> each.equalsIgnoreCase("ahmed") );
+        names3.removeIf(each -> each.equalsIgnoreCase("ahmed"));
 
         System.out.println(names3);
 
 
         System.out.println("-------------------------------------------");
 
-        Set<Integer> set = new HashSet<>(Arrays.asList(1,2,3,4,5,6,7,8,9,100, 90, 89, 79, 50));
+        Set<Integer> set = new HashSet<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 100, 90, 89, 79, 50));
 
-         Iterator<Integer> q = set.iterator();
+        Iterator<Integer> q = set.iterator();
 
-         while(q.hasNext()){
-             if(q.next() %2 ==0){
-                 q.remove();
-             }
-         }
+        while (q.hasNext()) {
+            if (q.next() % 2 == 0) {
+                q.remove();
+            }
+        }
 
         System.out.println(set);
 
