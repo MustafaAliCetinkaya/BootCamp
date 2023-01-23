@@ -29,7 +29,6 @@ public class IterablePractice {
 
         Iterator<Integer> it = list2.iterator();
 
-        /*
         boolean r1 = it.hasNext();
 
         System.out.println(r1);
@@ -41,7 +40,8 @@ public class IterablePractice {
         System.out.println(r2);
 
         System.out.println(it.next());
-    */
+
+        System.out.println("===================================================");
 
         while(it.hasNext()){
             if( it.next()  < 4 ){
@@ -71,11 +71,5 @@ public class IterablePractice {
 
         System.out.println(list4);
 
-
-
-
-
     }
-
-
 }
