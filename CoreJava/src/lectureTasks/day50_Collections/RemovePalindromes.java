@@ -14,29 +14,49 @@ public class RemovePalindromes {
                 Arrays.asList("Java", "Python", "Cydeo", "Car", "Level", "civic", "radar", "kayak", "reviver", "racecar", "madam")
         );
 
-        List<String>withoutPalindromes=new ArrayList<>();
+//My solution1
+        List<String> withoutPalindromes = new ArrayList<>();
         for (String eachName : names) {
-            for(int i=0; i<eachName.length()/2;i++){
-                if(eachName.charAt(i)!=eachName.charAt(eachName.length()-1-i)){
-                    if (! withoutPalindromes.contains(eachName)){
+            for (int i = 0; i < eachName.length() / 2; i++) {
+                if (eachName.toLowerCase().charAt(i) != eachName.toLowerCase().charAt(eachName.length() - 1 - i)) {
+                    if (!withoutPalindromes.contains(eachName)) {
                         withoutPalindromes.add(eachName);
                     }
                 }
             }
         }
-        System.out.println("My solution"+withoutPalindromes);
+        System.out.println("My solution1" + withoutPalindromes);
+        System.out.println("===================================================");
+//My solution2
+        List<String>solution2=new ArrayList<>();
+        for (String eachName : names) {
+            String reverse="";
+            for (int i=eachName.length()-1;i>=0;i--){
+                reverse+=eachName.charAt(i);
+            }
+            if(! reverse.equalsIgnoreCase(eachName)){
+                if(! solution2.contains(reverse)){
+                    solution2.add(eachName);
+                }
+            }
+        }
 
+        System.out.println("Solution2: "+solution2);
+
+        System.out.println("===================================================");
+
+//Muhtar's solution
         Iterator<String> it = names.iterator();
 
-        while(it.hasNext()){
+        while (it.hasNext()) {
             String each = it.next();
             String reverse = "";
 
-            for(int i = each.length()-1; i >= 0; i--){
+            for (int i = each.length() - 1; i >= 0; i--) {
                 reverse += each.charAt(i);
             }
 
-            if(each.equalsIgnoreCase(reverse)){
+            if (each.equalsIgnoreCase(reverse)) {
                 it.remove();
             }
         }
@@ -74,9 +94,5 @@ public class RemovePalindromes {
         */
 
 
-
-
     }
-
-
 }
