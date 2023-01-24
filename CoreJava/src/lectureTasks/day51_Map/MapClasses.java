@@ -27,7 +27,7 @@ public class MapClasses {
        // System.out.println(hashMap.get());
         
 
-        Map<Integer, String> linkedHashMap = new LinkedHashMap<>();
+        Map<Integer, String> linkedHashMap = new LinkedHashMap<>();//Keeps the insertion order
         linkedHashMap.put(10, "Arthur");
         linkedHashMap.put(20, "George");
         linkedHashMap.put(3, "Jack");
@@ -58,9 +58,11 @@ public class MapClasses {
         hashtable.put(40, "Emma");
         hashtable.put(5, "Ahmet");
         hashtable.put(5,"Isabella");
-        hashtable.put(6, null);
-
         System.out.println("hashtable = " + hashtable);
+        System.out.println(hashtable.size());
+        hashtable.put(6, null);//Will cause error
+        System.out.println("hashtable = " + hashtable);
+        //Exception in thread "main" java.lang.NullPointerException will be thrown.
 
 
 
