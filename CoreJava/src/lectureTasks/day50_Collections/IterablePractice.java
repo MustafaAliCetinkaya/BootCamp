@@ -13,7 +13,7 @@ public class IterablePractice {
 
         //  remove all the elements that are less than 4
 
-        for (int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {//Not works properly
             if(list.get(i) < 4){
                 list.remove(i);
             }
@@ -32,12 +32,14 @@ public class IterablePractice {
         boolean r1 = it.hasNext();
 
         System.out.println(r1);
+        System.out.println("===================================================");
 
         System.out.println(it.next());
 
         boolean r2 = it.hasNext();
 
         System.out.println(r2);
+        System.out.println("===================================================");
 
         System.out.println(it.next());
 
