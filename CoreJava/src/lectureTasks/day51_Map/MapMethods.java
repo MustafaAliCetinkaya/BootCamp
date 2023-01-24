@@ -17,18 +17,20 @@ public class MapMethods {
         students.put("Ozan",98);
         students.put("Serkan",97);
         students.put("Andriy",98);
-
         students.put("Ali",85);
         students.put("Ali",86);
-        students.put("Ali",87);
+        students.put("Ali",87);//KEY can not be duplicate. Last one will be stored
 
         System.out.println(students);
         System.out.println(students.size());
 
+        System.out.println("-------------------------");
 
         // display the score of Alex:
         System.out.println(students.get("Alex"));
+        System.out.println(students.get("Ali"));
 
+        System.out.println("-------------------------");
 
         // replace Ali' score to 90
 
@@ -44,20 +46,23 @@ public class MapMethods {
 
         System.out.println(students);
 
+        System.out.println("-------------------------");
 
         boolean r1 = students.containsKey("Muhtar");
         boolean r2 = students.containsKey("Serkan");
         System.out.println(r1);
         System.out.println(r2);
 
-
+        System.out.println("-------------------------");
 
         boolean r3 = students.containsValue(97);
 
         System.out.println(r3);
 
+        System.out.println("-------------------------");
 
-        System.out.println(students.isEmpty());
+
+        System.out.println("Is empty: "+students.isEmpty());
 
 
         System.out.println("-------------------------");
@@ -71,9 +76,11 @@ public class MapMethods {
 
         System.out.println("map1 = " + map1);
         System.out.println("map2 = " + map2);
+        System.out.println("-------------------------");
 
         System.out.println(map1 ==  map2);
         System.out.println(map1.equals(map2));
+        System.out.println("-------------------------");
 
         map1.clear();
         map2.clear();
