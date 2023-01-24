@@ -11,24 +11,28 @@ public class IterablePractice2 {
                 "Ahmed", "ahmed", "aHmEd", "John", "Ercon", "Daniel", "Mustafa", "Mohammed", "Ahmed", "ahmed", "Yuliia", "Chris"
         ));
 
+       /*
+        names.removeIf(n -> n.equalsIgnoreCase("ahmed"));   Ready method is the easiest way.
+        System.out.println("removeIf" + names);
+        */
+
         //remove all the names "ahmed"
-        List<String> namesWithoutAhmed=new ArrayList<>();
+        List<String> namesWithoutAhmed = new ArrayList<>();//My solution
         for (String eachName : names) {
             if (!eachName.equalsIgnoreCase("ahmed")) {
                 namesWithoutAhmed.add(eachName);
             }
         }
+        System.out.println("My solution: " + namesWithoutAhmed);
+        System.out.println("-------------------------------------------");
 
-        System.out.println("My solution: "+namesWithoutAhmed);
-
-        Iterator<String> it = names.iterator();
+        Iterator<String> it = names.iterator();//Muhtar's solution
 
         while (it.hasNext()) {
             if (it.next().equalsIgnoreCase("ahmed")) {
                 it.remove();
             }
         }
-
         System.out.println(names);
 
 
