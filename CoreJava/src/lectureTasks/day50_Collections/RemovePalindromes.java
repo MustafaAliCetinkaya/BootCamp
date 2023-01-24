@@ -40,7 +40,6 @@ public class RemovePalindromes {
                 }
             }
         }
-
         System.out.println("Solution2: "+solution2);
 
         System.out.println("===================================================");
