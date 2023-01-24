@@ -14,6 +14,18 @@ public class RemovePalindromes {
                 Arrays.asList("Java", "Python", "Cydeo", "Car", "Level", "civic", "radar", "kayak", "reviver", "racecar", "madam")
         );
 
+        List<String>withoutPalindromes=new ArrayList<>();
+        for (String eachName : names) {
+            for(int i=0; i<eachName.length()/2;i++){
+                if(eachName.charAt(i)!=eachName.charAt(eachName.length()-1-i)){
+                    if (! withoutPalindromes.contains(eachName)){
+                        withoutPalindromes.add(eachName);
+                    }
+                }
+            }
+        }
+        System.out.println("My solution"+withoutPalindromes);
+
         Iterator<String> it = names.iterator();
 
         while(it.hasNext()){
