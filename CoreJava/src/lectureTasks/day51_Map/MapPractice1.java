@@ -45,8 +45,6 @@ public class MapPractice1 {
                 entry.setValue("Female");
                 //    employeeMap.replace(entry.getKey() , "Female");
             }
-
-
         }
 
 
@@ -63,12 +61,7 @@ public class MapPractice1 {
             if(eachValue.equals("Female")){
                 System.out.println(eachKey);
             }
-
         }
-
-
-
-
     }
 
 }
