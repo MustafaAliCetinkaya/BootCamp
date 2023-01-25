@@ -14,6 +14,7 @@ public class IteratingTheMap {
         students.put("Ozan", 99);
         students.put("Serkan", 70);
         students.put("Andriy", 98);
+        System.out.println(students);
 
         Set<String> keys = students.keySet();
         for (String eachKey : keys) {
