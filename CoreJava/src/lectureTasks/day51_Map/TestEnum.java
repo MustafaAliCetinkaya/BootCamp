@@ -33,6 +33,7 @@ public class TestEnum {
 
 
           Season season = Season.SUMMER;
+        System.out.println(season.name());
 
 
 
