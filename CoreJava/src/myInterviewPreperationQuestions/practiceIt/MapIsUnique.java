@@ -1,9 +1,6 @@
 package myInterviewPreperationQuestions.practiceIt;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /*Write a method isUnique that accepts a Map from strings to strings as a parameter and returns true if no two keys map to the same value (and false if any two or more keys do map to the same value). For example, calling your method on the following map would return true:
 
@@ -24,6 +21,7 @@ public class MapIsUnique {
         map.put("Hal", "Perkins");
 
         System.out.println(isUnique(map));
+        System.out.println(isUnique2(map));
     }
 
     public static boolean isUnique(Map<String, String> map) {
@@ -38,5 +36,15 @@ public class MapIsUnique {
             }
         }
         return isUnique;
+    }
+
+    public static boolean isUnique2(Map<String, String> map) {
+        Set<String> setKey = map.keySet();
+        System.out.println(setKey);
+        Collection<String> collectionValue = map.values();
+        System.out.println(collectionValue);
+        Set<String> setValue = new HashSet<String>(collectionValue);
+        System.out.println(setValue);
+        return setKey.size() == setValue.size();
     }
 }
