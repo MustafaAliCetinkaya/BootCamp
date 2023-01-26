@@ -10,13 +10,16 @@ your method should return false.
 public class SetHasOdd {
 
     public static boolean hasOdd(Set<Integer> set) {
-        boolean hasOdd=true;
+        boolean hasOdd=false;
         int count=0;
         Iterator<Integer> iterator= set.iterator();
         while (iterator.hasNext()){
             if(iterator.next()%2!=0){
                 count++;
             }
+        }
+        if(count>0){
+            hasOdd=true;
         }
         return hasOdd;
     }
