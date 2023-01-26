@@ -46,11 +46,7 @@ public class NestedMap {
 
 
         Map< Map<Map<Integer, Integer>, Map<Integer, Integer>>,  Map<Map<Integer, Integer>, Map<Integer, Integer>> > mapOfMapOfMap = new LinkedHashMap<>();
-
-
     }
-
-
 }
 
 /*
