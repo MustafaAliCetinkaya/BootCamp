@@ -16,11 +16,7 @@ public class Test2 {
         MySecondFunctionalInterface<Integer> cube = n -> System.out.println(n*n*n);
 
         cube.test(5);
-
-
-
-
-    }
+ }
 
 
 }
