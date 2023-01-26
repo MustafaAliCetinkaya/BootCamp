@@ -11,11 +11,11 @@ public class SetRemoveEvenLength {
         evenLength.addAll(Arrays.asList("foo", "buzz", "bar", "fork", "bort", "spoon", "!", "dude"));
         System.out.println(evenLength);
         removeEvenLength(evenLength);
+        removeEvenLength2(evenLength);
     }
 
     public static void removeEvenLength(Set<String> set) {
-        Set<String> evenLength = new HashSet<>();
-        Iterator<String> iterator = evenLength.iterator();
+        Iterator<String> iterator = set.iterator();
         {
             while (iterator.hasNext()) {
                String each= iterator.next();
@@ -24,7 +24,11 @@ public class SetRemoveEvenLength {
                 }
             }
         }
-        //evenLength.removeIf(p->p.length()%2==0);
-        System.out.println(evenLength);
+        System.out.println(set);
+    }
+
+    public static void removeEvenLength2(Set<String> set) {
+        set.removeIf(p->p.length()%2==0);
+        System.out.println(set);
     }
 }
