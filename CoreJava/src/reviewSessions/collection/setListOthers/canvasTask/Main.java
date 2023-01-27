@@ -19,7 +19,7 @@ class Main {
                 System.out.println(quiz);
                 break;
             case 2: // Test the File class
-                File file = new File(input.nextLine(), input.nextDouble());
+                reviewSessions.collection.setListOthers.canvasTask.File file = new reviewSessions.collection.setListOthers.canvasTask.File(input.nextLine(), input.nextDouble());
                 file.openFile();
                 System.out.println(file);
                 break;
@@ -36,12 +36,12 @@ class Main {
                         break;
                     case "add":
                         module = new Module("Office Hours", easyFiles());
-                        module.addFile(new File(input.nextLine(), input.nextDouble()));
+                        module.addFile(new reviewSessions.collection.setListOthers.canvasTask.File(input.nextLine(), input.nextDouble()));
                         System.out.println(module);
                         break;
                     case "remove":
                         module = new Module("Hello World", easyFiles());
-                        module.removeFile(new File("Programming.pdf", 1.54));
+                        module.removeFile(new reviewSessions.collection.setListOthers.canvasTask.File("Programming.pdf", 1.54));
                         System.out.println(module);
                         break;
                 }
@@ -59,7 +59,7 @@ class Main {
                         break;
                     case "add":
                         canvas = new Canvas("Automation", easyQuizzes(), easyModules());
-                        canvas.modules.get(0).addFile(new File(input.nextLine(), input.nextDouble()));
+                        canvas.modules.get(0).addFile(new reviewSessions.collection.setListOthers.canvasTask.File(input.nextLine(), input.nextDouble()));
                         System.out.println(canvas.modules);
                         break;
                 }
@@ -68,10 +68,10 @@ class Main {
 
     }
 
-    public static ArrayList<File> easyFiles() {
-        ArrayList<File> files = new ArrayList<>();
-        files.add(new File("Day 2 Notes", 0.92));
-        files.add(new File("Programming.pdf", 1.54));
+    public static ArrayList<reviewSessions.collection.setListOthers.canvasTask.File> easyFiles() {
+        ArrayList<reviewSessions.collection.setListOthers.canvasTask.File> files = new ArrayList<>();
+        files.add(new reviewSessions.collection.setListOthers.canvasTask.File("Day 2 Notes", 0.92));
+        files.add(new reviewSessions.collection.setListOthers.canvasTask.File("Programming.pdf", 1.54));
         return files;
     }
 
@@ -85,8 +85,8 @@ class Main {
 
     public static ArrayList<Module> easyModules() {
         ArrayList<Module> modules = new ArrayList<>();
-        modules.add(new Module("Html", new ArrayList<>(Arrays.asList(new File("html notes", 1.2)))));
-        modules.add(new Module("Locators", new ArrayList<>(Arrays.asList(new File("Examples", 2.3), new File("Automation Intro.pdf", 3.1)))));
+        modules.add(new Module("Html", new ArrayList<>(Arrays.asList(new reviewSessions.collection.setListOthers.canvasTask.File("html notes", 1.2)))));
+        modules.add(new Module("Locators", new ArrayList<>(Arrays.asList(new reviewSessions.collection.setListOthers.canvasTask.File("Examples", 2.3), new reviewSessions.collection.setListOthers.canvasTask.File("Automation Intro.pdf", 3.1)))));
         return modules;
     }
 }

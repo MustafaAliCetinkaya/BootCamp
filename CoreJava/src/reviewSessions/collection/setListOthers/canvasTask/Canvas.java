@@ -23,9 +23,9 @@ public class Canvas {
     @Override
     public String toString() {
         return  topic + "\n"+
-                "Quizzes=" + "\n"+
+                "Quizzes:" + "\n"+
                 quizzes +"\n"+
-                "Modules=" +"\n"+
+                "Modules:" +"\n"+
                 modules ;
     }
 }
