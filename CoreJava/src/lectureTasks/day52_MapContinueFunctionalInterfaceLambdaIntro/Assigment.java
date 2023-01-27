@@ -12,7 +12,8 @@ public class Assigment {
             keyNumbers.add(i);
         }
 
-        System.out.println("All keys: "+keyNumbers);
+        System.out.println("All keys: " + keyNumbers);
+
         System.out.println("===================================================");
 
         List<String> valuesOfNumbers = new ArrayList<>();
@@ -25,20 +26,25 @@ public class Assigment {
             valuesOfNumbers.add(eachValuesOfNumbers);
         }
 
-        System.out.println("All values: "+valuesOfNumbers);
+        System.out.println("All values: " + valuesOfNumbers);
         System.out.println("===================================================");
 
-        Map<Integer,String>finraMap=new HashMap<>();
+        Map<Integer, String> finraMap = new HashMap<>();
         for (int i = 0; i < 100; i++) {
-            finraMap.put( keyNumbers.get(i),valuesOfNumbers.get(i) );
+            finraMap.put(keyNumbers.get(i), valuesOfNumbers.get(i));
         }
 
         System.out.println(finraMap);
         System.out.println("===================================================");
 
         for (Map.Entry<Integer, String> eachKeyAndValue : finraMap.entrySet()) {
-            System.out.println("Each Key and Value: "+eachKeyAndValue);
+            System.out.println("Each Key and Value: " + eachKeyAndValue);
         }
+        System.out.println("===================================================");
+        int count = 1;
+        // forEach(action) method to iterate map
+        finraMap.forEach((k, v) -> System.out.println("Key = "
+                + k + ", Value = " + v));
 
     }
 }
