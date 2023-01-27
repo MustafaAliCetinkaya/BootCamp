@@ -1,6 +1,8 @@
 package officeHour.quizPreparation;
 
-public class TryException {/*
+public class TryException {
+    public static void main(String[] args) {
+        /*
     try{
         int[] arr = new int[1];
         arr[1] = 5;
@@ -14,4 +16,6 @@ public class TryException {/*
     catch (ArrayIndexOutOfBoundsException e){
         System.out.print("C");
     }*/
+    }
+
 }
