@@ -50,15 +50,15 @@ class Main {
                 Canvas canvas;
                 switch (input.nextLine()) {
                     case "empty":
-                        canvas = new Canvas("Java");
+                        canvas = new Canvas("Java course");
                         System.out.println(canvas);
                         break;
                     case "with":
-                        canvas = new Canvas("Automation", easyQuizzes(), easyModules());
+                        canvas = new Canvas("Automation course", easyQuizzes(), easyModules());
                         System.out.println(canvas);
                         break;
                     case "add":
-                        canvas = new Canvas("Automation", easyQuizzes(), easyModules());
+                        canvas = new Canvas("Automation course", easyQuizzes(), easyModules());
                         canvas.modules.get(0).addFile(new reviewSessions.collection.setListOthers.canvasTask.File(input.nextLine(), input.nextDouble()));
                         System.out.println(canvas.modules);
                         break;

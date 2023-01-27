@@ -9,7 +9,7 @@ public class Module {
 
     public Module(String name) {
         this.name = name;
-        ArrayList<File> files = new ArrayList<>();
+        files=null;
 
     }
 

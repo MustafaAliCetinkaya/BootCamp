@@ -10,8 +10,8 @@ public class Canvas {
 
     public Canvas(String topic) {
         this.topic = topic;
-        ArrayList<Quiz> quizzes=new ArrayList<>();
-        ArrayList<Module> modules=new ArrayList<>();
+        quizzes=null;
+        modules=null;
     }
 
     public Canvas(String topic, ArrayList<Quiz> quizzes, ArrayList<Module> modules) {
