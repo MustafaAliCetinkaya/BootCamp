@@ -1,26 +1,31 @@
 package reviewSessions.collection.setListOthers.canvasTask;
 
+import java.util.ArrayList;
+
 public class Canvas {
     // Finish the Canvas class
     String topic;
-    int totalNumberOfQuestions;
-    double totalPoints;
+    ArrayList<Quiz> quizzes;
+    ArrayList<Module> modules;
 
-    public Canvas(String topic, int totalNumberOfQuestions, double totalPoints) {
+    public Canvas(String topic) {
         this.topic = topic;
-        this.totalNumberOfQuestions = totalNumberOfQuestions;
-        this.totalPoints = totalPoints;
+        ArrayList<Quiz> quizzes=new ArrayList<>();
+        ArrayList<Module> modules=new ArrayList<>();
     }
 
-    public void  takeQuiz(){
-        System.out.println("Taking the "+topic+" quiz");
+    public Canvas(String topic, ArrayList<Quiz> quizzes, ArrayList<Module> modules) {
+        this.topic = topic;
+        this.quizzes = quizzes;
+        this.modules = modules;
     }
 
     @Override
     public String toString() {
-        return "Quiz | " +
-                topic + " quiz with " +
-                totalNumberOfQuestions +" questions for a total of "+
-                totalPoints +" total points";
+        return  topic + "\n"+
+                "Quizzes=" + "\n"+
+                quizzes +"\n"+
+                "Modules=" +"\n"+
+                modules ;
     }
 }

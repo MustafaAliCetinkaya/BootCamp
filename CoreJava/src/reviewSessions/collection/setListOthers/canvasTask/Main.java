@@ -1,6 +1,6 @@
 package reviewSessions.collection.setListOthers.canvasTask;
 
-import lectureTasks.day42_Exceptions.Quiz;
+import lectureTasks.day42_Exceptions.Quiz1;
 
 import java.io.File;
 import java.util.*;

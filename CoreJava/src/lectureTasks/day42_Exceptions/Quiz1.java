@@ -1,6 +1,6 @@
 package lectureTasks.day42_Exceptions;
 
-public class Quiz {
+public class Quiz1 {
 
     static int a = 50;
     static int b = 950;
