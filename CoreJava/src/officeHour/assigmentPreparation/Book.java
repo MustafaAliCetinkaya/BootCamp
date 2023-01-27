@@ -1,4 +1,4 @@
-package officeHour.AssigmentPreparation;
+package officeHour.assigmentPreparation;
 
 public class Book {
     int pages;

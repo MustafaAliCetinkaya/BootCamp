@@ -1,4 +1,4 @@
-package officeHour.AssigmentPreparation;
+package officeHour.assigmentPreparation;
 public class Test {
     String name;
     int numOfTests;

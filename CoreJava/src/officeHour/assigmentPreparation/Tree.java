@@ -1,4 +1,4 @@
-package officeHour.AssigmentPreparation;
+package officeHour.assigmentPreparation;
 
 public class Tree {
     public static void main(String[] args) {

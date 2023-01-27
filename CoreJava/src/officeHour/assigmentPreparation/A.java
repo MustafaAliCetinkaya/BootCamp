@@ -1,4 +1,4 @@
-package officeHour.AssigmentPreparation;
+package officeHour.assigmentPreparation;
 public class A {
     int count;
     public void m(){ count++;
