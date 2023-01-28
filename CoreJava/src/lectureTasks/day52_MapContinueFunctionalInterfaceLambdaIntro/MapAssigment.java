@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Assigment {
+public class MapAssigment {
     public static void main(String[] args) {
         List<Integer> keyNumbers = new ArrayList<>();
         for (int i = 1; i < 101; i++) {
@@ -41,7 +41,6 @@ public class Assigment {
             System.out.println("Each Key and Value: " + eachKeyAndValue);
         }
         System.out.println("===================================================");
-        int count = 1;
         // forEach(action) method to iterate map
         finraMap.forEach((k, v) -> System.out.println("Key = "
                 + k + ", Value = " + v));

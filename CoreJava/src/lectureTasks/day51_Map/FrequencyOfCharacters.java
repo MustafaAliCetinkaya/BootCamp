@@ -1,9 +1,6 @@
 package lectureTasks.day51_Map;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 public class FrequencyOfCharacters {
 
@@ -24,6 +21,19 @@ public class FrequencyOfCharacters {
         }
 
         System.out.println(result);
+        System.out.println("-------------------------------------------------------------");
+        Integer maxFrequency=Integer.MIN_VALUE;
+        String maxName="";
+
+        for (Map.Entry<String, Integer> eachEntry : result.entrySet()) {
+            if(eachEntry.getValue() > maxFrequency){
+                maxFrequency=eachEntry.getValue();
+                maxName=eachEntry.getKey();
+            }
+        }
+
+        System.out.println("Max frequency is: "+maxFrequency+" and it's key is: "+maxName);
+
 
     }
 
