@@ -16,6 +16,8 @@ public class SetCountUnique {
         numbers.addAll(Arrays.asList(3, 7, 3, -1, 2, 3, 7, 2, 15, 15));
         System.out.println("All Numbers: "+numbers.size());
 
+        System.out.println("===================================================");
+
         Set<Integer>setOfNumbers=new HashSet<>(numbers);
         System.out.println("Unique Numbers: "+setOfNumbers.size());
     }
