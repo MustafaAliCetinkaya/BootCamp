@@ -10,7 +10,7 @@ public class Shape {
 
     class Main {
         public static void main(String[] args) {
-            Circle c1 = new Circle();
+            Circle c1 = new Circle();//radius, name
             Shape s1 = c1;
             s1.name = "Circle";
             System.out.println("------S1-------"+s1.name+"-------------");
