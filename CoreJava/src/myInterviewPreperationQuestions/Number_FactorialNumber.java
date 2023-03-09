@@ -1,7 +1,6 @@
 package myInterviewPreperationQuestions;
 
 public class Number_FactorialNumber {
-
     /*
     Write a return method that returns the factorial number of any given number
 
@@ -17,12 +16,12 @@ public class Number_FactorialNumber {
         System.out.println(factorialNumber(15));
     }
 
-    public static int factorial(int n){
+    public static int factorial(int n) {
         if (n == 0) {
-        return 1;
-    } else {
-        return n * factorial(n-1);
-    }
+            return 1;
+        } else {
+            return n * factorial(n - 1);
+        }
 
     }
 
