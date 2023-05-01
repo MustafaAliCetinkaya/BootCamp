@@ -1,4 +1,4 @@
-package oldOther.standalone_executable;
+package muhtarInterviewCodingTasks.oldVersion.oldOther.standalone_executable;
 
 import java.io.*;
 import java.util.Comparator;

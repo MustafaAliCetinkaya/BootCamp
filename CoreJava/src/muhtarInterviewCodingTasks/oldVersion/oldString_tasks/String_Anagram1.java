@@ -1,4 +1,4 @@
-package string_tasks;
+package muhtarInterviewCodingTasks.oldVersion.oldString_tasks;
 
 import java.util.Arrays;
 import java.util.TreeSet;

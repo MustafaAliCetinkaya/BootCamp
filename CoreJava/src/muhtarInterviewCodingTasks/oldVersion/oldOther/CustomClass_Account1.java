@@ -1,4 +1,4 @@
-package oldOther;
+package muhtarInterviewCodingTasks.oldVersion.oldOther;
 /*
   Create a class called other.Account which maintains the balance of account
    it should allow user to deposit and withdraw money from the account

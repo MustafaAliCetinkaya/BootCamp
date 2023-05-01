@@ -1,4 +1,4 @@
-package collection_map_tasks;
+package muhtarInterviewCodingTasks.oldVersion.oldCollection_map_tasks;
 
 import java.util.Iterator;
 import java.util.Set;
