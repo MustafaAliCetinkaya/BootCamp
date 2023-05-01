@@ -3,7 +3,7 @@ package collection_map_tasks;
 import java.util.Arrays;
 import java.util.List;
 
-public class List_MoveAllZerosToTheEnd {
+public class List_MoveAllZerosToTheEnd1 {
 
     /*
     write a program that can move all the zeros to the end of the List of integers

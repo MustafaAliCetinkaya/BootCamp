@@ -2,7 +2,7 @@ package number_tasks;
 
 import java.util.TreeMap;
 
-public class Number_IntegerToRoman {
+public class Number_IntegerToRoman1 {
 
     /*
     Write a program that can convert the given integer to roman numeral

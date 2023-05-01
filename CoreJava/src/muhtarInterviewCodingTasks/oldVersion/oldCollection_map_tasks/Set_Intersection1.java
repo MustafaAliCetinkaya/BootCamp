@@ -2,7 +2,7 @@ package collection_map_tasks;
 
 import java.util.Set;
 
-public class Set_Intersection {
+public class Set_Intersection1 {
 
     /*
         return a Set equal to the intersection of the parameter Sets

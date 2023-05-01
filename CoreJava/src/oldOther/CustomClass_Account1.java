@@ -1,4 +1,4 @@
-package other;
+package oldOther;
 /*
   Create a class called other.Account which maintains the balance of account
    it should allow user to deposit and withdraw money from the account
@@ -6,12 +6,12 @@ package other;
    */
 
 
-class Account {
+class Account1 {
     private String accountHolder;
     private String accountNumber;
     private double balance;
 
-    public Account(String accountHolder, String accountNumber) {
+    public Account1(String accountHolder, String accountNumber) {
         setAccountHolder(accountHolder);
         setAccountNumber(accountNumber);
     }
@@ -57,5 +57,5 @@ class Account {
 
 }
 
-public class CustomClass_Account {
+public class CustomClass_Account1 {
 }

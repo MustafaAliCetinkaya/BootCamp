@@ -3,7 +3,7 @@ package collection_map_tasks;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class Map_FrequencyOfCharacters {
+public class Map_FrequencyOfCharacters1 {
 
     /*
     Write a method that prints the frequency of each character from a String

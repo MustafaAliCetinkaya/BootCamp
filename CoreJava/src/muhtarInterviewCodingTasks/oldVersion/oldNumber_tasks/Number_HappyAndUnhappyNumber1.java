@@ -1,6 +1,6 @@
 package number_tasks;
 
-public class Number_HappyAndUnhappyNumber {
+public class Number_HappyAndUnhappyNumber1 {
 
     /*
     1. write a function that can identify if a number is a happy Number or unhappy number

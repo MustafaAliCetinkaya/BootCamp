@@ -1,6 +1,6 @@
 package number_tasks;
 
-public class Number_Armstrong {
+public class Number_Armstrong1 {
 
     /*
     Write a method that can check if a number is Armstrong number

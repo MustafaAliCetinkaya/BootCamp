@@ -1,6 +1,6 @@
 package number_tasks;
 
-public class Number_DivisibleBy3_5_15 {
+public class Number_DivisibleBy3_5_151 {
 
     /*
     Write a program that can print the numbers between 1 ~ N that can be divisible by 3, 5, and 15.

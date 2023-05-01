@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Map__TwoTimeSeries {
+public class Map__TwoTimeSeries1 {
 
     /*
     A time series is represented as a list of time/value pairs.

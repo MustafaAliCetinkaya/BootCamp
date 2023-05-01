@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Map_SortByValues {
+public class Map_SortByValues1 {
 
     /*
         Write a method that can sort the map by values

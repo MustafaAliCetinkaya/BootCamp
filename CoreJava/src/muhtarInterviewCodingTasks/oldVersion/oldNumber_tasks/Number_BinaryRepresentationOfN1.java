@@ -1,6 +1,6 @@
 package number_tasks;
 
-public class Number_BinaryRepresentationOfN {
+public class Number_BinaryRepresentationOfN1 {
 
     /*
     return the number of '1's in the binary representation of n for any integer n, where n > 0

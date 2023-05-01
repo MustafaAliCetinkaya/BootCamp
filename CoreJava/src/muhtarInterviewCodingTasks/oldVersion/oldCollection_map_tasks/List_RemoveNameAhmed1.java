@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class List_RemoveNameAhmed {
+public class List_RemoveNameAhmed1 {
 
     /*
     Given a list of people' names: "Ahmed", "John", Eric", "Ahmed".....

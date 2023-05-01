@@ -1,6 +1,6 @@
 package number_tasks;
 
-public class Number_ConsecutiveNumbers {
+public class Number_ConsecutiveNumbers1 {
 
 
     /*

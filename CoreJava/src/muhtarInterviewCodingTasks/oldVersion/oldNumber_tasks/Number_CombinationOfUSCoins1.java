@@ -1,6 +1,6 @@
 package number_tasks;
 
-public class Number_CombinationOfUSCoins {
+public class Number_CombinationOfUSCoins1 {
 
     /*
     return the number of different combinations of US coins

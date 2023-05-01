@@ -3,7 +3,7 @@ package collection_map_tasks;
 import java.util.Iterator;
 import java.util.List;
 
-public class List_RemovePalindromeStrings {
+public class List_RemovePalindromeStrings1 {
 
    /*
         remove palindrome strings from a List of String
