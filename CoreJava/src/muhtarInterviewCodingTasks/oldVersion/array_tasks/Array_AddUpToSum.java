@@ -1,4 +1,4 @@
-package muhtarInterviewCodingTasks.array_tasks;
+package muhtarInterviewCodingTasks.oldVersion.array_tasks;
 
 import java.util.HashMap;
 import java.util.Map;

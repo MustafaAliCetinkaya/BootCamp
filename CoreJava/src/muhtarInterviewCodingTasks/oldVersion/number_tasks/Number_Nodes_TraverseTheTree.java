@@ -1,4 +1,4 @@
-package muhtarInterviewCodingTasks.number_tasks;
+package muhtarInterviewCodingTasks.oldVersion.number_tasks;
 
 import java.util.List;
 
